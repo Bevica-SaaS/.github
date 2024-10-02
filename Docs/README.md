@@ -9,9 +9,6 @@
 
 [Bevica Web Integration 2.0 (Rest APIs)](APIs/Bevica-2_0.md)
 
-
-
 ### Recommended Content
 
-[Setup and Grant Permissions to Azure App Registration in Business Central](TVisionTech/AzureADAppRegistration.md)
-
+[Setup and Grant Permissions to Azure App Registration in Business Central](Misc/AzureADAppRegistration.md)

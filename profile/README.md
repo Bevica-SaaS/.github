@@ -2,5 +2,5 @@
 
 ## Technical Documentation
 
-[Read More here](DOCS/README.md)
+[Read More here](/Docs/README.md)
 
