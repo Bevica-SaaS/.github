@@ -12,6 +12,7 @@
 | [Manifest](#get-manifest) | Shipping Manifest Status | BC -> Web | Read | |
 | [Orders Status](#get-orders-status) | List of Orders with Tracking updates | BC -> Web | Read | |
 | [Sales Prices](#get-sales-prices) | Plain List of Sales Prices| BC -> Web | Read | |
+| [(Sales) Price List Line prices](#get-sales-price-list-prices) | Plain List of sales Price List Line prices| BC -> Web | Read | |
 | SOAP Real Time Functions| Library of function to consume with SOAP Calls | BC -> Web | Read | |
 
 ## Endpoints businesscentralodataV4Prefix structure
@@ -1065,16 +1066,67 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|	1	|	Sales Prices	|	Item No	|	string	|	20	|
-|	1	|	Sales Prices	|	Variant Code	|	string	|	10	|
-|	1	|	Sales Prices	|	Sales Type	|	Type	|		|
-|	1	|	Sales Prices	|	Sales Code	|	string	|	10	|
-|	1	|	Sales Prices	|	Unit of Measure Code	|	string	|	10	|
-|	1	|	Sales Prices	|	Starting Date	|	date	|		|
-|	1	|	Sales Prices	|	Ending Date	|	date	|		|
-|	1	|	Sales Prices	|	Unit Price	|	decimal	|		|
-|	1	|	Sales Prices	|	Price Includes VAT	|	boolean	|		|
-|	1	|	Sales Prices	|	Minimum Quantity	|	decimal	|		|
+|	1	|	Sales Price	|	Item No	|	string	|	20	|
+|	1	|	Sales Price	|	Variant Code	|	string	|	10	|
+|	1	|	Sales Price	|	Sales Type	|	Type	|		|
+|	1	|	Sales Price	|	Sales Code	|	string	|	10	|
+|	1	|	Sales Price	|	Unit of Measure Code	|	string	|	10	|
+|	1	|	Sales Price	|	Starting Date	|	date	|		|
+|	1	|	Sales Price	|	Ending Date	|	date	|		|
+|	1	|	Sales Price	|	Unit Price	|	decimal	|		|
+|	1	|	Sales Price	|	Price Includes VAT	|	boolean	|		|
+|	1	|	Sales Price	|	Minimum Quantity	|	decimal	|		|
+
+
+## GET Sales Price List Prices
+
+Retrieve the properties and relationships of a (Sales) Price List Line object for Business Central.
+
+### Http Request
+
+Replace the URL endpoint for Dynamics 365 Business Central depending on environment following the [guideline](#endpoints-businesscentralodatav4prefix-structure).
+
+~~~ api
+GET 
+
+businesscentralodataV4Prefix/WS_SalesPrices_V3
+~~~
+
+### Request Headers
+
+Header | Value |
+--- | --- |
+Authorization | Bearer {token}. Required.|
+
+### Request Body
+
+Do not supply a request body for this method.
+
+### Response
+
+Here is an example of the response
+
+```json
+{
+    "value": [
+   
+    ]
+}
+```
+### (Sales) Price List Line Fields
+
+| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
+|	1	|	Price List Line	|	Item No	|	string	|	20	|
+|	1	|	Price List Line	|	Variant Code	|	string	|	10	|
+|	1	|	Price List Line	|	Sales Type	|	Type	|		|
+|	1	|	Price List Line	|	Sales Code	|	string	|	10	|
+|	1	|	Price List Line	|	Unit of Measure Code	|	string	|	10	|
+|	1	|	Price List Line	|	Starting Date	|	date	|		|
+|	1	|	Price List Line	|	Ending Date	|	date	|		|
+|	1	|	Price List Line	|	Unit Price	|	decimal	|		|
+|	1	|	Price List Line	|	Price Includes VAT	|	boolean	|		|
+|	1	|	Price List Line	|	Minimum Quantity	|	decimal	|		|
 
 
 ### Recommended Content
