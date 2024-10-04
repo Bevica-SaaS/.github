@@ -80,6 +80,8 @@ Here is an example of the response
 ```
 
 ### Customer Fields
+<details>
+  <summary>Show</summary>
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
