@@ -88,4 +88,3 @@ Here is an example of the response
 | 1 | Ship-to Address | System Modified At | DateTime |  |  |
 | 1 | Ship-to Address | System Modified By | String |  |  |
 
-  ```
