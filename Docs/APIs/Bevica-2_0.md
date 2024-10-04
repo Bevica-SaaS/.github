@@ -1410,7 +1410,7 @@ Replace the URL endpoint for Dynamics 365 Business Central depending on environm
 ~~~ api
 GET 
 
-businesscentralodataV4Prefix/WS_SalesPrices_V3
+businesscentralodataV4Prefix/WS_SalesListPrices_V3
 ~~~
 
 ### Request Headers
