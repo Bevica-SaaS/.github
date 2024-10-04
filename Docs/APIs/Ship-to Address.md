@@ -60,9 +60,7 @@ Here is an example of the response
 
 
 <details>
-  <summary>Show fields</summary>
-
-### Ship to Address Fields
+  <summary>### Show Ship to Address Fields</summary>
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
