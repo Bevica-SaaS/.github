@@ -145,7 +145,7 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-| 1 | Customer | No. | string | 20 | Primaty Key (Required for Update) |
+| 1 | Customer | No. | string | 20 | Primary Key (Required for Update) |
 | 1 | Customer | Web Id | string | 20 | Web Site Id |
 | 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
 | 1 | Customer | Name | string | 100 |  |
@@ -270,7 +270,7 @@ Here is an example of the response
 | 1 | Ship-to Address | E-Mail | string | 80 |  |
 | 1 | Ship-to Address | Shipping Agent Service Code | string | 10 |  |
 | 1 | Ship-to Address | Service Zone Code | string | 10 |  |
-| 1 | Ship-to Address | Shipping Agent Service Code | TVT Duty Status | 10 |  |
+| 1 | Ship-to Address | TVT Duty Status | 10 |  |
 | 1 | Ship-to Address | System Id | GUID |  |   |
 | 1 | Ship-to Address | System Created At | DateTime |  |  |
 | 1 | Ship-to Address | System Created By  | String |  |  |
@@ -285,7 +285,7 @@ Here is an example of the response
 Replace the URL endpoint for Dynamics 365 Business Central depending on environment following the [guideline](#endpoints-businesscentralPrefix-structure).
 
 ~~~ api
-businesscentralPrefix/custEntries
+businesscentralPrefix/CustEntries
 ~~~
 
 ### Request Headers
