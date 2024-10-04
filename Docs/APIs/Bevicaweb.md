@@ -12,7 +12,7 @@
 | [Manifest](#get-manifest) | Shipping Manifest Status | BC -> Web | Read | |
 | [Orders Status](#get-orders-status) | List of Orders with Tracking updates | BC -> Web | Read | |
 | [Sales Prices](#get-sales-prices) | Plain List of Sales Prices| BC -> Web | Read | |
-| [(Sales) Price List Line prices](#get-sales-price-list-prices) | Plain List of sales Price List Line prices| BC -> Web | Read | |
+| [Sales Price List prices](##-get-sales-price-list-prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
 | SOAP Real Time Functions| Library of function to consume with SOAP Calls | BC -> Web | Read | |
 
 ## Endpoints businesscentralodataV4Prefix structure
@@ -1113,7 +1113,7 @@ Here is an example of the response
     ]
 }
 ```
-### (Sales) Price List Line Fields
+### Sales Price List Fields
 
 | Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
