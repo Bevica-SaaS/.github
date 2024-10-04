@@ -60,24 +60,7 @@ Here is an example of the response
 
 
 <details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-
-
-
+  <summary>Show fields</summary>
 
 ### Ship to Address Fields
 
@@ -106,3 +89,11 @@ Here is an example of the response
 | 1 | Ship-to Address | System Created By  | String |  |  |
 | 1 | Ship-to Address | System Modified At | DateTime |  |  |
 | 1 | Ship-to Address | System Modified By | String |  |  |
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
