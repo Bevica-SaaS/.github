@@ -58,9 +58,9 @@ Here is an example of the response
 }    
 ```
 
-
+### Ship to Address Fields
 <details>
-  <summary>### Show Ship to Address Fields</summary>
+  <summary>Show</summary>
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
