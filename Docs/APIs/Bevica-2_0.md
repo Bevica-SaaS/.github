@@ -38,6 +38,7 @@ The articles in this section describe the key concepts and techniques for using 
 | [Manifest Lines](#get-manifest-lines) | List of Manifest Lines | BC -> Web | Read | |
 | [Orders Status](#get-orders-status) | List of Orders with Tracking updates | BC -> Web | Read | |
 | [Sales Prices](#get-sales-prices) | Plain List of Sales Prices| BC -> Web | Read | |
+| [Sales Price List prices](#get-sales-price-list-prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
 | [Paid Reserve](#get-paid-reserve) | List of Paid Reserve Information| BC -> Web | Read | |
 | [Paid Reserve Entries](#get-paid-reserve-entries) | List of all Paid Reserve Entries| BC -> Web | Read | |
 
