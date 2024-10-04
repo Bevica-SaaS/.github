@@ -22,11 +22,14 @@ The articles in this section describe the key concepts and techniques for using 
 
 [API(v2.0) MS Docs](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 
+
+[Read More here](/Docs/README.md)
+
 ## Main Entities
 
 | Name | Description | Data Flow | Operations | Note|
 | ----------- | ----------- | ----------- | -------- | ---------- |
-| [Customer](#get-customers) | Customer Info| BC -> Web | Read | |
+| [Customer](/Docs/APIs/Customer.md) | Customer Info| BC -> Web | Read | |
 | [Ship To Address](#get-Ship-To-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
 | [Customer Ledger Entries](#get-customer-ledger-entries) | Customer Ledger Entries | BC -> Web | Read | | 
 | [Product](#get-products) | Items and Attributes | BC -> Web | Read | |
