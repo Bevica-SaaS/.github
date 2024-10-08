@@ -53,7 +53,7 @@ Here is an example of the response
 }
 ```
 
-### Fields Information
+### Field Information
 <details>
   <summary>Show</summary>
 

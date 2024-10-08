@@ -7,7 +7,7 @@ Retrieve the properties and relationships of a customer object for Business Cent
 Replace the URL endpoint for Dynamics 365 Business Central depending on environment following the [guideline](#endpoints-businesscentralPrefix-structure).
 
 ~~~ api
-businesscentralPrefix/shiptoAddresses
+businesscentralPrefix/ShipToAddresses
 ~~~
 
 ### Request Headers
@@ -26,7 +26,7 @@ Here is an example of the response
 
 ```json
 {
-    "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(08f3eaa4-1d0f-ed11-90eb-0022480090f7)/shiptoAddresses",
+    "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(08f3eaa4-1d0f-ed11-90eb-0022480090f7)/ShipToAddresses",
     "value": [
         {
             "@odata.etag": "W/\"JzIwOzE1NDE5MTg2OTI5MjUxNDc5OTYzMTswMDsn\"",
@@ -58,7 +58,7 @@ Here is an example of the response
 }    
 ```
 
-### Ship to Address Fields
+### Field information
 <details>
   <summary>Show</summary>
 

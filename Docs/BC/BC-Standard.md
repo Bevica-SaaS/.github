@@ -26,7 +26,7 @@ The Open Data Protocol (OData) is a web protocol that is designed for querying t
 
 ### $Expand statement
 ~~~ api
-https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Enviroment Name>/ODataV4/Company('<Company Namme>')
+https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Environment Name>/ODataV4/Company('<Company Name>')
 ~~~
 
 [OData Web Services MS Docs](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/webservices/odata-web-services)
@@ -36,7 +36,7 @@ https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Envir
 --
 ## SOAP
 
-SOAP web services enable full flexibility for building operation-centric services. They provide industry-standard interoperability and channel and host pluggability.
+SOAP web services enable full flexibility for building operation-centric services. They provide industry-standard interoperability and channel and host plugability.
 
 You can use SOAP to interact with page or codeunit web services in Business Central.
 

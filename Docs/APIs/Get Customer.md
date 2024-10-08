@@ -79,7 +79,7 @@ Here is an example of the response
 }
 ```
 
-### Customer Fields
+### Field information
 <details>
   <summary>Show</summary>
 

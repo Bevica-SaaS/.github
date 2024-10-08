@@ -30,20 +30,20 @@ The articles in this section describe the key concepts and techniques for using 
 | Name | Description | Data Flow | Operations | Note|
 | ----------- | ----------- | ----------- | -------- | ---------- |
 | [Customer](/Docs/APIs/Customer.md) | Customer Info| BC -> Web | Read | |
-| [Ship To Address](/Docs/APIs/Ship-To-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
-| [Customer Ledger Entries](/Docs/APIs/customer-ledger-entries) | Customer Ledger Entries | BC -> Web | Read | | 
-| [Product](/Docs/APIs/products) | Items and Attributes | BC -> Web | Read | |
-| [Stock](/Docs/APIs/stock) | Stock Available  | BC -> Web | Read | |
-| [Web Order](/Docs/APIs/web-order) | Create Web Order BC | Web->BC    | Read Create | |
-| [Web Order Lines](#/Docs/APIs/-web-order-lines) | Create Web Order Lines in BC | Web->BC    | Read Create | |
-| [Payments](/Docs/APIs/payment) | Create Payment on Paym. Journal in BC | Web->BC | Create | |
-| [Manifest](/Docs/APIs/manifest) | Shipping Manifest Status | BC -> Web | Read | |
-| [Manifest Lines](/Docs/APIs/-manifest-lines) | List of Manifest Lines | BC -> Web | Read | |
-| [Orders Status](/Docs/APIs/orders-status) | List of Orders with Tracking updates | BC -> Web | Read | |
-| [Sales Prices](/Docs/APIs/sales-prices) | Plain List of Sales Prices| BC -> Web | Read | |
-| [Sales Price List prices](#/Docs/APIs/sales-price-list-prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
-| [Paid Reserve](/Docs/APIs/paid-reserve) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Paid Reserve Entries](/Docs/APIs/paid-reserve-entries) | List of all Paid Reserve Entries| BC -> Web | Read | |
+| [Ship To Address](#get-Ship-To-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
+| [Customer Ledger Entries](#get-customer-ledger-entries) | Customer Ledger Entries | BC -> Web | Read | | 
+| [Product](#get-products) | Items and Attributes | BC -> Web | Read | |
+| [Stock](#get-stock) | Stock Available  | BC -> Web | Read | |
+| [Web Order](#create-web-order) | Create Web Order BC | Web->BC    | Read Create | |
+| [Web Order Lines](#create-web-order-lines) | Create Web Order Lines in BC | Web->BC    | Read Create | |
+| [Payments](#create-payment) | Create Payment on Paym. Journal in BC | Web->BC | Create | |
+| [Manifest](#get-manifest) | Shipping Manifest Status | BC -> Web | Read | |
+| [Manifest Lines](#get-manifest-lines) | List of Manifest Lines | BC -> Web | Read | |
+| [Orders Status](#get-orders-status) | List of Orders with Tracking updates | BC -> Web | Read | |
+| [Sales Prices](#get-sales-prices) | Plain List of Sales Prices| BC -> Web | Read | |
+| [Sales Price List prices](#get-sales-price-list-prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
+| [Paid Reserve](#get-paid-reserve) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Paid Reserve Entries](#get-paid-reserve-entries) | List of all Paid Reserve Entries| BC -> Web | Read | |
 
 ## Endpoints businesscentralPrefix structure
 

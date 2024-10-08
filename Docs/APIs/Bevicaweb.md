@@ -164,9 +164,9 @@ Here is an example of the response
 
 ### Customer Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-| 1 | Customer | No. | string | 20 | Primaty Key (Required for Update) |
+| 1 | Customer | No. | string | 20 | Primary Key (Required for Update) |
 | 1 | Customer | Web Id | string | 20 | Web Site Id |
 | 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
 | 1 | Customer | Name | string | 100 |  |
@@ -335,7 +335,7 @@ Here is an example of the response
 
 ### Product Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1       |  Product      |  Code        | Code       |  20          |           |
 |  1       |  Product      |  Web Product Id  | Code       |  20      |           |
@@ -353,7 +353,7 @@ Here is an example of the response
 |  1       |  Product      |  SubRegion Description  |String ||
 |  1       |  Product      |  Producer  |String ||
 |  1       |  Product      |  Item Classification  |String ||
-|  1       |  Product      |  Alcool Percent  |Decimal ||
+|  1       |  Product      |  Alcohol Percent  |Decimal ||
 |  1       |  Product      |  Vintage  |String ||
 |  1       |  Product      |  Grapes  |String ||
 |  1       |  Product      |  Attributes  |String ||
@@ -375,7 +375,7 @@ Here is an example of the response
 |  1..1    |  SKU\Variant  |  Unit Price With Duty  |Decimal ||
 |  1..1    |  SKU\Variant  |  Unit Price WithOut Duty  |Decimal ||
 |  1..1    |  SKU\Variant  |  Stock Quantity Base  |Decimal ||
-|  1..1    |  SKU\Variant  |  Bottles Per Case | Deciaml||
+|  1..1    |  SKU\Variant  |  Bottles Per Case | Decimal||
 |  1..1    |  SKU\Variant  |  Purchasing Code | String||
 |  1..1    |  SKU\Variant  |  Unit Weight | Decimal||
 |  1..1    |  SKU\Variant  |  Sales Unit Weight | Decimal||
@@ -485,7 +485,7 @@ Here is an example of the response
 
 ### Stock Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | Web Stock| Item_No  |  String  | 20 | Primary Key Field SKU Code|
 |  1  | Web Stock| Variant_Code  |  String  | 10 | Primary Key Field Duty Status|
@@ -672,7 +672,7 @@ Here is an example of the response
 
 ### Web Order Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      | Mandatory | Required |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      | Mandatory | Required |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |--- |--- |
 | 1  | Web Order Header | Order Group | Code | 50 | Key (Internal Use) |  |  |
 | 1  | Web Order Header | Order Id | Code | 50 | Key (Unique Web Reference) | Y | Y |
@@ -685,7 +685,7 @@ Here is an example of the response
 | 1  | Web Order Header | Ship Method Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Pending Cart | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Payment Method Id | Code | 50 | Web Specific |  |  |
-| 1  | Web Order Header | Shpping Agent Id | code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Shipping Agent Id | code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Shipping Agent Service Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |
@@ -899,7 +899,7 @@ Here is an example of the response
 
 ### Payment Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1          | Payment         | External_Document         |  String    | 80           | |
 |  1          | Payment         | Currency_Code         |  String    | 10           | |
@@ -1020,7 +1020,7 @@ Here is an example of the response
 
 ### Order Status Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1          | Web Order         | BC_Status         |  Enum    | Created,Validated,Processed,Posted           | |
 |  1          | Web Order         | BC_Error_Message         |  Text    | 250  | Error On Validation |
@@ -1063,7 +1063,7 @@ Here is an example of the response
 ```
 ### Sales Prices Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |	1	|	Sales Price	|	Item No	|	string	|	20	|
 |	1	|	Sales Price	|	Variant Code	|	string	|	10	|
