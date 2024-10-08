@@ -168,7 +168,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Customer | No. | String | 20 | Primary Key (Required for Update) |
 | 1 | Customer | Web Id | String | 20 | Web Site Id |
-| 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
+| 1 | Customer | Web Last Mod Date Time | DateTime |  | Last Update Date Time  |
 | 1 | Customer | Name | String | 100 |  |
 | 1 | Customer | Name 2 | String | 50 |  |
 | 1 | Customer | Blocked | option |  |  |
@@ -206,9 +206,9 @@ Here is an example of the response
 | 1 | Customer | Responsibility Center | String | 10 |  |
 | 1 | Customer | Global Dimension 1 Code | String | 20 |  |
 | 1 | Customer | Global Dimension 2 Code | String | 20 |  |
-| 1 | Customer | Balance | decimal |  |  |
-| 1 | Customer | Balance_LCY | decimal |  |  |
-| 1 | Customer | Balance Due | decimal |  |  |
+| 1 | Customer | Balance | Decimal |  |  |
+| 1 | Customer | Balance_LCY | Decimal |  |  |
+| 1 | Customer | Balance Due | Decimal |  |  |
 | 1..N | Ship-to Address | Customer No. | String | 20 | PK Key (Required for Update) |
 | 1..N | Ship-to Address | Code | String | 20 | PK Key (Required for Update)|
 | 1..N | Ship-to Address | Name | String | 100 |  |
@@ -493,7 +493,7 @@ Here is an example of the response
 |  1  | Web Stock| Location_Code  |  String  |  10 | Primary Key Field Location |
 |  1  | Web Stock| Group_Code  |  String  | 50 | Primary Key Field (Not Used)|
 |  1  | Web Stock| Qty_per_Unit_of_Measure  |  Decimal  | |
-|  1  | Web Stock| Stock_Available_Base  |  Decimal  | Stock Available |
+|  1  | Web Stock| Stock_Available_Base  |  Decimal  || Stock Available |
 |  1  | Web Stock| Last_Mod_Date_Time  |  Date Time  || Last Mod. Date Time|
 
 
@@ -685,7 +685,7 @@ Here is an example of the response
 | 1  | Web Order Header | Ship Method Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Pending Cart | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Payment Method Id | Code | 50 | Web Specific |  |  |
-| 1  | Web Order Header | Shipping Agent Id | code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Shipping Agent Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Shipping Agent Service Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |

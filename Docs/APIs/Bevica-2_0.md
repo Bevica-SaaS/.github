@@ -30,7 +30,7 @@ The articles in this section describe the key concepts and techniques for using 
 | Name | Description | Data Flow | Operations | Note|
 | ----------- | ----------- | ----------- | -------- | ---------- |
 | [Customer](/Docs/APIs/Get-Customer.md) | Customer Info| BC -> Web | Read | |
-| [Ship To Address](/Docs/APIs/Get-Ship-To-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
+| [Ship To Address](/Docs/APIs/Get-Ship-to-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
 | [Customer Ledger Entries](/Docs/APIs/Get-Customer-Ledger-Entries) | Customer Ledger Entries | BC -> Web | Read | | 
 | [Product](/Docs/APIs/Get-Products) | Items and Attributes | BC -> Web | Read | |
 | [Stock](/Docs/APIs/Get-Stock) | Stock Available  | BC -> Web | Read | |

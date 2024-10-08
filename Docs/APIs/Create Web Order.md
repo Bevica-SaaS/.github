@@ -167,7 +167,7 @@ Here is an example of the response
 | 1  | Web Order Header | Ship Method Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Pending Cart | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Payment Method Id | Code | 50 | Web Specific |  |  |
-| 1  | Web Order Header | Shipping Agent Id | code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Shipping Agent Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Shipping Agent Service Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |

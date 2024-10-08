@@ -87,7 +87,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Customer | No. | String | 20 | Primary Key (Required for Update) |
 | 1 | Customer | Web Id | String | 20 | Web Site Id |
-| 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
+| 1 | Customer | Web Last Mod Date Time | DateTime |  | Last Update Date Time  |
 | 1 | Customer | Name | String | 100 |  |
 | 1 | Customer | Blocked | option |  |  |
 | 1 | Customer | Address | String | 100 |  |
@@ -118,9 +118,9 @@ Here is an example of the response
 | 1 | Customer | Territory Code | String | 10 |  |
 | 1 | Customer | Global Dimension 1 Code | String | 20 |  |
 | 1 | Customer | Global Dimension 2 Code | String | 20 |  |
-| 1 | Customer | Balance | decimal |  |  |
-| 1 | Customer | Balance_LCY | decimal |  |  |
-| 1 | Customer | Balance Due | decimal |  |  |
+| 1 | Customer | Balance | Decimal |  |  |
+| 1 | Customer | Balance_LCY | Decimal |  |  |
+| 1 | Customer | Balance Due | Decimal |  |  |
 | 1 | Customer | System Id | GUID |  |  (Required for Update) |
 | 1 | Customer | System Created At | DateTime |  |  |
 | 1 | Customer | System Created By  | String |  |  |

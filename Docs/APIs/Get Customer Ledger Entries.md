@@ -73,7 +73,7 @@ Here is an example of the response
 | 1 | Customer Ledger Entry | Original Amount | Decimal |  |  |
 | 1 | Customer Ledger Entry | Remaining Amount | Decimal |  | |
 | 1 | Customer Ledger Entry | Remaining Amount LCY | Decimal |  |  |
-| 1 | Customer Ledger Entry | Customer No. | code | 20 |  |
+| 1 | Customer Ledger Entry | Customer No. | Code | 20 |  |
 | 1 | Customer Ledger Entry | Customer Name | String | 100  |  |
 | 1 | Customer Ledger Entry | System Created At | DateTime |  |  |
 | 1 | Customer Ledger Entry | System Created By  | String |  |  |

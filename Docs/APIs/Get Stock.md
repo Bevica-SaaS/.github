@@ -59,7 +59,7 @@ Here is an example of the response
 |  1  | Web Stock| Location_Code  |  String  |  10 | Primary Key Field Location |
 |  1  | Web Stock| Group_Code  |  String  | 50 | Primary Key Field (Not Used)|
 |  1  | Web Stock| Qty_per_Unit_of_Measure  |  Decimal  | |
-|  1  | Web Stock| Stock_Available_Base  |  Decimal  | Stock Available |
+|  1  | Web Stock| Stock_Available_Base  |  Decimal  || Stock Available |
 |  1  | Web Stock| Last_Mod_Date_Time  |  Date Time  || Last Mod. Date Time|
 |  1  | Web Stock| System Created At | DateTime |  |  |
 |  1  | Web Stock| System Created By  | String |  |  |

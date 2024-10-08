@@ -81,7 +81,7 @@ Here is an example of the response
 | 1 | Ship-to Address | E-Mail | String | 80 |  |
 | 1 | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
 | 1 | Ship-to Address | Service Zone Code | String | 10 |  |
-| 1 | Ship-to Address | TVT Duty Status | 10 |  |
+| 1 | Ship-to Address | TVT Duty Status | Code | 10  |
 | 1 | Ship-to Address | System Id | GUID |  |   |
 | 1 | Ship-to Address | System Created At | DateTime |  |  |
 | 1 | Ship-to Address | System Created By  | String |  |  |

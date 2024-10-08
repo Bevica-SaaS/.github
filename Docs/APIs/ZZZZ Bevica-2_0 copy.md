@@ -30,7 +30,7 @@ The articles in this section describe the key concepts and techniques for using 
 | Name | Description | Data Flow | Operations | Note|
 | ----------- | ----------- | ----------- | -------- | ---------- |
 | [Customer](/Docs/APIs/Customer.md) | Customer Info| BC -> Web | Read | |
-| [Ship To Address](#get-Ship-To-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
+| [Ship To Address](#get-Ship-to-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
 | [Customer Ledger Entries](#get-customer-ledger-entries) | Customer Ledger Entries | BC -> Web | Read | | 
 | [Product](#get-products) | Items and Attributes | BC -> Web | Read | |
 | [Stock](#get-stock) | Stock Available  | BC -> Web | Read | |
@@ -150,7 +150,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Customer | No. | String | 20 | Primary Key (Required for Update) |
 | 1 | Customer | Web Id | String | 20 | Web Site Id |
-| 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
+| 1 | Customer | Web Last Mod Date Time | DateTime |  | Last Update Date Time  |
 | 1 | Customer | Name | String | 100 |  |
 | 1 | Customer | Blocked | option |  |  |
 | 1 | Customer | Address | String | 100 |  |
@@ -181,9 +181,9 @@ Here is an example of the response
 | 1 | Customer | Territory Code | String | 10 |  |
 | 1 | Customer | Global Dimension 1 Code | String | 20 |  |
 | 1 | Customer | Global Dimension 2 Code | String | 20 |  |
-| 1 | Customer | Balance | decimal |  |  |
-| 1 | Customer | Balance_LCY | decimal |  |  |
-| 1 | Customer | Balance Due | decimal |  |  |
+| 1 | Customer | Balance | Decimal |  |  |
+| 1 | Customer | Balance_LCY | Decimal |  |  |
+| 1 | Customer | Balance Due | Decimal |  |  |
 | 1 | Customer | System Id | GUID |  |  (Required for Update) |
 | 1 | Customer | System Created At | DateTime |  |  |
 | 1 | Customer | System Created By  | String |  |  |
@@ -273,7 +273,7 @@ Here is an example of the response
 | 1 | Ship-to Address | E-Mail | String | 80 |  |
 | 1 | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
 | 1 | Ship-to Address | Service Zone Code | String | 10 |  |
-| 1 | Ship-to Address | TVT Duty Status | 10 |  |
+| 1 | Ship-to Address | TVT Duty Status | Code | 10  |
 | 1 | Ship-to Address | System Id | GUID |  |   |
 | 1 | Ship-to Address | System Created At | DateTime |  |  |
 | 1 | Ship-to Address | System Created By  | String |  |  |
@@ -354,7 +354,7 @@ Here is an example of the response
 | 1 | Customer Ledger Entry | Original Amount | Decimal |  |  |
 | 1 | Customer Ledger Entry | Remaining Amount | Decimal |  | |
 | 1 | Customer Ledger Entry | Remaining Amount LCY | Decimal |  |  |
-| 1 | Customer Ledger Entry | Customer No.| code | 20 |  |
+| 1 | Customer Ledger Entry | Customer No.| Code | 20 |  |
 | 1 | Customer Ledger Entry | Customer Name | String | 100  |  |
 | 1 | Customer Ledger Entry | System Created At | DateTime |  |  |
 | 1 | Customer Ledger Entry | System Created By  | String |  |  |
@@ -541,7 +541,7 @@ Here is an example of the response
 |  1  | Web Stock| Location_Code  |  String  |  10 | Primary Key Field Location |
 |  1  | Web Stock| Group_Code  |  String  | 50 | Primary Key Field (Not Used)|
 |  1  | Web Stock| Qty_per_Unit_of_Measure  |  Decimal  | |
-|  1  | Web Stock| Stock_Available_Base  |  Decimal  | Stock Available |
+|  1  | Web Stock| Stock_Available_Base  |  Decimal  ||Stock Available |
 |  1  | Web Stock| Last_Mod_Date_Time  |  Date Time  || Last Mod. Date Time|
 |  1  | Web Stock| System Created At | DateTime |  |  |
 |  1  | Web Stock| System Created By  | String |  |  |
@@ -717,7 +717,7 @@ Here is an example of the response
 | 1  | Web Order Header | Ship Method Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Pending Cart | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Payment Method Id | Code | 50 | Web Specific |  |  |
-| 1  | Web Order Header | Shipping Agent Id | code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Shipping Agent Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Shipping Agent Service Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |
