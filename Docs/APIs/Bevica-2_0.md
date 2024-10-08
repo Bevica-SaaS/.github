@@ -30,20 +30,20 @@ The articles in this section describe the key concepts and techniques for using 
 | Name | Description | Data Flow | Operations | Note|
 | ----------- | ----------- | ----------- | -------- | ---------- |
 | [Customer](/Docs/APIs/Get%20Customer.md) | Customer Info| BC -> Web | Read | |
-| [Ship To Address](/Docs/APIs/Get%20Ship%20to-Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
-| [Customer Ledger Entries](/Docs/APIs/Get-Customer-Ledger-Entries) | Customer Ledger Entries | BC -> Web | Read | | 
-| [Product](/Docs/APIs/Get-Products) | Items and Attributes | BC -> Web | Read | |
-| [Stock](/Docs/APIs/Get-Stock) | Stock Available  | BC -> Web | Read | |
-| [Web Order](/Docs/APIs/Create-Web-Order) | Create Web Order BC | Web->BC    | Read Create | |
-| [Web Order Lines](#/Docs/APIs/Create-Web-Order-Lines) | Create Web Order Lines in BC | Web->BC    | Read Create | |
-| [Payments](/Docs/APIs/Create-Payment) | Create payment on Payment Journal in BC | Web->BC | Create | |
-| [Manifest](/Docs/APIs/Get-Manifest) | Shipping Manifest Status | BC -> Web | Read | |
-| [Manifest Lines](/Docs/APIs/Get--Manifest-Lines) | List of Manifest Lines | BC -> Web | Read | |
-| [Orders Status](/Docs/APIs/Get-Orders-Status) | List of Orders with Tracking updates | BC -> Web | Read | |
-| [Sales Prices](/Docs/APIs/Get-Sales-Prices) | Plain List of Sales Prices| BC -> Web | Read | |
-| [Sales Price List Prices](#/Docs/APIs/Get-Sales-Price-List-Prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
-| [Paid Reserve](/Docs/APIs/Get-Paid-Reserve) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Paid Reserve Entries](/Docs/APIs/Get-Paid-Reserve-Entries) | List of all Paid Reserve Entries| BC -> Web | Read | |
+| [Ship To Address](/Docs/APIs/Get%20Ship-to%20Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
+| [Customer Ledger Entries](/Docs/APIs/Get%20Customer%20Ledger%20Entries) | Customer Ledger Entries | BC -> Web | Read | | 
+| [Product](/Docs/APIs/Get%20Product) | Items and Attributes | BC -> Web | Read | |
+| [Stock](/Docs/APIs/Get%20Stock) | Stock Available  | BC -> Web | Read | |
+| [Web Order](/Docs/APIs/Create%20Web%20Order) | Create Web Order BC | Web->BC    | Read Create | |
+| [Web Order Lines](#/Docs/APIs/Create%20Web%20Order%20Lines) | Create Web Order Lines in BC | Web->BC    | Read Create | |
+| [Payments](/Docs/APIs/Create%20Payment) | Create payment on Payment Journal in BC | Web->BC | Create | |
+| [Manifest](/Docs/APIs/Get%20Manifest) | Shipping Manifest Status | BC -> Web | Read | |
+| [Manifest Lines](/Docs/APIs/Get%20Manifest%20Lines) | List of Manifest Lines | BC -> Web | Read | |
+| [Orders Status](/Docs/APIs/Get%20Order%20Status) | List of Orders with Tracking updates | BC -> Web | Read | |
+| [Sales Prices](/Docs/APIs/Get%20Sales%20Prices) | Plain List of Sales Prices| BC -> Web | Read | |
+| [Sales Price List Prices](#/Docs/APIs/Get%20Sales%20Price%20List%20Prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
+| [Paid Reserve](/Docs/APIs/Get%20Paid%20Reserve) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Paid Reserve Entries](/Docs/APIs/Get%20Paid%20Reserve%20Entries) | List of all Paid Reserve Entries| BC -> Web | Read | |
 
 ## Endpoints businesscentralPrefix structure
 
