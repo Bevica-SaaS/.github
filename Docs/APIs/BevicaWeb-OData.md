@@ -1,4 +1,4 @@
-# Bevica Web Integration
+# Bevica Web Integration (ODATA)
 
 ## Main Entities
 
@@ -19,7 +19,7 @@
 Common endpoint service
 
 ~~~ api
-https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Enviroment Name>/ODataV4/Company('<Company Namme>')
+https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Environment Name>/ODataV4/Company('<Company Name>')
 ~~~
 
 Sample
@@ -164,69 +164,69 @@ Here is an example of the response
 
 ### Customer Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-| 1 | Customer | No. | string | 20 | Primaty Key (Required for Update) |
-| 1 | Customer | Web Id | string | 20 | Web Site Id |
-| 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
-| 1 | Customer | Name | string | 100 |  |
-| 1 | Customer | Name 2 | string | 50 |  |
+| 1 | Customer | No. | String | 20 | Primary Key (Required for Update) |
+| 1 | Customer | Web Id | String | 20 | Web Site Id |
+| 1 | Customer | Web Last Mod Date Time | DateTime |  | Last Update Date Time  |
+| 1 | Customer | Name | String | 100 |  |
+| 1 | Customer | Name 2 | String | 50 |  |
 | 1 | Customer | Blocked | option |  |  |
-| 1 | Customer | Address | string | 100 |  |
-| 1 | Customer | Address 2 | string | 50 |  |
-| 1 | Customer | City | string | 30 |  |
-| 1 | Customer | County | string | 30 |  |
-| 1 | Customer | Post Code | string | 20 |  |
-| 1 | Customer | Country/Region Code | string | 10 |  |
-| 1 | Customer | Primary Contact No. | string | 20 |  |
-| 1 | Customer | Contact | string | 100 |  |
-| 1 | Customer | Phone No. | string | 30 |  |
-| 1 | Customer | E-Mail | string | 80 |  |
-| 1 | Customer | Home Page | string | 80 |  |
-| 1 | Customer | Language Code | string | 10 |  |
-| 1 | Customer | Currency Code | string | 10 |  |
-| 1 | Customer | Shipment Method Code | string | 10 |  |
-| 1 | Customer | Shipping Agent Code | string | 10 |  |
-| 1 | Customer | Shipping Agent Service Code | string | 19 |  |
-| 1 | Customer | Location Code | string | 10 |  |
-| 1 | Customer | VAT Registration No. | string | 20 |  |
-| 1 | Customer | Payment Terms Code | string | 10 |  |
-| 1 | Customer | Payment Method Code | string | 10 |  |
-| 1 | Customer | GLN | string | 13 |  |
-| 1 | Customer | Gen. Bus. Posting Group | string | 20 |  |
-| 1 | Customer | VAT Bus. Posting Group | string | 20 |  |
-| 1 | Customer | Customer Posting Group | string | 20 |  |
-| 1 | Customer | Customer Price Group | string | 20 |  |
-| 1 | Customer | Customer Disc. Group | string | 20 |  |
-| 1 | Customer | AWRS No. | string | 20 |  |
-| 1 | Customer | Territory Code | string | 10 |  |
+| 1 | Customer | Address | String | 100 |  |
+| 1 | Customer | Address 2 | String | 50 |  |
+| 1 | Customer | City | String | 30 |  |
+| 1 | Customer | County | String | 30 |  |
+| 1 | Customer | Post Code | String | 20 |  |
+| 1 | Customer | Country/Region Code | String | 10 |  |
+| 1 | Customer | Primary Contact No. | String | 20 |  |
+| 1 | Customer | Contact | String | 100 |  |
+| 1 | Customer | Phone No. | String | 30 |  |
+| 1 | Customer | E-Mail | String | 80 |  |
+| 1 | Customer | Home Page | String | 80 |  |
+| 1 | Customer | Language Code | String | 10 |  |
+| 1 | Customer | Currency Code | String | 10 |  |
+| 1 | Customer | Shipment Method Code | String | 10 |  |
+| 1 | Customer | Shipping Agent Code | String | 10 |  |
+| 1 | Customer | Shipping Agent Service Code | String | 19 |  |
+| 1 | Customer | Location Code | String | 10 |  |
+| 1 | Customer | VAT Registration No. | String | 20 |  |
+| 1 | Customer | Payment Terms Code | String | 10 |  |
+| 1 | Customer | Payment Method Code | String | 10 |  |
+| 1 | Customer | GLN | String | 13 |  |
+| 1 | Customer | Gen. Bus. Posting Group | String | 20 |  |
+| 1 | Customer | VAT Bus. Posting Group | String | 20 |  |
+| 1 | Customer | Customer Posting Group | String | 20 |  |
+| 1 | Customer | Customer Price Group | String | 20 |  |
+| 1 | Customer | Customer Disc. Group | String | 20 |  |
+| 1 | Customer | AWRS No. | String | 20 |  |
+| 1 | Customer | Territory Code | String | 10 |  |
 | 1 | Customer | Partner Type | enum |  |  |
-| 1 | Customer | Privacy Blocked | bool |  |  |
-| 1 | Customer | Salesperson Code | string | 20 |  |
-| 1 | Customer | Responsibility Center | string | 10 |  |
-| 1 | Customer | Global Dimension 1 Code | string | 20 |  |
-| 1 | Customer | Global Dimension 2 Code | string | 20 |  |
-| 1 | Customer | Balance | decimal |  |  |
-| 1 | Customer | Balance_LCY | decimal |  |  |
-| 1 | Customer | Balance Due | decimal |  |  |
-| 1..N | Ship-to Address | Customer No. | string | 20 | PK Key (Required for Update) |
-| 1..N | Ship-to Address | Code | string | 20 | PK Key (Required for Update)|
-| 1..N | Ship-to Address | Name | string | 100 |  |
-| 1..N | Ship-to Address | Name 2 | string | 50 |  |
-| 1..N | Ship-to Address | Address | string | 100 |  |
-| 1..N | Ship-to Address | Address 2 | string | 50 |  |
-| 1..N | Ship-to Address | City | string | 30 |  |
-| 1..N | Ship-to Address | Contact | string |  |  |
-| 1..N | Ship-to Address | Phone No. | string | 100 |  |
-| 1..N | Ship-to Address | Shipment Method Code | string | 10 |  |
-| 1..N | Ship-to Address | Shipping Agent Code | string | 10 |  |
-| 1..N | Ship-to Address | Country/Region Code | string | 10 |  |
-| 1..N | Ship-to Address | Post Code | string | 20 |  |
-| 1..N | Ship-to Address | County | string | 30 |  |
-| 1..N | Ship-to Address | E-Mail | string | 80 |  |
-| 1..N | Ship-to Address | Shipping Agent Service Code | string | 10 |  |
-| 1..N | Ship-to Address | Service Zone Code | string | 10 |  |
-| 1..N | Ship-to Address | Duty Type | string | 10 |  |
+| 1 | Customer | Privacy Blocked | Boolean |  |  |
+| 1 | Customer | Salesperson Code | String | 20 |  |
+| 1 | Customer | Responsibility Center | String | 10 |  |
+| 1 | Customer | Global Dimension 1 Code | String | 20 |  |
+| 1 | Customer | Global Dimension 2 Code | String | 20 |  |
+| 1 | Customer | Balance | Decimal |  |  |
+| 1 | Customer | Balance_LCY | Decimal |  |  |
+| 1 | Customer | Balance Due | Decimal |  |  |
+| 1..N | Ship-to Address | Customer No. | String | 20 | PK Key (Required for Update) |
+| 1..N | Ship-to Address | Code | String | 20 | PK Key (Required for Update)|
+| 1..N | Ship-to Address | Name | String | 100 |  |
+| 1..N | Ship-to Address | Name 2 | String | 50 |  |
+| 1..N | Ship-to Address | Address | String | 100 |  |
+| 1..N | Ship-to Address | Address 2 | String | 50 |  |
+| 1..N | Ship-to Address | City | String | 30 |  |
+| 1..N | Ship-to Address | Contact | String |  |  |
+| 1..N | Ship-to Address | Phone No. | String | 100 |  |
+| 1..N | Ship-to Address | Shipment Method Code | String | 10 |  |
+| 1..N | Ship-to Address | Shipping Agent Code | String | 10 |  |
+| 1..N | Ship-to Address | Country/Region Code | String | 10 |  |
+| 1..N | Ship-to Address | Post Code | String | 20 |  |
+| 1..N | Ship-to Address | County | String | 30 |  |
+| 1..N | Ship-to Address | E-Mail | String | 80 |  |
+| 1..N | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
+| 1..N | Ship-to Address | Service Zone Code | String | 10 |  |
+| 1..N | Ship-to Address | Duty Type | String | 10 |  |
 
 ## GET Products
 
@@ -335,7 +335,7 @@ Here is an example of the response
 
 ### Product Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1       |  Product      |  Code        | Code       |  20          |           |
 |  1       |  Product      |  Web Product Id  | Code       |  20      |           |
@@ -353,7 +353,7 @@ Here is an example of the response
 |  1       |  Product      |  SubRegion Description  |String ||
 |  1       |  Product      |  Producer  |String ||
 |  1       |  Product      |  Item Classification  |String ||
-|  1       |  Product      |  Alcool Percent  |Decimal ||
+|  1       |  Product      |  Alcohol Percent  |Decimal ||
 |  1       |  Product      |  Vintage  |String ||
 |  1       |  Product      |  Grapes  |String ||
 |  1       |  Product      |  Attributes  |String ||
@@ -362,7 +362,7 @@ Here is an example of the response
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
 |  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | Date Time ||
-|  1..1    |  SKU\Variant  |  Item No  | String ||
+|  1..1    |  SKU\Variant  |  Item No.  | String ||
 |  1..1    |  SKU\Variant  |  Blocked  | Boolean ||
 |  1..1    |  SKU\Variant  |  Last Modification  | Date Time ||
 |  1..1    |  SKU\Variant  |  Description  | String ||
@@ -375,7 +375,7 @@ Here is an example of the response
 |  1..1    |  SKU\Variant  |  Unit Price With Duty  |Decimal ||
 |  1..1    |  SKU\Variant  |  Unit Price WithOut Duty  |Decimal ||
 |  1..1    |  SKU\Variant  |  Stock Quantity Base  |Decimal ||
-|  1..1    |  SKU\Variant  |  Bottles Per Case | Deciaml||
+|  1..1    |  SKU\Variant  |  Bottles Per Case | Decimal||
 |  1..1    |  SKU\Variant  |  Purchasing Code | String||
 |  1..1    |  SKU\Variant  |  Unit Weight | Decimal||
 |  1..1    |  SKU\Variant  |  Sales Unit Weight | Decimal||
@@ -485,7 +485,7 @@ Here is an example of the response
 
 ### Stock Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | Web Stock| Item_No  |  String  | 20 | Primary Key Field SKU Code|
 |  1  | Web Stock| Variant_Code  |  String  | 10 | Primary Key Field Duty Status|
@@ -493,7 +493,7 @@ Here is an example of the response
 |  1  | Web Stock| Location_Code  |  String  |  10 | Primary Key Field Location |
 |  1  | Web Stock| Group_Code  |  String  | 50 | Primary Key Field (Not Used)|
 |  1  | Web Stock| Qty_per_Unit_of_Measure  |  Decimal  | |
-|  1  | Web Stock| Stock_Available_Base  |  Decimal  | Stock Available |
+|  1  | Web Stock| Stock_Available_Base  |  Decimal  || Stock Available |
 |  1  | Web Stock| Last_Mod_Date_Time  |  Date Time  || Last Mod. Date Time|
 
 
@@ -672,7 +672,7 @@ Here is an example of the response
 
 ### Web Order Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      | Mandatory | Required |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      | Mandatory | Required |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |--- |--- |
 | 1  | Web Order Header | Order Group | Code | 50 | Key (Internal Use) |  |  |
 | 1  | Web Order Header | Order Id | Code | 50 | Key (Unique Web Reference) | Y | Y |
@@ -685,7 +685,7 @@ Here is an example of the response
 | 1  | Web Order Header | Ship Method Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Pending Cart | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Payment Method Id | Code | 50 | Web Specific |  |  |
-| 1  | Web Order Header | Shpping Agent Id | code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Shipping Agent Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Shipping Agent Service Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |
@@ -899,7 +899,7 @@ Here is an example of the response
 
 ### Payment Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1          | Payment         | External_Document         |  String    | 80           | |
 |  1          | Payment         | Currency_Code         |  String    | 10           | |
@@ -1020,7 +1020,7 @@ Here is an example of the response
 
 ### Order Status Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1          | Web Order         | BC_Status         |  Enum    | Created,Validated,Processed,Posted           | |
 |  1          | Web Order         | BC_Error_Message         |  Text    | 250  | Error On Validation |
@@ -1063,17 +1063,17 @@ Here is an example of the response
 ```
 ### Sales Prices Fields
 
-| Relation | Source Table | Field Caption | Field Type | Field Lenght | Note      |
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|	1	|	Sales Price	|	Item No	|	string	|	20	|
-|	1	|	Sales Price	|	Variant Code	|	string	|	10	|
+|	1	|	Sales Price	|	Item No	|	String	|	20	|
+|	1	|	Sales Price	|	Variant Code	|	String	|	10	|
 |	1	|	Sales Price	|	Sales Type	|	Type	|		|
-|	1	|	Sales Price	|	Sales Code	|	string	|	10	|
-|	1	|	Sales Price	|	Unit of Measure Code	|	string	|	10	|
+|	1	|	Sales Price	|	Sales Code	|	String	|	10	|
+|	1	|	Sales Price	|	Unit of Measure Code	|	String	|	10	|
 |	1	|	Sales Price	|	Starting Date	|	date	|		|
 |	1	|	Sales Price	|	Ending Date	|	date	|		|
 |	1	|	Sales Price	|	Unit Price	|	decimal	|		|
-|	1	|	Sales Price	|	Price Includes VAT	|	boolean	|		|
+|	1	|	Sales Price	|	Price Includes VAT	|	Boolean	|		|
 |	1	|	Sales Price	|	Minimum Quantity	|	decimal	|		|
 
 ### Recommended Content
