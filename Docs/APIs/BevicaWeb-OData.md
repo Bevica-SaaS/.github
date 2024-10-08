@@ -1,4 +1,4 @@
-# Bevica Web Integration
+# Bevica Web Integration (ODATA)
 
 ## Main Entities
 
@@ -19,7 +19,7 @@
 Common endpoint service
 
 ~~~ api
-https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Enviroment Name>/ODataV4/Company('<Company Namme>')
+https://api.businesscentral.dynamics.com/<API Version>/<user domain name>/<Environment Name>/ODataV4/Company('<Company Name>')
 ~~~
 
 Sample
