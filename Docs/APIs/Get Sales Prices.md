@@ -60,16 +60,16 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|	1	|	Sales Prices	|	Item No	|	string	|	20	|
-|	1	|	Sales Prices	|	Variant Code	|	string	|	10	|
+|	1	|	Sales Prices	|	Item No	|	String	|	20	|
+|	1	|	Sales Prices	|	Variant Code	|	String	|	10	|
 |	1	|	Sales Prices	|	Sales Type	|	Type	|		|
-|	1	|	Sales Prices	|	Sales Code	|	string	|	10	|
-|	1	|	Sales Prices	|	Unit of Measure Code	|	string	|	10	|
-|	1	|	Sales Prices	|	Starting Date	|	date	|		|
-|	1	|	Sales Prices	|	Ending Date	|	date	|		|
-|	1	|	Sales Prices	|	Unit Price	|	decimal	|		|
-|	1	|	Sales Prices	|	Price Includes VAT	|	boolean	|		|
-|	1	|	Sales Prices	|	Minimum Quantity	|	decimal	|		|
+|	1	|	Sales Prices	|	Sales Code	|	String	|	10	|
+|	1	|	Sales Prices	|	Unit of Measure Code	|	String	|	10	|
+|	1	|	Sales Prices	|	Starting Date	| Date |		|
+|	1	|	Sales Prices	|	Ending Date	|	Date	|		|
+|	1	|	Sales Prices	|	Unit Price	|	Decimal	|		|
+|	1	|	Sales Prices	|	Price Includes VAT	|	Boolean	|		|
+|	1	|	Sales Prices	|	Minimum Quantity	|	Decimal	|		|
 |   1   |   Sales Prices      | System Id | GUID |  |  |
 |  1    |   Sales Prices      | System Created At | DateTime |  |  |
 |  1    |   Sales Prices      | System Created By  | String |  |  |

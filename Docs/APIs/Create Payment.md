@@ -68,13 +68,18 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1          | Payment         | System Id | GUID |  |  |
-|  1          | Payment         | External_Document         |  String    | 80           | |
 |  1          | Payment         | Currency_Code         |  String    | 10           | |
+|  1          | Payment         | CustomerID         |  String    | 20           | |
+|  1          | Payment         | Customer_No.         |  String    | 20           | |
+|  1          | Payment         | Document_No.         |  String    | 20           | |
+|  1          | Payment         | External_Document         |  String    | 80           | |
 |  1          | Payment         | Payment_Reference         |  String    | 50           | |
 |  1          | Payment         | Amount         |  Decimal    |            | |
+|  1          | Payment         | Entry_No.         |  Integer    |            | |
 |  1          | Payment         | Payment_Method_Code         |  String    | 10           | |
 |  1          | Payment         | Posting_Date         |  Date    |            | |
 |  1          | Payment         | Due_Date         |  Date    |            | |
+|  1          | Payment         | Refund         |  Boolean    |            | |
 |  1          | Payment         | System Created At | DateTime |  |  |
 |  1          | Payment         | System Created By  | String |  |  |
 |  1          | Payment         | System Modified At | DateTime |  |  |

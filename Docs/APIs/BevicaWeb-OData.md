@@ -201,7 +201,7 @@ Here is an example of the response
 | 1 | Customer | AWRS No. | String | 20 |  |
 | 1 | Customer | Territory Code | String | 10 |  |
 | 1 | Customer | Partner Type | enum |  |  |
-| 1 | Customer | Privacy Blocked | bool |  |  |
+| 1 | Customer | Privacy Blocked | Boolean |  |  |
 | 1 | Customer | Salesperson Code | String | 20 |  |
 | 1 | Customer | Responsibility Center | String | 10 |  |
 | 1 | Customer | Global Dimension 1 Code | String | 20 |  |
@@ -1065,15 +1065,15 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|	1	|	Sales Price	|	Item No	|	string	|	20	|
-|	1	|	Sales Price	|	Variant Code	|	string	|	10	|
+|	1	|	Sales Price	|	Item No	|	String	|	20	|
+|	1	|	Sales Price	|	Variant Code	|	String	|	10	|
 |	1	|	Sales Price	|	Sales Type	|	Type	|		|
-|	1	|	Sales Price	|	Sales Code	|	string	|	10	|
-|	1	|	Sales Price	|	Unit of Measure Code	|	string	|	10	|
+|	1	|	Sales Price	|	Sales Code	|	String	|	10	|
+|	1	|	Sales Price	|	Unit of Measure Code	|	String	|	10	|
 |	1	|	Sales Price	|	Starting Date	|	date	|		|
 |	1	|	Sales Price	|	Ending Date	|	date	|		|
 |	1	|	Sales Price	|	Unit Price	|	decimal	|		|
-|	1	|	Sales Price	|	Price Includes VAT	|	boolean	|		|
+|	1	|	Sales Price	|	Price Includes VAT	|	Boolean	|		|
 |	1	|	Sales Price	|	Minimum Quantity	|	decimal	|		|
 
 ### Recommended Content

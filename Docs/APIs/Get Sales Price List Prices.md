@@ -39,13 +39,13 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|	1	|	Price List Line	|	Item No	|	string	|	20	|
-|	1	|	Price List Line	|	Variant Code	|	string	|	10	|
+|	1	|	Price List Line	|	Item No	|	String	|	20	|
+|	1	|	Price List Line	|	Variant Code	|	String	|	10	|
 |	1	|	Price List Line	|	Sales Type	|	Type	|		|
-|	1	|	Price List Line	|	Sales Code	|	string	|	10	|
-|	1	|	Price List Line	|	Unit of Measure Code	|	string	|	10	|
+|	1	|	Price List Line	|	Sales Code	|	String	|	10	|
+|	1	|	Price List Line	|	Unit of Measure Code	|	String	|	10	|
 |	1	|	Price List Line	|	Starting Date	|	date	|		|
 |	1	|	Price List Line	|	Ending Date	|	date	|		|
 |	1	|	Price List Line	|	Unit Price	|	decimal	|		|
-|	1	|	Price List Line	|	Price Includes VAT	|	boolean	|		|
+|	1	|	Price List Line	|	Price Includes VAT	|	Boolean	|		|
 |	1	|	Price List Line	|	Minimum Quantity	|	decimal	|		|
