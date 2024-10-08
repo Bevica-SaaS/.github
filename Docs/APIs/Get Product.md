@@ -97,7 +97,7 @@ Here is an example of the response
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
 |  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | Date Time ||
-|  1..1    |  SKU\Variant  |  Item No  | String ||
+|  1..1    |  SKU\Variant  |  Item No.  | String ||
 |  1..1    |  SKU\Variant  |  Blocked  | Boolean ||
 |  1..1    |  SKU\Variant  |  Last Modification  | Date Time ||
 |  1..1    |  SKU\Variant  |  Description  | String ||

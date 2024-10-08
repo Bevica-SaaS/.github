@@ -1,6 +1,6 @@
 ## GET Sales Price List Prices
 
-Retrieve the properties and relationships of a (Sales) Price List Line object for Business Central.
+Retrieve the properties and relationships of a Sales Price List Line object for Business Central.
 
 ### Http Request
 

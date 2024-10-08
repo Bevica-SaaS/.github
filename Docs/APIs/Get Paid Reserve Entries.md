@@ -82,9 +82,7 @@ Here is an example of the response
 }
 ```
 
-### Field Information
-<details>
-  <summary>Show</summary>
+### Fields Information
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |

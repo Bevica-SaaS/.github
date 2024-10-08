@@ -72,15 +72,15 @@ Here is an example of the response
 | 1 | Ship-to Address | Address 2 | String | 50 | |
 | 1 | Ship-to Address | City | String | 30 | |
 | 1 | Ship-to Address | Contact | String | 100 | |
-| 1 | Ship-to Address | Phone No. | string | 30 |  |
-| 1 | Ship-to Address | Shipment Method Code | string | 10 |  |
-| 1 | Ship-to Address | Shipping Agent Code | string | 10 |  |
-| 1 | Ship-to Address | Country/Region Code | string | 10 |  |
-| 1 | Ship-to Address | Post Code | string | 20 |  |
-| 1 | Ship-to Address | County | string | 30 |  |
-| 1 | Ship-to Address | E-Mail | string | 80 |  |
-| 1 | Ship-to Address | Shipping Agent Service Code | string | 10 |  |
-| 1 | Ship-to Address | Service Zone Code | string | 10 |  |
+| 1 | Ship-to Address | Phone No. | String | 30 |  |
+| 1 | Ship-to Address | Shipment Method Code | String | 10 |  |
+| 1 | Ship-to Address | Shipping Agent Code | String | 10 |  |
+| 1 | Ship-to Address | Country/Region Code | String | 10 |  |
+| 1 | Ship-to Address | Post Code | String | 20 |  |
+| 1 | Ship-to Address | County | String | 30 |  |
+| 1 | Ship-to Address | E-Mail | String | 80 |  |
+| 1 | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
+| 1 | Ship-to Address | Service Zone Code | String | 10 |  |
 | 1 | Ship-to Address | TVT Duty Status | 10 |  |
 | 1 | Ship-to Address | System Id | GUID |  |   |
 | 1 | Ship-to Address | System Created At | DateTime |  |  |

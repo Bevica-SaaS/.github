@@ -148,39 +148,39 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-| 1 | Customer | No. | string | 20 | Primary Key (Required for Update) |
-| 1 | Customer | Web Id | string | 20 | Web Site Id |
+| 1 | Customer | No. | String | 20 | Primary Key (Required for Update) |
+| 1 | Customer | Web Id | String | 20 | Web Site Id |
 | 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
-| 1 | Customer | Name | string | 100 |  |
+| 1 | Customer | Name | String | 100 |  |
 | 1 | Customer | Blocked | option |  |  |
-| 1 | Customer | Address | string | 100 |  |
-| 1 | Customer | Address 2 | string | 50 |  |
-| 1 | Customer | City | string | 30 |  |
-| 1 | Customer | County | string | 30 |  |
-| 1 | Customer | Post Code | string | 20 |  |
-| 1 | Customer | Country/Region Code | string | 10 |  |
-| 1 | Customer | Contact | string | 100 |  |
-| 1 | Customer | Phone No. | string | 30 |  |
-| 1 | Customer | E-Mail | string | 80 |  |
-| 1 | Customer | Language Code | string | 10 |  |
-| 1 | Customer | Currency Code | string | 10 |  |
-| 1 | Customer | Shipment Method Code | string | 10 |  |
-| 1 | Customer | Shipping Agent Code | string | 10 |  |
-| 1 | Customer | Shipping Agent Service Code | string | 10 |  |
-| 1 | Customer | Location Code | string | 10 |  |
-| 1 | Customer | VAT Registration No. | string | 20 |  |
-| 1 | Customer | Payment Terms Code | string | 10 |  |
-| 1 | Customer | Payment Method Code | string | 10 |  |
-| 1 | Customer | GLN | string | 13 |  |
-| 1 | Customer | Gen. Bus. Posting Group | string | 20 |  |
-| 1 | Customer | VAT Bus. Posting Group | string | 20 |  |
-| 1 | Customer | Customer Posting Group | string | 20 |  |
-| 1 | Customer | Customer Price Group | string | 20 |  |
-| 1 | Customer | Customer Disc. Group | string | 20 |  |
-| 1 | Customer | AWRS No. | string | 20 |  |
-| 1 | Customer | Territory Code | string | 10 |  |
-| 1 | Customer | Global Dimension 1 Code | string | 20 |  |
-| 1 | Customer | Global Dimension 2 Code | string | 20 |  |
+| 1 | Customer | Address | String | 100 |  |
+| 1 | Customer | Address 2 | String | 50 |  |
+| 1 | Customer | City | String | 30 |  |
+| 1 | Customer | County | String | 30 |  |
+| 1 | Customer | Post Code | String | 20 |  |
+| 1 | Customer | Country/Region Code | String | 10 |  |
+| 1 | Customer | Contact | String | 100 |  |
+| 1 | Customer | Phone No. | String | 30 |  |
+| 1 | Customer | E-Mail | String | 80 |  |
+| 1 | Customer | Language Code | String | 10 |  |
+| 1 | Customer | Currency Code | String | 10 |  |
+| 1 | Customer | Shipment Method Code | String | 10 |  |
+| 1 | Customer | Shipping Agent Code | String | 10 |  |
+| 1 | Customer | Shipping Agent Service Code | String | 10 |  |
+| 1 | Customer | Location Code | String | 10 |  |
+| 1 | Customer | VAT Registration No. | String | 20 |  |
+| 1 | Customer | Payment Terms Code | String | 10 |  |
+| 1 | Customer | Payment Method Code | String | 10 |  |
+| 1 | Customer | GLN | String | 13 |  |
+| 1 | Customer | Gen. Bus. Posting Group | String | 20 |  |
+| 1 | Customer | VAT Bus. Posting Group | String | 20 |  |
+| 1 | Customer | Customer Posting Group | String | 20 |  |
+| 1 | Customer | Customer Price Group | String | 20 |  |
+| 1 | Customer | Customer Disc. Group | String | 20 |  |
+| 1 | Customer | AWRS No. | String | 20 |  |
+| 1 | Customer | Territory Code | String | 10 |  |
+| 1 | Customer | Global Dimension 1 Code | String | 20 |  |
+| 1 | Customer | Global Dimension 2 Code | String | 20 |  |
 | 1 | Customer | Balance | decimal |  |  |
 | 1 | Customer | Balance_LCY | decimal |  |  |
 | 1 | Customer | Balance Due | decimal |  |  |
@@ -264,15 +264,15 @@ Here is an example of the response
 | 1 | Ship-to Address | Address 2 | String | 50 | |
 | 1 | Ship-to Address | City | String | 30 | |
 | 1 | Ship-to Address | Contact | String | 100 | |
-| 1 | Ship-to Address | Phone No. | string | 30 |  |
-| 1 | Ship-to Address | Shipment Method Code | string | 10 |  |
-| 1 | Ship-to Address | Shipping Agent Code | string | 10 |  |
-| 1 | Ship-to Address | Country/Region Code | string | 10 |  |
-| 1 | Ship-to Address | Post Code | string | 20 |  |
-| 1 | Ship-to Address | County | string | 30 |  |
-| 1 | Ship-to Address | E-Mail | string | 80 |  |
-| 1 | Ship-to Address | Shipping Agent Service Code | string | 10 |  |
-| 1 | Ship-to Address | Service Zone Code | string | 10 |  |
+| 1 | Ship-to Address | Phone No. | String | 30 |  |
+| 1 | Ship-to Address | Shipment Method Code | String | 10 |  |
+| 1 | Ship-to Address | Shipping Agent Code | String | 10 |  |
+| 1 | Ship-to Address | Country/Region Code | String | 10 |  |
+| 1 | Ship-to Address | Post Code | String | 20 |  |
+| 1 | Ship-to Address | County | String | 30 |  |
+| 1 | Ship-to Address | E-Mail | String | 80 |  |
+| 1 | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
+| 1 | Ship-to Address | Service Zone Code | String | 10 |  |
 | 1 | Ship-to Address | TVT Duty Status | 10 |  |
 | 1 | Ship-to Address | System Id | GUID |  |   |
 | 1 | Ship-to Address | System Created At | DateTime |  |  |
@@ -341,11 +341,11 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Customer Ledger Entry | System Id | GUID |  |  (Required for Update) |
-| 1 | Customer Ledger Entry | Document Type | string | 20 |  |
+| 1 | Customer Ledger Entry | Document Type | String | 20 |  |
 | 1 | Customer Ledger Entry | Document No. | Code |  | |
 | 1 | Customer Ledger Entry | Due Date | Date |  |  |
-| 1 | Customer Ledger Entry | External Document No. | string | 35 |  |
-| 1 | Customer Ledger Entry | Entry No | Integer |  |  |
+| 1 | Customer Ledger Entry | External Document No. | String | 35 |  |
+| 1 | Customer Ledger Entry | Entry No. | Integer |  |  |
 | 1 | Customer Ledger Entry | Description | String | 100  |   |
 | 1 | Customer Ledger Entry | Open | Boolean |  |  |
 | 1 | Customer Ledger Entry | Positive | Boolean |  |  |
@@ -354,8 +354,8 @@ Here is an example of the response
 | 1 | Customer Ledger Entry | Original Amount | Decimal |  |  |
 | 1 | Customer Ledger Entry | Remaining Amount | Decimal |  | |
 | 1 | Customer Ledger Entry | Remaining Amount LCY | Decimal |  |  |
-| 1 | Customer Ledger Entry | Customer No | code | 20 |  |
-| 1 | Customer Ledger Entry | Customer Name | string | 100  |  |
+| 1 | Customer Ledger Entry | Customer No.| code | 20 |  |
+| 1 | Customer Ledger Entry | Customer Name | String | 100  |  |
 | 1 | Customer Ledger Entry | System Created At | DateTime |  |  |
 | 1 | Customer Ledger Entry | System Created By  | String |  |  |
 | 1 | Customer Ledger Entry | System Modified At | DateTime |  |  |
@@ -460,7 +460,7 @@ Here is an example of the response
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
 |  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | Date Time ||
-|  1..1    |  SKU\Variant  |  Item No  | String ||
+|  1..1    |  SKU\Variant  |  Item No.  | String ||
 |  1..1    |  SKU\Variant  |  Blocked  | Boolean ||
 |  1..1    |  SKU\Variant  |  Last Modification  | Date Time ||
 |  1..1    |  SKU\Variant  |  Description  | String ||
@@ -1318,7 +1318,7 @@ Here is an example of the response
 |  1          | TVTWS Web Order | BC Validated        |  Boolean    |   |  |
 |  1          | TVTWS Web Order | BC Processed       |  Boolean    |   |  |
 |  1          | TVTWS Web Order | Document Type       |  Enum    | '',Sales Order,Sales Return        | |
-|  1          | TVTWS Web Order | Document No        |  Code    | 20  |  |
+|  1          | TVTWS Web Order | Document No.        |  Code    | 20  |  |
 |  1          | TVTWS Web Order | System Id | GUID |  |  |
 |  1          | TVTWS Web Order | System Created At | DateTime |  |  |
 |  1          | TVTWS Web Order | System Created By  | String |  |  |
@@ -1529,7 +1529,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | TVT Paid Reserve Information | No.  |  Code  | 20 |  |
 |  1  | TVT Paid Reserve Information | Source Type  |  Enum  | '',Customer,Vendor |  |
-|  1  | TVT Paid Reserve Information | Source No |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Source No. |  Code  | 20 |  |
 |  1  | TVT Paid Reserve Information | Source Name  |  Text  | 100 |  |
 |  1  | TVT Paid Reserve Information | Item No.  |  Code  | 20 |  |
 |  1  | TVT Paid Reserve Information | Item Description  |  Text  | 100 |  |

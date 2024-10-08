@@ -166,67 +166,67 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-| 1 | Customer | No. | string | 20 | Primary Key (Required for Update) |
-| 1 | Customer | Web Id | string | 20 | Web Site Id |
+| 1 | Customer | No. | String | 20 | Primary Key (Required for Update) |
+| 1 | Customer | Web Id | String | 20 | Web Site Id |
 | 1 | Customer | Web Last Mod Date Time | datetime |  | Last Update Date Time  |
-| 1 | Customer | Name | string | 100 |  |
-| 1 | Customer | Name 2 | string | 50 |  |
+| 1 | Customer | Name | String | 100 |  |
+| 1 | Customer | Name 2 | String | 50 |  |
 | 1 | Customer | Blocked | option |  |  |
-| 1 | Customer | Address | string | 100 |  |
-| 1 | Customer | Address 2 | string | 50 |  |
-| 1 | Customer | City | string | 30 |  |
-| 1 | Customer | County | string | 30 |  |
-| 1 | Customer | Post Code | string | 20 |  |
-| 1 | Customer | Country/Region Code | string | 10 |  |
-| 1 | Customer | Primary Contact No. | string | 20 |  |
-| 1 | Customer | Contact | string | 100 |  |
-| 1 | Customer | Phone No. | string | 30 |  |
-| 1 | Customer | E-Mail | string | 80 |  |
-| 1 | Customer | Home Page | string | 80 |  |
-| 1 | Customer | Language Code | string | 10 |  |
-| 1 | Customer | Currency Code | string | 10 |  |
-| 1 | Customer | Shipment Method Code | string | 10 |  |
-| 1 | Customer | Shipping Agent Code | string | 10 |  |
-| 1 | Customer | Shipping Agent Service Code | string | 19 |  |
-| 1 | Customer | Location Code | string | 10 |  |
-| 1 | Customer | VAT Registration No. | string | 20 |  |
-| 1 | Customer | Payment Terms Code | string | 10 |  |
-| 1 | Customer | Payment Method Code | string | 10 |  |
-| 1 | Customer | GLN | string | 13 |  |
-| 1 | Customer | Gen. Bus. Posting Group | string | 20 |  |
-| 1 | Customer | VAT Bus. Posting Group | string | 20 |  |
-| 1 | Customer | Customer Posting Group | string | 20 |  |
-| 1 | Customer | Customer Price Group | string | 20 |  |
-| 1 | Customer | Customer Disc. Group | string | 20 |  |
-| 1 | Customer | AWRS No. | string | 20 |  |
-| 1 | Customer | Territory Code | string | 10 |  |
+| 1 | Customer | Address | String | 100 |  |
+| 1 | Customer | Address 2 | String | 50 |  |
+| 1 | Customer | City | String | 30 |  |
+| 1 | Customer | County | String | 30 |  |
+| 1 | Customer | Post Code | String | 20 |  |
+| 1 | Customer | Country/Region Code | String | 10 |  |
+| 1 | Customer | Primary Contact No. | String | 20 |  |
+| 1 | Customer | Contact | String | 100 |  |
+| 1 | Customer | Phone No. | String | 30 |  |
+| 1 | Customer | E-Mail | String | 80 |  |
+| 1 | Customer | Home Page | String | 80 |  |
+| 1 | Customer | Language Code | String | 10 |  |
+| 1 | Customer | Currency Code | String | 10 |  |
+| 1 | Customer | Shipment Method Code | String | 10 |  |
+| 1 | Customer | Shipping Agent Code | String | 10 |  |
+| 1 | Customer | Shipping Agent Service Code | String | 19 |  |
+| 1 | Customer | Location Code | String | 10 |  |
+| 1 | Customer | VAT Registration No. | String | 20 |  |
+| 1 | Customer | Payment Terms Code | String | 10 |  |
+| 1 | Customer | Payment Method Code | String | 10 |  |
+| 1 | Customer | GLN | String | 13 |  |
+| 1 | Customer | Gen. Bus. Posting Group | String | 20 |  |
+| 1 | Customer | VAT Bus. Posting Group | String | 20 |  |
+| 1 | Customer | Customer Posting Group | String | 20 |  |
+| 1 | Customer | Customer Price Group | String | 20 |  |
+| 1 | Customer | Customer Disc. Group | String | 20 |  |
+| 1 | Customer | AWRS No. | String | 20 |  |
+| 1 | Customer | Territory Code | String | 10 |  |
 | 1 | Customer | Partner Type | enum |  |  |
 | 1 | Customer | Privacy Blocked | bool |  |  |
-| 1 | Customer | Salesperson Code | string | 20 |  |
-| 1 | Customer | Responsibility Center | string | 10 |  |
-| 1 | Customer | Global Dimension 1 Code | string | 20 |  |
-| 1 | Customer | Global Dimension 2 Code | string | 20 |  |
+| 1 | Customer | Salesperson Code | String | 20 |  |
+| 1 | Customer | Responsibility Center | String | 10 |  |
+| 1 | Customer | Global Dimension 1 Code | String | 20 |  |
+| 1 | Customer | Global Dimension 2 Code | String | 20 |  |
 | 1 | Customer | Balance | decimal |  |  |
 | 1 | Customer | Balance_LCY | decimal |  |  |
 | 1 | Customer | Balance Due | decimal |  |  |
-| 1..N | Ship-to Address | Customer No. | string | 20 | PK Key (Required for Update) |
-| 1..N | Ship-to Address | Code | string | 20 | PK Key (Required for Update)|
-| 1..N | Ship-to Address | Name | string | 100 |  |
-| 1..N | Ship-to Address | Name 2 | string | 50 |  |
-| 1..N | Ship-to Address | Address | string | 100 |  |
-| 1..N | Ship-to Address | Address 2 | string | 50 |  |
-| 1..N | Ship-to Address | City | string | 30 |  |
-| 1..N | Ship-to Address | Contact | string |  |  |
-| 1..N | Ship-to Address | Phone No. | string | 100 |  |
-| 1..N | Ship-to Address | Shipment Method Code | string | 10 |  |
-| 1..N | Ship-to Address | Shipping Agent Code | string | 10 |  |
-| 1..N | Ship-to Address | Country/Region Code | string | 10 |  |
-| 1..N | Ship-to Address | Post Code | string | 20 |  |
-| 1..N | Ship-to Address | County | string | 30 |  |
-| 1..N | Ship-to Address | E-Mail | string | 80 |  |
-| 1..N | Ship-to Address | Shipping Agent Service Code | string | 10 |  |
-| 1..N | Ship-to Address | Service Zone Code | string | 10 |  |
-| 1..N | Ship-to Address | Duty Type | string | 10 |  |
+| 1..N | Ship-to Address | Customer No. | String | 20 | PK Key (Required for Update) |
+| 1..N | Ship-to Address | Code | String | 20 | PK Key (Required for Update)|
+| 1..N | Ship-to Address | Name | String | 100 |  |
+| 1..N | Ship-to Address | Name 2 | String | 50 |  |
+| 1..N | Ship-to Address | Address | String | 100 |  |
+| 1..N | Ship-to Address | Address 2 | String | 50 |  |
+| 1..N | Ship-to Address | City | String | 30 |  |
+| 1..N | Ship-to Address | Contact | String |  |  |
+| 1..N | Ship-to Address | Phone No. | String | 100 |  |
+| 1..N | Ship-to Address | Shipment Method Code | String | 10 |  |
+| 1..N | Ship-to Address | Shipping Agent Code | String | 10 |  |
+| 1..N | Ship-to Address | Country/Region Code | String | 10 |  |
+| 1..N | Ship-to Address | Post Code | String | 20 |  |
+| 1..N | Ship-to Address | County | String | 30 |  |
+| 1..N | Ship-to Address | E-Mail | String | 80 |  |
+| 1..N | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
+| 1..N | Ship-to Address | Service Zone Code | String | 10 |  |
+| 1..N | Ship-to Address | Duty Type | String | 10 |  |
 
 ## GET Products
 
@@ -362,7 +362,7 @@ Here is an example of the response
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
 |  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | Date Time ||
-|  1..1    |  SKU\Variant  |  Item No  | String ||
+|  1..1    |  SKU\Variant  |  Item No.  | String ||
 |  1..1    |  SKU\Variant  |  Blocked  | Boolean ||
 |  1..1    |  SKU\Variant  |  Last Modification  | Date Time ||
 |  1..1    |  SKU\Variant  |  Description  | String ||

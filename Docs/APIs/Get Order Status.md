@@ -68,7 +68,7 @@ Here is an example of the response
 |  1          | TVTWS Web Order | BC Validated        |  Boolean    |   |  |
 |  1          | TVTWS Web Order | BC Processed       |  Boolean    |   |  |
 |  1          | TVTWS Web Order | Document Type       |  Enum    | '',Sales Order,Sales Return        | |
-|  1          | TVTWS Web Order | Document No        |  Code    | 20  |  |
+|  1          | TVTWS Web Order | Document No.        |  Code    | 20  |  |
 |  1          | TVTWS Web Order | System Id | GUID |  |  |
 |  1          | TVTWS Web Order | System Created At | DateTime |  |  |
 |  1          | TVTWS Web Order | System Created By  | String |  |  |

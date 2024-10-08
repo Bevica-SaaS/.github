@@ -76,7 +76,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | TVT Paid Reserve Information | No.  |  Code  | 20 |  |
 |  1  | TVT Paid Reserve Information | Source Type  |  Enum  | '',Customer,Vendor |  |
-|  1  | TVT Paid Reserve Information | Source No |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Source No. |  Code  | 20 |  |
 |  1  | TVT Paid Reserve Information | Source Name  |  Text  | 100 |  |
 |  1  | TVT Paid Reserve Information | Item No.  |  Code  | 20 |  |
 |  1  | TVT Paid Reserve Information | Item Description  |  Text  | 100 |  |

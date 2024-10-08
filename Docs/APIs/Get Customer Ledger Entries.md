@@ -60,11 +60,11 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Customer Ledger Entry | System Id | GUID |  |  (Required for Update) |
-| 1 | Customer Ledger Entry | Document Type | string | 20 |  |
+| 1 | Customer Ledger Entry | Document Type | String | 20 |  |
 | 1 | Customer Ledger Entry | Document No. | Code |  | |
 | 1 | Customer Ledger Entry | Due Date | Date |  |  |
-| 1 | Customer Ledger Entry | External Document No. | string | 35 |  |
-| 1 | Customer Ledger Entry | Entry No | Integer |  |  |
+| 1 | Customer Ledger Entry | External Document No. | String | 35 |  |
+| 1 | Customer Ledger Entry | Entry No. | Integer |  |  |
 | 1 | Customer Ledger Entry | Description | String | 100  |   |
 | 1 | Customer Ledger Entry | Open | Boolean |  |  |
 | 1 | Customer Ledger Entry | Positive | Boolean |  |  |
@@ -73,8 +73,8 @@ Here is an example of the response
 | 1 | Customer Ledger Entry | Original Amount | Decimal |  |  |
 | 1 | Customer Ledger Entry | Remaining Amount | Decimal |  | |
 | 1 | Customer Ledger Entry | Remaining Amount LCY | Decimal |  |  |
-| 1 | Customer Ledger Entry | Customer No | code | 20 |  |
-| 1 | Customer Ledger Entry | Customer Name | string | 100  |  |
+| 1 | Customer Ledger Entry | Customer No. | code | 20 |  |
+| 1 | Customer Ledger Entry | Customer Name | String | 100  |  |
 | 1 | Customer Ledger Entry | System Created At | DateTime |  |  |
 | 1 | Customer Ledger Entry | System Created By  | String |  |  |
 | 1 | Customer Ledger Entry | System Modified At | DateTime |  |  |
