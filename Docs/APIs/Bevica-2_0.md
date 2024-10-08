@@ -29,21 +29,21 @@ The articles in this section describe the key concepts and techniques for using 
 
 | Name | Description | Data Flow | Operations | Note|
 | ----------- | ----------- | ----------- | -------- | ---------- |
-| [Customer](/Docs/APIs/Get%20Customer.md) | Customer Info| BC -> Web | Read | |
-| [Ship To Address](/Docs/APIs/Get%20Ship-to%20Address) | List of Customers Ship to Addresses | BC -> Web | Read | |
-| [Customer Ledger Entries](/Docs/APIs/Get%20Customer%20Ledger%20Entries) | Customer Ledger Entries | BC -> Web | Read | | 
-| [Product](/Docs/APIs/Get%20Product) | Items and Attributes | BC -> Web | Read | |
-| [Stock](/Docs/APIs/Get%20Stock) | Stock Available  | BC -> Web | Read | |
-| [Web Order](/Docs/APIs/Create%20Web%20Order) | Create Web Order BC | Web->BC    | Read Create | |
-| [Web Order Lines](#/Docs/APIs/Create%20Web%20Order%20Lines) | Create Web Order Lines in BC | Web->BC    | Read Create | |
-| [Payments](/Docs/APIs/Create%20Payment) | Create payment on Payment Journal in BC | Web->BC | Create | |
-| [Manifest](/Docs/APIs/Get%20Manifest) | Shipping Manifest Status | BC -> Web | Read | |
-| [Manifest Lines](/Docs/APIs/Get%20Manifest%20Lines) | List of Manifest Lines | BC -> Web | Read | |
-| [Orders Status](/Docs/APIs/Get%20Order%20Status) | List of Orders with Tracking updates | BC -> Web | Read | |
-| [Sales Prices](/Docs/APIs/Get%20Sales%20Prices) | Plain List of Sales Prices| BC -> Web | Read | |
-| [Sales Price List Prices](#/Docs/APIs/Get%20Sales%20Price%20List%20Prices) | Plain List of Sales Price List prices| BC -> Web | Read | |
-| [Paid Reserve](/Docs/APIs/Get%20Paid%20Reserve) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Paid Reserve Entries](/Docs/APIs/Get%20Paid%20Reserve%20Entries) | List of all Paid Reserve Entries| BC -> Web | Read | |
+| [Customer](/Docs/APIs/Get%20Customer.md) | Customer information| BC -> Web | Read | |
+| [Ship-to Address](/Docs/APIs/Get%20Ship-to%20Address.md) | List of Customers Ship to Addresses | BC -> Web | Read | |
+| [Customer Ledger Entries](/Docs/APIs/Get%20Customer%20Ledger%20Entries.md) | Customer Ledger Entries | BC -> Web | Read | | 
+| [Product](/Docs/APIs/Get%20Product.md) | Items and Attributes | BC -> Web | Read | |
+| [Stock](/Docs/APIs/Get%20Stock.md) | Stock Available  | BC -> Web | Read | |
+| [Web Order](/Docs/APIs/Create%20Web%20Order.md) | Create Web Order BC | Web->BC    | Read Create | |
+| [Web Order Lines](#/Docs/APIs/Create%20Web%20Order%20Lines.md) | Create Web Order Lines in BC | Web->BC    | Read Create | |
+| [Payments](/Docs/APIs/Create%20Payment.md) | Create payment on Payment Journal in BC | Web->BC | Create | |
+| [Manifest](/Docs/APIs/Get%20Manifest.md) | Shipping Manifest Status | BC -> Web | Read | |
+| [Manifest Lines](/Docs/APIs/Get%20Manifest%20Lines.md) | List of Manifest Lines | BC -> Web | Read | |
+| [Orders Status](/Docs/APIs/Get%20Order%20Status.md) | List of Orders with Tracking updates | BC -> Web | Read | |
+| [Sales Prices](/Docs/APIs/Get%20Sales%20Prices.md) | Plain List of Sales Prices| BC -> Web | Read | |
+| [Sales Price List Prices](#/Docs/APIs/Get%20Sales%20Price%20List%20Prices.md) | Plain List of Sales Price List prices| BC -> Web | Read | |
+| [Paid Reserve](/Docs/APIs/Get%20Paid%20Reserve.md) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Paid Reserve Entries](/Docs/APIs/Get%20Paid%20Reserve%20Entries.md) | List of all Paid Reserve Entries| BC -> Web | Read | |
 
 ## Endpoints businesscentralPrefix structure
 
