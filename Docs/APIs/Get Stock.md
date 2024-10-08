@@ -53,14 +53,12 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | Web Stock| System ID | GUID |  |  |
-|  1  | Web Stock| Item_No  |  String  | 20 | Primary Key Field SKU Code|
-|  1  | Web Stock| Variant_Code  |  String  | 10 | Primary Key Field Duty Status|
-|  1  | Web Stock| Unit_of_Measure_Code  |  String  | 10 | Primary Key Field UoM|
-|  1  | Web Stock| Location_Code  |  String  |  10 | Primary Key Field Location |
-|  1  | Web Stock| Group_Code  |  String  | 50 | Primary Key Field (Not Used)|
-|  1  | Web Stock| Qty_per_Unit_of_Measure  |  Decimal  | |
-|  1  | Web Stock| Stock_Available_Base  |  Decimal  || Stock Available |
-|  1  | Web Stock| Last_Mod_Date_Time  |  Date Time  || Last Mod. Date Time|
+|  1  | Web Stock| Item No.  |  String  | 20 | Primary Key Field SKU Code|
+|  1  | Web Stock| Variant Code  |  String  | 10 | Primary Key Field Duty Status|
+|  1  | Web Stock| Location Code  |  String  |  10 | Primary Key Field Location |
+|  1  | Web Stock| Qty. per Unit of Measure  |  Decimal  | |
+|  1  | Web Stock| Stock Available Base  |  Decimal  || Stock Available |
+|  1  | Web Stock| Last Mod Date Time  |  Date Time  || Last Mod. Date Time|
 |  1  | Web Stock| System Created At | DateTime |  |  |
 |  1  | Web Stock| System Created By  | String |  |  |
 |  1  | Web Stock| System Modified At | DateTime |  |  |

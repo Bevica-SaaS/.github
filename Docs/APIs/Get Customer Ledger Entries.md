@@ -62,6 +62,7 @@ Here is an example of the response
 | 1 | Customer Ledger Entry | System Id | GUID |  |  (Required for Update) |
 | 1 | Customer Ledger Entry | Document Type | String | 20 |  |
 | 1 | Customer Ledger Entry | Document No. | Code |  | |
+| 1 | Customer Ledger Entry | Document Date | Date |  |  |
 | 1 | Customer Ledger Entry | Due Date | Date |  |  |
 | 1 | Customer Ledger Entry | External Document No. | String | 35 |  |
 | 1 | Customer Ledger Entry | Entry No. | Integer |  |  |

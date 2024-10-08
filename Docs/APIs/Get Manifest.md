@@ -80,7 +80,9 @@ Here is an example of the response
 |  1          | TVT Manifest Header V2    | Address Code         |  Code    | 10            | |
 |  1          | TVT Manifest Header V2    | City         |  String    | 30           | |
 |  1          | TVT Manifest Header V2    | Contact         |  String    | 100            | |
+|  1          | TVT Manifest Header V2    | Post Code         |  String    | 20            | |
 |  1          | TVT Manifest Header V2    | Country/Region Code         |  Date    |            | |
+|  1          | TVT Manifest Header V2    | Status         |  Code | 20            | |
 |  1          | TVT Manifest Header V2    | Total Net Weight         |  Decimal    |            | |
 |  1          | TVT Manifest Header V2    | Total Gross Weight         |  Decimal    |            | |
 |  1          | TVT Manifest Header V2    | Total Eq. Cases to Move      |  Decimal    |            | |

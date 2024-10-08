@@ -95,10 +95,12 @@ Here is an example of the response
 | 1 | Customer | City | String | 30 |  |
 | 1 | Customer | County | String | 30 |  |
 | 1 | Customer | Post Code | String | 20 |  |
+| 1 | Customer | Salesperson Code | String | 20 |  |
 | 1 | Customer | Country/Region Code | String | 10 |  |
 | 1 | Customer | Contact | String | 100 |  |
 | 1 | Customer | Phone No. | String | 30 |  |
 | 1 | Customer | E-Mail | String | 80 |  |
+| 1 | Customer | Home Page | String | 80 |  |
 | 1 | Customer | Language Code | String | 10 |  |
 | 1 | Customer | Currency Code | String | 10 |  |
 | 1 | Customer | Shipment Method Code | String | 10 |  |
@@ -119,8 +121,9 @@ Here is an example of the response
 | 1 | Customer | Global Dimension 1 Code | String | 20 |  |
 | 1 | Customer | Global Dimension 2 Code | String | 20 |  |
 | 1 | Customer | Balance | Decimal |  |  |
-| 1 | Customer | Balance_LCY | Decimal |  |  |
+| 1 | Customer | Balance LCY | Decimal |  |  |
 | 1 | Customer | Balance Due | Decimal |  |  |
+| 1 | Customer | Balance Due LCY | Decimal |  |  |
 | 1 | Customer | System Id | GUID |  |  (Required for Update) |
 | 1 | Customer | System Created At | DateTime |  |  |
 | 1 | Customer | System Created By  | String |  |  |

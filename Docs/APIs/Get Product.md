@@ -69,9 +69,9 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1       |  Product      |  Code        | Code       |  20          |           |
 |  1       |  Product      |  Web Product Id  | Code       |  20      |           |
-|  1       |  Product      |  Web Last Md. Date Time  | Date Time     |           |
+|  1       |  Product      |  Web Last Md. Date Time  | DateTime     |           |
 |  1       |  Product      |  Published  | Boolean    |               ||
-|  1       |  Product      |  Last Modification  | Date Time          ||
+|  1       |  Product      |  Last Modification  | DateTime          ||
 |  1       |  Product      |  Marketing Description  |String ||
 |  1       |  Product      |  Category Code  | String ||
 |  1       |  Product      |  Category Description  | String ||
@@ -96,10 +96,10 @@ Here is an example of the response
 <!-- |  1..1    |  SKU\Variant  |  Web Item Id  |String ||
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
-|  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | Date Time ||
+|  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | DateTime ||
 |  1..1    |  SKU\Variant  |  Item No.  | String ||
 |  1..1    |  SKU\Variant  |  Blocked  | Boolean ||
-|  1..1    |  SKU\Variant  |  Last Modification  | Date Time ||
+|  1..1    |  SKU\Variant  |  Last Modification  | DateTime ||
 |  1..1    |  SKU\Variant  |  Description  | String ||
 |  1..1    |  SKU\Variant  |  Base UoM Code  | String ||
 |  1..1    |  SKU\Variant  |  Base UoM Description  | String ||

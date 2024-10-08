@@ -65,6 +65,7 @@ Here is an example of the response
 |  1          | TVTWS Web Order | BC Creation DateTime         |  DateTime    |   |  |
 |  1          | TVTWS Web Order | BC Last Validate Date Time         |  DateTime    |   |  |
 |  1          | TVTWS Web Order | BC Last Process Date Time      |  DateTime    |       | |
+|  1          | TVTWS Web Order | BC Mod. Date Time      |  DateTime    |       | |
 |  1          | TVTWS Web Order | BC Validated        |  Boolean    |   |  |
 |  1          | TVTWS Web Order | BC Processed       |  Boolean    |   |  |
 |  1          | TVTWS Web Order | Document Type       |  Enum    | '',Sales Order,Sales Return        | |

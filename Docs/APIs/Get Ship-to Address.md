@@ -38,6 +38,7 @@ Here is an example of the response
             "address": "37, Rue El Wahda",
             "address2": "",
             "city": "AGDAL-RABAT",
+            "locationcode": "BLUE".
             "contact": "M. Syed ABBAS",
             "phoneNo": "",
             "shipmentMethodCode": "",
@@ -78,6 +79,7 @@ Here is an example of the response
 | 1 | Ship-to Address | Country/Region Code | String | 10 |  |
 | 1 | Ship-to Address | Post Code | String | 20 |  |
 | 1 | Ship-to Address | County | String | 30 |  |
+| 1 | Ship-to Address | Location Code | Code | 10 |  |
 | 1 | Ship-to Address | E-Mail | String | 80 |  |
 | 1 | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
 | 1 | Ship-to Address | Service Zone Code | String | 10 |  |

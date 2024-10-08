@@ -77,7 +77,7 @@ Here is an example of the response
 | 1  | Web Order Lines | Order Id | Code | 50 | Key (Unique External Reference) | Y | Y |
 | 1  | Web Order Lines | Line Id | Code | 50 | Key (Unique External Reference) | Y | Y |
 | 1  | Web Order Lines | Product Id | Code | 50 | Web Specific |  | Y |
-| 1  | Web Order Lines | Description | Text | 50 | Standard |  | Y |
+| 1  | Web Order Lines | Description | String | 50 | Standard |  | Y |
 | 1  | Web Order Lines | Unit of Measure Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Lines | Quantity | Decimal |  | Standard |  | Y |
 | 1  | Web Order Lines | Unit Price | Decimal |  | Standard |  | Y |
@@ -93,8 +93,8 @@ Here is an example of the response
 | 1..N  | Web Order Lines | Type | Option |  | Standard |  |  |
 | 1..N  | Web Order Lines | No. | Code | 20 | Standard |  |  |
 | 1..N  | Web Order Lines | Shipment Date | Date |  | Standard |  |  |
-| 1..N  | Web Order Lines | Description | Text | 50 | Standard |  | Y |
-| 1..N  | Web Order Lines | Description 2 | Text | 50 | Standard |  |  |
+| 1..N  | Web Order Lines | Description | String | 50 | Standard |  | Y |
+| 1..N  | Web Order Lines | Description 2 | String | 50 | Standard |  |  |
 | 1..N  | Web Order Lines | VAT % | Decimal |  | Standard |  |  |
 | 1..N  | Web Order Lines | Line Discount % | Decimal |  | Standard |  |  |
 | 1..N  | Web Order Lines | Line Discount Amount | Decimal |  | Standard |  |  |
@@ -123,7 +123,7 @@ Here is an example of the response
 | 1..N  | Web Order Lines | Code 01 | Code | 20 | Web Specific |  |  |
 | 1..N  | Web Order Lines | Time 01 | Time |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | DateTime 01 | DateTime |  | Web Specific |  |  |
-| 1..N  | Web Order Lines | Text 01 | Text | 50 | Web Specific |  |  |
+| 1..N  | Web Order Lines | Text 01 | String | 50 | Web Specific |  |  |
 | 1..N  | Web Order Lines | Boolean 01 | Boolean |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | Decimal 02 | Decimal |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | Integer 02 | Integer |  | Web Specific |  |  |
@@ -131,7 +131,7 @@ Here is an example of the response
 | 1..N  | Web Order Lines | Code 02 | Code | 20 | Web Specific |  |  |
 | 1..N  | Web Order Lines | Time 02 | Time |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | DateTime 02 | DateTime |  | Web Specific |  |  |
-| 1..N  | Web Order Lines | Text 02 | Text | 50 | Web Specific |  |  |
+| 1..N  | Web Order Lines | Text 02 | String | 50 | Web Specific |  |  |
 | 1..N  | Web Order Lines | Boolean 02 | Boolean |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | Decimal 03 | Decimal |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | Integer 03 | Integer |  | Web Specific |  |  |
@@ -139,5 +139,5 @@ Here is an example of the response
 | 1..N  | Web Order Lines | Code 03 | Code | 20 | Web Specific |  |  |
 | 1..N  | Web Order Lines | Time 03 | Time |  | Web Specific |  |  |
 | 1..N  | Web Order Lines | DateTime 03 | DateTime |  | Web Specific |  |  |
-| 1..N  | Web Order Lines | Text 03 | Text | 50 | Web Specific |  |  |
+| 1..N  | Web Order Lines | Text 03 | String | 50 | Web Specific |  |  |
 | 1..N  | Web Order Lines | Boolean 03 | Boolean |  | Web Specific |  |  | -->

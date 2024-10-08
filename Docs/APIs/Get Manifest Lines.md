@@ -82,10 +82,6 @@ Here is an example of the response
 |  1          | TVT Manifest Line V2    | Duty Status | Code | 10 |  |
 |  1          | TVT Manifest Line V2    | Source No. | Code | 20 |  |
 |  1          | TVT Manifest Line V2    | Total Eq. Cases | Decimal | 20 |  |
-|  1          | TVT Manifest Line V2    | Document No. | Code | 20 |  |
-|  1          | TVT Manifest Line V2    | Manifest No.. | Code | 20 |  |
-|  1          | TVT Manifest Line V2    | Document No. | Code | 20 |  |
-|  1          | TVT Manifest Line V2    | Manifest No.. | Code | 20 |  |
 |  1          | TVT Manifest Line V2    | Shipping Agent Code      |  Code    | 10            | |
 |  1          | TVT Manifest Line V2    | Shipping Agent Service Code      |  Code    | 10            | |
 |  1          | TVT Manifest Line V2    | No. of Item Lines      |  Integer    |   | |

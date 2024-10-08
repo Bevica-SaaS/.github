@@ -25,6 +25,7 @@ Here is an example of the request
 ```json
 
 {
+    "systemId": "c9c0ed7c-f1c3-ed11-9a88-001d3a86b26a",
     "orderGroup": "GROUP_A",
     "orderId": "PFLOW997",
     "orderType": "WEB",
@@ -42,6 +43,7 @@ Here is an example of the request
     "sellToPostCode": "",
     "orderDate": "0001-01-01",
     "shipmentDate": "0001-01-01",
+    "locationcode": "BLUE",
     "currencyCode": "",
     "yourReference": "",
     "externalDocumentNo": "",
@@ -64,16 +66,22 @@ Here is an example of the request
     "shipmentMethodCode": "",
     "shipToCountryRegionCode": "",
     "shippingAgentServiceCode": "",
+    "paymentId": "",
     "paymentMethodCode": "",
     "paymentTermsCode": "",
     "orderURL": "",
     "totalOrderAmount": 0,
     "paid": false,
+    "dutyFree": "true",
     "dispatched": false,
     "pendingCart": false,
     "pricesIncludingVAT": false,
     "shortcutDimension1Code": "",
     "shortcutDimension2Code": "",
+    "systemCreatedAt": "2023-03-10T15:03:32.95Z",
+    "systemCreatedBy": "ce53a24b-ca42-4195-af5e-f3027962c9ec",
+    "systemModifiedAt": "2023-03-10T15:14:32.5Z",
+    "systemModifiedBy": "691db9f1-24f4-48ca-a179-a41eb57d7c00"
 }
 
 ```
@@ -129,11 +137,13 @@ Here is an example of the response
             "shipmentMethodCode": "",
             "shipToCountryRegionCode": "",
             "shippingAgentServiceCode": "",
+            "paymentId": "",
             "paymentMethodCode": "",
             "paymentTermsCode": "",
             "orderURL": "",
             "totalOrderAmount": 0,
             "paid": false,
+            "dutyFree": "false",
             "dispatched": false,
             "pendingCart": false,
             "pricesIncludingVAT": false,
@@ -159,9 +169,9 @@ Here is an example of the response
 | 1  | Web Order Header | Order Id | Code | 50 | Key (Unique Web Reference) | Y | Y |
 | 1  | Web Order Header | Order Type | Code | 10 | Web Specific |  | Y |
 | 1  | Web Order Header | sellToCustomerNo | Code | 50 | Web Specific |  | Y |
-| 1  | Web Order Header | Customer Email | Text | 80 | Web Specific |  | Y |
-| 1  | Web Order Header | Sell-to Customer Name | Text | 50 | Standard |  | Y |
-| 1  | Web Order Header | Sell-to Customer Name 2 | Text | 50 | Standard |  |  |
+| 1  | Web Order Header | Customer Email | String | 80 | Web Specific |  | Y |
+| 1  | Web Order Header | Sell-to Customer Name | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Customer Name 2 | String | 50 | Standard |  |  |
 | 1  | Web Order Header | Ship Address Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Payment Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Ship Method Id | Code | 50 | Web Specific |  |  |
@@ -172,7 +182,7 @@ Here is an example of the response
 | 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Posting Date | Date |  | Standard |  |  |
-| 1  | Web Order Header | Posting Description | Text | 50 | Standard |  |  |
+| 1  | Web Order Header | Posting Description | String | 50 | Standard |  |  |
 | 1  | Web Order Header | Payment Terms Code | Code | 10 | Standard |  |  |
 | 1  | Web Order Header | Due Date | Date |  | Standard |  |  |
 | 1  | Web Order Header | Shipment Method Code | Code | 10 | Standard |  |  |
@@ -186,9 +196,9 @@ Here is an example of the response
 | 1  | Web Order Header | Customer Disc. Group | Code | 20 | Standard |  |  |
 | 1  | Web Order Header | Language Code | Code | 10 | Standard |  |  |
 | 1  | Web Order Header | Salesperson Code | Code | 20 | Standard |  |  |
-| 1  | Web Order Header | Package Tracking No. | Text | 30 | Standard |  |  |
+| 1  | Web Order Header | Package Tracking No. | String | 30 | Standard |  |  |
 | 1  | Web Order Header | VAT Bus. Posting Group | Code | 20 | Standard |  |  |
-| 1  | Web Order Header | VAT Registration No. | Text | 20 | Standard |  |  |
+| 1  | Web Order Header | VAT Registration No. | String | 20 | Standard |  |  |
 | 1  | Web Order Header | Reason Code | Code | 10 | Standard |  |  |
 | 1  | Web Order Header | Gen. Bus. Posting Group | Code | 20 | Standard |  |  |
 | 1  | Web Order Header | Payment Method Code | Code | 10 | Standard |  |  |
@@ -196,40 +206,40 @@ Here is an example of the response
 | 1  | Web Order Header | VAT Country/Region Code | Code | 10 | Standard |  |  |
 | 1  | Web Order Header | Document Date | Date |  | Standard |  |  |
 | 1  | Web Order Header | Sell-to Customer No. | Code | 20 | Standard |  |  |
-| 1  | Web Order Header | Sell-to City | Text | 30 | Standard |  | Y |
-| 1  | Web Order Header | Sell-to County | Text | 30 | Standard |  | Y |
-| 1  | Web Order Header | Sell-to E-Mail | Text | 80 | Standard |  | Y |
-| 1  | Web Order Header | Sell-to Address | Text | 50 | Standard |  | Y |
-| 1  | Web Order Header | Sell-to Contact | Text | 50 | Standard |  |  |
-| 1  | Web Order Header | Sell-to Address 2 | Text | 50 | Standard |  |  |
-| 1  | Web Order Header | Sell-to Phone No. | Text | 30 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to City | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to County | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to E-Mail | String | 80 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Address | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Contact | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Sell-to Address 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Sell-to Phone No. | String | 30 | Standard |  | Y |
 | 1  | Web Order Header | Sell-to Post Code | Code | 20 | Standard |  | Y |
 | 1  | Web Order Header | Order Date | Date |  | Standard |  | Y |
 | 1  | Web Order Header | Shipment Date | Date |  | Standard |  |  |
 | 1  | Web Order Header | Location Id | Code | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Currency Code | Code | 10 | Standard |  |  |
-| 1  | Web Order Header | Your Reference | Text | 35 | Standard |  |  |
+| 1  | Web Order Header | Your Reference | String | 35 | Standard |  |  |
 | 1  | Web Order Header | External Document No. | Code | 35 | Standard |  |  |
-| 1  | Web Order Header | Delivery Note Text 1 | Text | 80 | Web Specific |  | Y |
-| 1  | Web Order Header | Delivery Note Text 2 | Text | 80 | Web Specific |  |  |
-| 1  | Web Order Header | Gift Note Text 1 | Text | 80 | Web Specific |  |  |
-| 1  | Web Order Header | Gift Note Text 2 | Text | 80 | Web Specific |  |  |
-| 1  | Web Order Header | Note Text 1 | Text | 80 | Web Specific |  |  |
-| 1  | Web Order Header | Note Text 2 | Text | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Delivery Note Text 1 | String | 80 | Web Specific |  | Y |
+| 1  | Web Order Header | Delivery Note Text 2 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Gift Note Text 1 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Gift Note Text 2 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Note Text 1 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Note Text 2 | String | 80 | Web Specific |  |  |
 | 1  | Web Order Header | Sell-to Country/Region Code | Code | 10 | Standard |  |  |
 | 1  | Web Order Header | Sell-to Customer Template Code | Code | 10 | Standard |  |  |
 | 1  | Web Order Header | Sell-to Contact No. | Code | 20 | Standard |  |  |
 | 1  | Web Order Header | Ship-to Code | Code | 10 | Standard |  |  |
-| 1  | Web Order Header | Ship-to Name | Text | 50 | Standard |  | Y |
-| 1  | Web Order Header | Ship-to Name 2 | Text | 50 | Standard |  |  |
-| 1  | Web Order Header | Ship-to Address | Text | 50 | Standard |  | Y |
-| 1  | Web Order Header | Ship-to Address 2 | Text | 50 | Standard |  |  |
-| 1  | Web Order Header | Ship-to City | Text | 30 | Standard |  | Y |
-| 1  | Web Order Header | Ship-to Contact | Text | 50 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Name | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Name 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Ship-to Address | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Address 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Ship-to City | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Contact | String | 50 | Standard |  | Y |
 | 1  | Web Order Header | Ship-to Post Code | Code | 20 | Standard |  | Y |
-| 1  | Web Order Header | Ship-to County | Text | 30 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to County | String | 30 | Standard |  | Y |
 | 1  | Web Order Header | Ship-to Country/Region Code | Code | 10 | Standard |  | Y |
-| 1  | Web Order Header | Order URL | Text | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Order URL | String | 80 | Web Specific |  |  |
 | 1  | Web Order Header | Total Order Amount | Decimal |  | Web Specific |  |  |
 | 1  | Web Order Header | System Created At | DateTime |  |  |
 | 1  | Web Order Header | System Created By  | String |  |  |
@@ -246,7 +256,7 @@ Here is an example of the response
 | 1  | Web Order Header | Code 01 | Code | 20 | Web Specific |  |  |
 | 1  | Web Order Header | Time 01 | Time |  | Web Specific |  |  |
 | 1  | Web Order Header | DateTime 01 | DateTime |  | Web Specific |  |  |
-| 1  | Web Order Header | Text 01 | Text | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Text 01 | String | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Boolean 01 | Boolean |  | Web Specific |  |  |
 | 1  | Web Order Header | Decimal 02 | Decimal |  | Web Specific |  |  |
 | 1  | Web Order Header | Integer 02 | Integer |  | Web Specific |  |  |
@@ -254,5 +264,5 @@ Here is an example of the response
 | 1  | Web Order Header | Code 02 | Code | 20 | Web Specific |  |  |
 | 1  | Web Order Header | Time 02 | Time |  | Web Specific |  |  |
 | 1  | Web Order Header | DateTime 02 | DateTime |  | Web Specific |  |  |
-| 1  | Web Order Header | Text 02 | Text | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Text 02 | String | 50 | Web Specific |  |  |
 | 1  | Web Order Header | Boolean 02 | Boolean |  | Web Specific |  |  | -->
