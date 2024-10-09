@@ -162,6 +162,69 @@ Here is an example of the response
 <details>
   <summary>Show</summary>
 
+
+| Relation | Source Table | Field Caption | Field Type | Field Length | Note      | Mandatory | Required |
+| ----------- | ----------- | ----------- | ---------- | ------------ |---------- |--- |--- |
+| 1  | Web Order Header | System ID | GUID |  |  |  |  |
+| 1  | Web Order Header | Order Group | Code | 50 | Key (Internal Use) |  |  |
+| 1  | Web Order Header | Order Id | Code | 50 | Key (Unique Web Reference) | Y | Y |
+| 1  | Web Order Header | Order Type | Code | 10 | Web Specific |  | Y |
+| 1  | Web Order Header | Customer Email | String | 80 | Web Specific |  | Y |
+| 1  | Web Order Header | Sell-to Customer Name | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Customer Name 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Payment Id | Code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Pending Cart | Boolean |  | Web Specific |  |  |
+| 1  | Web Order Header | Shipping Agent Service Id | Code | 50 | Web Specific |  |  |
+| 1  | Web Order Header | Dispatched | Boolean |  | Web Specific |  |  |
+| 1  | Web Order Header | Paid | Boolean |  | Web Specific |  |  |
+| 1  | Web Order Header | Payment Terms Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Shipment Method Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Location Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Shortcut Dimension 1 Code | Code | 20 | Standard |  |  |
+| 1  | Web Order Header | Shortcut Dimension 2 Code | Code | 20 | Standard |  |  |
+| 1  | Web Order Header | Prices Including VAT | Boolean |  | Standard |  |  |
+| 1  | Web Order Header | Payment Method Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Shipping Agent Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Sell-to Customer No. | Code | 20 | Standard |  |  |
+| 1  | Web Order Header | Sell-to City | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to County | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to E-Mail | String | 80 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Address | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Contact | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Sell-to Address 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Sell-to Phone No. | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Sell-to Post Code | Code | 20 | Standard |  | Y |
+| 1  | Web Order Header | Order Date | Date |  | Standard |  | Y |
+| 1  | Web Order Header | Shipment Date | Date |  | Standard |  |  |
+| 1  | Web Order Header | Currency Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Your Reference | String | 35 | Standard |  |  |
+| 1  | Web Order Header | External Document No. | Code | 35 | Standard |  |  |
+| 1  | Web Order Header | Delivery Note Text 1 | String | 80 | Web Specific |  | Y |
+| 1  | Web Order Header | Delivery Note Text 2 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Gift Note Text 1 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Gift Note Text 2 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Note Text 1 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Note Text 2 | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Ship-to Code | Code | 10 | Standard |  |  |
+| 1  | Web Order Header | Duty Free | Boolean | | Standard |  |  |
+| 1  | Web Order Header | Ship-to Name | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Name 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Ship-to Address | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Address 2 | String | 50 | Standard |  |  |
+| 1  | Web Order Header | Ship-to City | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Contact | String | 50 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Post Code | Code | 20 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to County | String | 30 | Standard |  | Y |
+| 1  | Web Order Header | Ship-to Country/Region Code | Code | 10 | Standard |  | Y |
+| 1  | Web Order Header | Order URL | String | 80 | Web Specific |  |  |
+| 1  | Web Order Header | Total Order Amount | Decimal |  | Web Specific |  |  |
+| 1  | Web Order Header | System Created At | DateTime |  |  |
+| 1  | Web Order Header | System Created By  | String |  |  |
+| 1  | Web Order Header | System Modified At | DateTime |  |  |
+| 1  | Web Order Header | System Modified By | String |  |  |
+
+
+<!--
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note      | Mandatory | Required |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |--- |--- |
 | 1  | Web Order Header | System ID | GUID |  |  |  |  |
@@ -244,7 +307,7 @@ Here is an example of the response
 | 1  | Web Order Header | System Created At | DateTime |  |  |
 | 1  | Web Order Header | System Created By  | String |  |  |
 | 1  | Web Order Header | System Modified At | DateTime |  |  |
-| 1  | Web Order Header | System Modified By | String |  |  |
+| 1  | Web Order Header | System Modified By | String |  |  |-->
 
 <!-- | 1  | Web Order Header | Total Tax Amount | Decimal |  | Web Specific |  |  |
 | 1  | Web Order Header | Requested Delivery Date | Date |  | Standard |  | Y |
