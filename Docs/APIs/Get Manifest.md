@@ -82,12 +82,12 @@ Here is an example of the response
 |  1          | TVT Manifest Header V2    | Contact         |  String    | 100            | |
 |  1          | TVT Manifest Header V2    | Post Code         |  String    | 20            | |
 |  1          | TVT Manifest Header V2    | Country/Region Code         |  Date    |            | |
-|  1          | TVT Manifest Header V2    | Status         |  Code | 20            | |
+|  1          | TVT Manifest Header V2    | Status         | String | 20            | |
 |  1          | TVT Manifest Header V2    | Total Net Weight         |  Decimal    |            | |
 |  1          | TVT Manifest Header V2    | Total Gross Weight         |  Decimal    |            | |
 |  1          | TVT Manifest Header V2    | Total Eq. Cases to Move      |  Decimal    |            | |
 |  1          | TVT Manifest Header V2    | Shipping Agent Code      |  Code    | 10            | |
-|  1          | TVT Manifest Header V2    | Shipment Method Code        |  String    | 30           | |
+|  1          | TVT Manifest Header V2    | Shipment Method Code        |  Code    | 30           | |
 |  1          | TVT Manifest Header V2    | Manifest Type         |   Enum  |             | |
 |  1          | TVT Manifest Header V2    | Description         |  String    |  100         | |
 |  1          | TVT Manifest Header V2    | County       |  String    | 30           | |

@@ -65,8 +65,8 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-| 1 | Ship-to Address | Customer No. | Code | 20 | |
-| 1 | Ship-to Address | Code | Code | 10 | |
+| 1 | Ship-to Address | Customer No. | String | 20 | |
+| 1 | Ship-to Address | String | String | 10 | |
 | 1 | Ship-to Address | Name | String | 100 | |
 | 1 | Ship-to Address | Name 2 | String | 50 | |
 | 1 | Ship-to Address | Address | String | 100 | |
@@ -79,11 +79,11 @@ Here is an example of the response
 | 1 | Ship-to Address | Country/Region Code | String | 10 |  |
 | 1 | Ship-to Address | Post Code | String | 20 |  |
 | 1 | Ship-to Address | County | String | 30 |  |
-| 1 | Ship-to Address | Location Code | Code | 10 |  |
+| 1 | Ship-to Address | Location Code | String | 10 |  |
 | 1 | Ship-to Address | E-Mail | String | 80 |  |
 | 1 | Ship-to Address | Shipping Agent Service Code | String | 10 |  |
 | 1 | Ship-to Address | Service Zone Code | String | 10 |  |
-| 1 | Ship-to Address | TVT Duty Status | Code | 10  |
+| 1 | Ship-to Address | TVT Duty Status | String | 10  |
 | 1 | Ship-to Address | System Id | GUID |  |   |
 | 1 | Ship-to Address | System Created At | DateTime |  |  |
 | 1 | Ship-to Address | System Created By  | String |  |  |

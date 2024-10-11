@@ -87,15 +87,15 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | TVT Paid Reserve Led. Entry | Entry No.  |  Integer  |  |  |
-|  1  | TVT Paid Reserve Led. Entry | Item No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Item No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Led. Entry | Description | String  | 100 |  |
 |  1  | TVT Paid Reserve Led. Entry | Posting Date  |  Date  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Entry Type  |  Enum  | Stock Into,Withdrawal Stock,Transfer Stock,Cancel,Split,Purchase|  |
-|  1  | TVT Paid Reserve Led. Entry | Paid Reserve No.  |  Code  | 20 |  |
-|  1  | TVT Paid Reserve Led. Entry | Document No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Paid Reserve No.  | String | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Document No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Led. Entry | Document Line No. | Integer  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Document Date | Date  |  |  |
-|  1  | TVT Paid Reserve Led. Entry | Location Code  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Location Code  | String | 20 |  |
 |  1  | TVT Paid Reserve Led. Entry | Quantity  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Open  |  Boolean  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Quantity (Base)  |  Decimal  |  |  |
@@ -105,29 +105,29 @@ Here is an example of the response
 |  1  | TVT Paid Reserve Led. Entry | Unit Price  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Total Unit Price  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Source Name  |  String  | 100 |  |
-|  1  | TVT Paid Reserve Led. Entry | Reason Code  |  Code  | 10 |  |
+|  1  | TVT Paid Reserve Led. Entry | Reason Code  | String | 10 |  |
 |  1  | TVT Paid Reserve Led. Entry | Source Type  |  Enum  | '',Customer,Vendor |  |
-|  1  | TVT Paid Reserve Led. Entry | Source No. | Code  | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Source No. | String | 20 |  |
 |  1  | TVT Paid Reserve Led. Entry | Provenance/Source  |  String  | 100 |  |
 |  1  | TVT Paid Reserve Led. Entry | Condition  |  String  | 100 |  |
-|  1  | TVT Paid Reserve Led. Entry | Contact Nominee No. | Code  | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Contact Nominee No. | String | 20 |  |
 |  1  | TVT Paid Reserve Led. Entry | Contact Nominee Name | String  | 100 |  |
 |  1  | TVT Paid Reserve Led. Entry | Exp. Delivery Instructions | Enum  | '',Into Storage,Deliver to Ship-to |  |
-|  1  | TVT Paid Reserve Led. Entry | Exp. Delivery Ship-to | Code  | 20 |  |
-|  1  | TVT Paid Reserve Led. Entry | External Document No. | Code  | 35 |  |
+|  1  | TVT Paid Reserve Led. Entry | Exp. Delivery Ship-to | String | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | External Document No. 5 |  |
 |  1  | TVT Paid Reserve Led. Entry | Internal Information | String  | 100 |  |
-|  1  | TVT Paid Reserve Led. Entry | Original Paid Reserve No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Led. Entry | Original Paid Reserve No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Led. Entry | Best Before Date  |  Date  |  |  |
-|  1  | TVT Paid Reserve Led. Entry | Rotation Ref.  |  Code  | 50  |  |
-|  1  | TVT Paid Reserve Led. Entry | Rotation No. | Code  | 50 |  |
+|  1  | TVT Paid Reserve Led. Entry | Rotation Ref.  | String | 50  |  |
+|  1  | TVT Paid Reserve Led. Entry | Rotation No. | String | 50 |  |
 |  1  | TVT Paid Reserve Led. Entry | Qty. Booked  |  Decimal  |   |  |
 |  1  | TVT Paid Reserve Led. Entry | Qty. Res. (Booked)  |  Decimal  |   |  |
 |  1  | TVT Paid Reserve Led. Entry | Reserved Quantity |  Decimal  |   |  |
 |  1  | TVT Paid Reserve Led. Entry | Item Ledger Entry No. | Integer  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Apply to ILE No. | Integer  |  |  |
-|  1  | TVT Paid Reserve Led. Entry | Variant Code |  Code  | 10  |  |
+|  1  | TVT Paid Reserve Led. Entry | Variant Code | String  | 10  |  |
 |  1  | TVT Paid Reserve Led. Entry | Qty. per Unit of Measure  |  Decimal  |  |  |
-|  1  | TVT Paid Reserve Led. Entry | Unit of Measure Code  |  Code  | 10 |  |
+|  1  | TVT Paid Reserve Led. Entry | Unit of Measure Code  | String | 10 |  |
 |  1  | TVT Paid Reserve Led. Entry | System Id | GUID |  |  |
 |  1  | TVT Paid Reserve Led. Entry | System Created At | DateTime |  |  |
 |  1  | TVT Paid Reserve Led. Entry | System Created By  | String |  |  |

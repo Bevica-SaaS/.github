@@ -61,7 +61,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Customer Ledger Entry | System Id | GUID |  |  (Required for Update) |
 | 1 | Customer Ledger Entry | Document Type | String | 20 |  |
-| 1 | Customer Ledger Entry | Document No. | Code |  | |
+| 1 | Customer Ledger Entry | Document No. | String |  | |
 | 1 | Customer Ledger Entry | Document Date | Date |  |  |
 | 1 | Customer Ledger Entry | Due Date | Date |  |  |
 | 1 | Customer Ledger Entry | External Document No. | String | 35 |  |
@@ -70,11 +70,11 @@ Here is an example of the response
 | 1 | Customer Ledger Entry | Open | Boolean |  |  |
 | 1 | Customer Ledger Entry | Positive | Boolean |  |  |
 | 1 | Customer Ledger Entry | Amount (LCY) | Decimal |  |  |
-| 1 | Customer Ledger Entry | Currency Code | Code | 10 |  |
+| 1 | Customer Ledger Entry | Currency Code | String | 10 |  |
 | 1 | Customer Ledger Entry | Original Amount | Decimal |  |  |
 | 1 | Customer Ledger Entry | Remaining Amount | Decimal |  | |
 | 1 | Customer Ledger Entry | Remaining Amount LCY | Decimal |  |  |
-| 1 | Customer Ledger Entry | Customer No. | Code | 20 |  |
+| 1 | Customer Ledger Entry | Customer No. | String | 20 |  |
 | 1 | Customer Ledger Entry | Customer Name | String | 100  |  |
 | 1 | Customer Ledger Entry | System Created At | DateTime |  |  |
 | 1 | Customer Ledger Entry | System Created By  | String |  |  |

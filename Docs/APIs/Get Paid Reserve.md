@@ -74,16 +74,16 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
-|  1  | TVT Paid Reserve Information | No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Information | Source Type  |  Enum  | '',Customer,Vendor |  |
-|  1  | TVT Paid Reserve Information | Source No. |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Source No. | String | 20 |  |
 |  1  | TVT Paid Reserve Information | Source Name  | String | 100 |  |
-|  1  | TVT Paid Reserve Information | Item No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Item No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Information | Item Description  | String | 100 |  |
-|  1  | TVT Paid Reserve Information | Unit of Measure Code  |  Code  | 10 |  |
-|  1  | TVT Paid Reserve Information | Rotation No. |  Code  | 50 |  |
+|  1  | TVT Paid Reserve Information | Unit of Measure Code  | String | 10 |  |
+|  1  | TVT Paid Reserve Information | Rotation No. | String | 50 |  |
 |  1  | TVT Paid Reserve Information | Qty. per Unit of Measure  |  Decimal  |  |  |
-|  1  | TVT Paid Reserve Information | Original Paid Reserve No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Original Paid Reserve No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Information | Quantity  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Information | Remaining Quantity  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Information | Qty. Booked  |  Decimal  |  |  |
@@ -92,17 +92,17 @@ Here is an example of the response
 |  1  | TVT Paid Reserve Information | Unit Cost  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Information | Condition  | String | 100 |  |
 |  1  | TVT Paid Reserve Information | Provenance/Source  | String | 100 |  |
-|  1  | TVT Paid Reserve Information | Contact Nominee No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Contact Nominee No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Information | Contact Nominee Name  | String | 100 |  |
 |  1  | TVT Paid Reserve Information | Document Date  |  Date  |  |  |
 |  1  | TVT Paid Reserve Information | Posting Date  |  Date  |  |  |
-|  1  | TVT Paid Reserve Information | Document No.  |  Code  | 20 |  |
+|  1  | TVT Paid Reserve Information | Document No.  | String | 20 |  |
 |  1  | TVT Paid Reserve Information | Exp. Delivery Instruction  |  Enum  | '',Intro Storage,Deliver to Ship-to |  |
-|  1  | TVT Paid Reserve Information | Exp. Delivery Ship-to  |  Code  | 10 |  |
+|  1  | TVT Paid Reserve Information | Exp. Delivery Ship-to  | String | 10 |  |
 |  1  | TVT Paid Reserve Information | Internal Information  | String | 100 |  |
-|  1  | TVT Paid Reserve Information | External Document No.  |  Code  | 35 |  |
-|  1  | TVT Paid Reserve Information | Duty Status Filter  |  Code  | 10 |  |
-|  1  | TVT Paid Reserve Information | Location Filter  |  Code  | 10 |  |
+|  1  | TVT Paid Reserve Information | External Document No.  | String | 35 |  |
+|  1  | TVT Paid Reserve Information | Duty Status Filter  | String | 10 |  |
+|  1  | TVT Paid Reserve Information | Location Filter  | String | 10 |  |
 |  1  | TVT Paid Reserve Information | System Id | GUID |  |  |
 |  1  | TVT Paid Reserve Information | System Created At | DateTime |  |  |
 |  1  | TVT Paid Reserve Information | System Created By  | String |  |  |

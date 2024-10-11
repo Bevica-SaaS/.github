@@ -76,18 +76,18 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note      |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 |  1          | TVT Manifest Line V2    | System Id | GUID |  |  |
-|  1          | TVT Manifest Line V2    | Document No. | Code | 20 |  |
-|  1          | TVT Manifest Line V2    | Manifest No. | Code | 20 |  |
+|  1          | TVT Manifest Line V2    | Document No. | String | 20 |  |
+|  1          | TVT Manifest Line V2    | Manifest No. | String | 20 |  |
 |  1          | TVT Manifest Line V2    | Line No. | Integer |  |  |
-|  1          | TVT Manifest Line V2    | Duty Status | Code | 10 |  |
-|  1          | TVT Manifest Line V2    | Source No. | Code | 20 |  |
+|  1          | TVT Manifest Line V2    | Duty Status | String | 10 |  |
+|  1          | TVT Manifest Line V2    | Source No. | String | 20 |  |
 |  1          | TVT Manifest Line V2    | Total Eq. Cases | Decimal | 20 |  |
 |  1          | TVT Manifest Line V2    | Shipping Agent Code      |  Code    | 10            | |
 |  1          | TVT Manifest Line V2    | Shipping Agent Service Code      |  Code    | 10            | |
 |  1          | TVT Manifest Line V2    | No. of Item Lines      |  Integer    |   | |
 |  1          | TVT Manifest Line V2    | Gross Weight     |  Decimal    |   | |
 |  1          | TVT Manifest Line V2    | Net Weight     |  Decimal    |   | |
-|  1          | TVT Manifest Line V2    |  Posted Document No. | Code | 20 |  |
+|  1          | TVT Manifest Line V2    |  Posted Document No. | String | 20 |  |
 |  1          | TVT Manifest Line V2    |  Final Delivery Type| Enum |Order Address,Manifest To Address,Manifest From Address |  |
 |  1          | TVT Manifest Line V2    | To Address         |  String    | 100           | |
 |  1          | TVT Manifest Line V2    | To Address 2         |  String    | 50           | |
