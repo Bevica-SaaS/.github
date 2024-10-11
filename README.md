@@ -7,7 +7,7 @@
 
 [Bevica Web Integration (OData)](Bevica/Bevicaweb.md)
 
-[Bevica Web Integration 2.0 (Rest APIs)](Bevica/Bevica-2_0.md)
+[Bevica Web Integration 2.0 (Rest APIs)](Docs/APIs/Bevica-2_0.md)
 
 ## TVision Apps
 
