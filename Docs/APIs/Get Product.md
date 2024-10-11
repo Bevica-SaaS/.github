@@ -67,8 +67,8 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|  1       |  Product      |  Code        | Code       |  20          |           |
-|  1       |  Product      |  Web Product Id  | Code       |  20      |           |
+|  1       |  Product      |  Code        | String |  20          |           |
+|  1       |  Product      |  Web Product Id  | String |  20      |           |
 |  1       |  Product      |  Web Last Md. Date Time  | DateTime     |           |
 |  1       |  Product      |  Published  | Boolean    |               ||
 |  1       |  Product      |  Last Modification  | DateTime          ||

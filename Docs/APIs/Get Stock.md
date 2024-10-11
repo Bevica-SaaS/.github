@@ -54,7 +54,7 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | Web Stock| System ID | GUID |  |  |
 |  1  | Web Stock| Item No.  |  String  | 20 | Primary Key Field SKU Code|
-|  1  | Web Stock| Variant Code  |  String  | 10 | Primary Key Field Duty Status|
+|  1  | Web Stock| Variant Code  |  String  | 10 | Primary Key Field Duty Status |
 |  1  | Web Stock| Location Code  |  String  |  10 | Primary Key Field Location |
 |  1  | Web Stock| Qty. per Unit of Measure  |  Decimal  | |
 |  1  | Web Stock| Stock Available Base  |  Decimal  || Stock Available |

@@ -125,7 +125,7 @@ Here is an example of the response
 |  1  | TVT Paid Reserve Led. Entry | Reserved Quantity |  Decimal  |   |  |
 |  1  | TVT Paid Reserve Led. Entry | Item Ledger Entry No. | Integer  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Apply to ILE No. | Integer  |  |  |
-|  1  | TVT Paid Reserve Led. Entry | Variant Code | String  | 10  |  |
+|  1  | TVT Paid Reserve Led. Entry | Variant Code | String  | 10  | Duty Status |
 |  1  | TVT Paid Reserve Led. Entry | Qty. per Unit of Measure  |  Decimal  |  |  |
 |  1  | TVT Paid Reserve Led. Entry | Unit of Measure Code  | String | 10 |  |
 |  1  | TVT Paid Reserve Led. Entry | System Id | GUID |  |  |

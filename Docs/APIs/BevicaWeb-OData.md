@@ -337,8 +337,8 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|  1       |  Product      |  Code        | Code       |  20          |           |
-|  1       |  Product      |  Web Product Id  | Code       |  20      |           |
+|  1       |  Product      |  Code        | String |  20          |           |
+|  1       |  Product      |  Web Product Id  | String |  20      |           |
 |  1       |  Product      |  Web Last Md. Date Time  | DateTime     |           |
 |  1       |  Product      |  Published  | Boolean    |               ||
 |  1       |  Product      |  Last Modification  | DateTime          ||
@@ -802,7 +802,7 @@ Here is an example of the response
 | 1..N  | Web Order Lines | VAT Base Amount | Decimal |  | Standard |  |  |
 | 1..N  | Web Order Lines | Unit Cost | Decimal |  | Standard |  |  |
 | 1..N  | Web Order Lines | VAT Identifier | String | 20 | Standard |  |  |
-| 1..N  | Web Order Lines | Variant Code | String | 10 | Standard |  |  |
+| 1..N  | Web Order Lines | Variant Code | String | 10 | Standard | Duty Status |  |
 | 1..N  | Web Order Lines | Qty. per Unit of Measure | Decimal |  | Standard |  |  |
 | 1..N  | Web Order Lines | Unit of Measure Code | String | 10 | Standard |  |  |
 | 1..N  | Web Order Lines | Item Category Code | String | 20 | Standard |  |  |
