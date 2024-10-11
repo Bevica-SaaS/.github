@@ -41,13 +41,13 @@ Here is an example of the response
             "countryCode": "FR",
             "countryDescription": "France",
             "regionCode": "",
-            "egionDescription": "",
+            "regionDescription": "",
             "subRegionCode": "",
             "subRegionDescription": "",
             "producerCode": "AGRAPART",
             "producerName": "",
             "itemClassification": "",
-            "alcoolPercent": "12.3%",
+            "alcoholPercent": "12.3%",
             "vintage": "2005",
             "grapes": "",
             "attributes": "",
@@ -72,39 +72,39 @@ Here is an example of the response
 |  1       |  Product      |  Web Last Md. Date Time  | DateTime     |           |
 |  1       |  Product      |  Published  | Boolean    |               ||
 |  1       |  Product      |  Last Modification  | DateTime          ||
-|  1       |  Product      |  Marketing Description  |String ||
-|  1       |  Product      |  Category Code  | String ||
-|  1       |  Product      |  Category Description  | String ||
-|  1       |  Product      |  Country Code  | String ||
-|  1       |  Product      |  Country Description  |  String ||
-|  1       |  Product      |  Region Code  | String ||
-|  1       |  Product      |  Region Description  |String ||
-|  1       |  Product      |  SubRegion Code  |String ||
-|  1       |  Product      |  SubRegion Description  |String ||
-|  1       |  Product      |  Producer  |String ||
-|  1       |  Product      |  Item Classification  |String ||
+|  1       |  Product      |  Marketing Description  |String |100 |
+|  1       |  Product      |  Category Code  |String | 20 |
+|  1       |  Product      |  Category Description  |String | 50 |
+|  1       |  Product      |  Country Code  |String | 20 |
+|  1       |  Product      |  Country Description  |  String | 50|
+|  1       |  Product      |  Region Code  |String | 20 |
+|  1       |  Product      |  Region Description  |String | 50 |
+|  1       |  Product      |  SubRegion Code  |String | 20 |
+|  1       |  Product      |  SubRegion Description  |String | 50 |
+|  1       |  Product      |  Producer  |String | 20 |
+|  1       |  Product      |  Item Classification  |String | 20 |
 |  1       |  Product      |  Alcohol Percent  |Decimal ||
-|  1       |  Product      |  Vintage  |String ||
-|  1       |  Product      |  Grapes  |String ||
-|  1       |  Product      |  Attributes  |String ||
-|  1       |  Product      |  Tags  |String ||
+|  1       |  Product      |  Vintage  |String | 10 |
+|  1       |  Product      |  Grapes  |String |  |
+|  1       |  Product      |  Attributes  |String |  |
+|  1       |  Product      |  Tags  |String |  |
 |  1       |  Product      | System Id | GUID |  |  |
 |  1       |  Product      | System Created At | DateTime |  |  |
 |  1       |  Product      | System Created By  | String |  |  |
 |  1       |  Product      | System Modified At | DateTime |  |  |
 |  1       |  Product      | System Modified By | String |  |  |
-<!-- |  1..1    |  SKU\Variant  |  Web Item Id  |String ||
+<!-- |  1..1    |  SKU\Variant  |  Web Item Id  |String | XXX |
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
 |  1..1    |  SKU\Variant  |  Web Last Mod. Date Time  | DateTime ||
-|  1..1    |  SKU\Variant  |  Item No.  | String ||
+|  1..1    |  SKU\Variant  |  Item No.  |String | XXX |
 |  1..1    |  SKU\Variant  |  Blocked  | Boolean ||
 |  1..1    |  SKU\Variant  |  Last Modification  | DateTime ||
-|  1..1    |  SKU\Variant  |  Description  | String ||
-|  1..1    |  SKU\Variant  |  Base UoM Code  | String ||
-|  1..1    |  SKU\Variant  |  Base UoM Description  | String ||
-|  1..1    |  SKU\Variant  |  Sales UoM Code  | String ||
-|  1..1    |  SKU\Variant  |  Sales UoM Description  | String ||
+|  1..1    |  SKU\Variant  |  Description  |String | XXX |
+|  1..1    |  SKU\Variant  |  Base UoM Code  |String | XXX |
+|  1..1    |  SKU\Variant  |  Base UoM Description  |String | XXX |
+|  1..1    |  SKU\Variant  |  Sales UoM Code  |String | XXX |
+|  1..1    |  SKU\Variant  |  Sales UoM Description  |String | XXX |
 |  1..1    |  SKU\Variant  |  Sales UoM Qty Per  | Decimal ||
 |  1..1    |  SKU\Variant  |  Unit Volume  | Decimal ||
 |  1..1    |  SKU\Variant  |  Unit Price With Duty  |Decimal ||

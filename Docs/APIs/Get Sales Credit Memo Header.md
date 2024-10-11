@@ -40,7 +40,7 @@ Coming soon
 | 1 | Sales Cr.Memo Header | Your Reference | 35 |  |  |
 | 1 | Sales Cr.Memo Header | Ship-to Code | String |  |  |
 | 1 | Sales Cr.Memo Header | Ship-to Name | String | 35 |  |
-| 1 | Sales Cr.Memo Header | Ship-to Name 2 | String | 358 |  |
+| 1 | Sales Cr.Memo Header | Ship-to Name 2 | String | 50 |  |
 | 1 | Sales Cr.Memo Header | Ship-to Address | String | 50  |   |
 | 1 | Sales Cr.Memo Header | Ship-to Address 2 | String | 50 |  |
 | 1 | Sales Cr.Memo Header | Ship-to City | String | 30 |  |
@@ -53,7 +53,7 @@ Coming soon
 | 1 | Sales Cr.Memo Header | Amount | Decimal |   |  |
 | 1 | Sales Cr.Memo Header | Amount Including VAT | Decimal | Boolean  |  |
 | 1 | Sales Cr.Memo Header | Sell-to Customer Name | String | 100  |  |
-| 1 | Sales Cr.Memo Header | Ship-to Post Code | String |   |  |
+| 1 | Sales Cr.Memo Header | Ship-to Post Code | String | 20  |  |
 | 1 | Sales Cr.Memo Header | Ship-to County | String | 30  |  |
 | 1 | Sales Cr.Memo Header | Ship-to Country/Region Code | String | 30 |  |
 | 1 | Sales Cr.Memo Header | External Document No. | 35 |   |  

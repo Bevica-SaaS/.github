@@ -83,7 +83,9 @@ Here is an example of the response
 ```
 
 ### Fields Information
-
+<details>
+  <summary>Show</summary>
+  
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 |  1  | TVT Paid Reserve Led. Entry | Entry No.  |  Integer  |  |  |

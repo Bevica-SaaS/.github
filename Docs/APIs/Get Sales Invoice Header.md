@@ -40,14 +40,14 @@ Coming soon
 | 1 | Sales Invoice Header | Your Reference | 35 |  |  |
 | 1 | Sales Invoice Header | Ship-to Code | String |  |  |
 | 1 | Sales Invoice Header | Ship-to Name | String | 35 |  |
-| 1 | Sales Invoice Header | Ship-to Name 2 | String | 358 |  |
+| 1 | Sales Invoice Header | Ship-to Name 2 | String | 50 |  |
 | 1 | Sales Invoice Header | Ship-to Address | String | 50  |   |
 | 1 | Sales Invoice Header | Ship-to Address 2 | String | 50 |  |
 | 1 | Sales Invoice Header | Ship-to City | String | 30 |  |
 | 1 | Sales Invoice Header | Ship-to Contact | String | 20 |  |
 | 1 | Sales Invoice Header | Posting Date | Date |  |  |
 | 1 | Sales Invoice Header | Shipment Date | Date |  |  |
-| 1 | Sales Invoice Header | Shipment Method Code | String | 120 | |
+| 1 | Sales Invoice Header | Shipment Method Code | String | 20 | |
 | 1 | Sales Invoice Header | Location Code | String | 10 |  |
 | 1 | Sales Invoice Header | Salesperson Code | String | 20 |  |
 | 1 | Sales Invoice Header | Order No. | String | 20 |  |
