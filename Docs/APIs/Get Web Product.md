@@ -1,6 +1,6 @@
-## GET Products
+## GET Web Products
 
-Retrieve the properties and relationships of a Item object for Business Central.
+Retrieve the properties and relationships of a web Item object for Business Central.
 
 ### Http Request
 
@@ -67,32 +67,32 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-|  1       |  Product      |  Code        | String |  20          |           |
-|  1       |  Product      |  Web Product Id  | String |  20      |           |
-|  1       |  Product      |  Web Last Md. Date Time  | DateTime     |           |
-|  1       |  Product      |  Published  | Boolean    |               ||
-|  1       |  Product      |  Last Modification  | DateTime          ||
-|  1       |  Product      |  Marketing Description  |String |100 |
-|  1       |  Product      |  Category Code  |String | 20 |
-|  1       |  Product      |  Category Description  |String | 50 |
-|  1       |  Product      |  Country Code  |String | 20 |
-|  1       |  Product      |  Country Description  |  String | 50|
-|  1       |  Product      |  Region Code  |String | 20 |
-|  1       |  Product      |  Region Description  |String | 50 |
-|  1       |  Product      |  SubRegion Code  |String | 20 |
-|  1       |  Product      |  SubRegion Description  |String | 50 |
-|  1       |  Product      |  Producer  |String | 20 |
-|  1       |  Product      |  Item Classification  |String | 20 |
-|  1       |  Product      |  Alcohol Percent  |Decimal ||
-|  1       |  Product      |  Vintage  |String | 10 |
-|  1       |  Product      |  Grapes  |String |  |
-|  1       |  Product      |  Attributes  |String |  |
-|  1       |  Product      |  Tags  |String |  |
-|  1       |  Product      | System Id | GUID |  |  |
-|  1       |  Product      | System Created At | DateTime |  |  |
-|  1       |  Product      | System Created By  | String |  |  |
-|  1       |  Product      | System Modified At | DateTime |  |  |
-|  1       |  Product      | System Modified By | String |  |  |
+|  1       |  Web Product      |  Code        | String |  20          |           |
+|  1       |  Web Product      |  Web Product Id  | String |  20      |           |
+|  1       |  Web Product      |  Web Last Md. Date Time  | DateTime     |           |
+|  1       |  Web Product      |  Published  | Boolean    |               ||
+|  1       |  Web Product      |  Last Modification  | DateTime          ||
+|  1       |  Web Product      |  Marketing Description  |String |100 |
+|  1       |  Web Product      |  Category Code  |String | 20 |
+|  1       |  Web Product      |  Category Description  |String | 50 |
+|  1       |  Web Product      |  Country Code  |String | 20 |
+|  1       |  Web Product      |  Country Description  |  String | 50|
+|  1       |  Web Product      |  Region Code  |String | 20 |
+|  1       |  Web Product      |  Region Description  |String | 50 |
+|  1       |  Web Product      |  SubRegion Code  |String | 20 |
+|  1       |  Web Product      |  SubRegion Description  |String | 50 |
+|  1       |  Web Product      |  Producer  |String | 20 |
+|  1       |  Web Product      |  Item Classification  |String | 20 |
+|  1       |  Web Product      |  Alcohol Percent  |Decimal ||
+|  1       |  Web Product      |  Vintage  |String | 10 |
+|  1       |  Web Product      |  Grapes  |String |  |
+|  1       |  Web Product      |  Attributes  |String |  |
+|  1       |  Web Product      |  Tags  |String |  |
+|  1       |  Web Product      | System Id | GUID |  |  |
+|  1       |  Web Product      | System Created At | DateTime |  |  |
+|  1       |  Web Product      | System Created By  | String |  |  |
+|  1       |  Web Product      | System Modified At | DateTime |  |  |
+|  1       |  Web Product      | System Modified By | String |  |  |
 <!-- |  1..1    |  SKU\Variant  |  Web Item Id  |String | XXX |
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||

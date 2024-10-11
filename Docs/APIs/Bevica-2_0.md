@@ -34,17 +34,22 @@ The articles in this section describe the key concepts and techniques for using 
 | [Create Web Order](/Docs/APIs/Create%20Web%20Order.md) | Create Web Order BC | Web->BC    | Read Create | |
 | [Get Customer Ledger Entries](/Docs/APIs/Get%20Customer%20Ledger%20Entries.md) | Customer Ledger Entries | BC -> Web | Read | | 
 | [Get Customer](/Docs/APIs/Get%20Customer.md) | Customer information| BC -> Web | Read | |
+| [Get Item](/Docs/APIs/Get%20Item.md) | Customer information| BC -> Web | Read | |
 | [Get Manifest Lines](/Docs/APIs/Get%20Manifest%20Lines.md) | List of Manifest Lines | BC -> Web | Read | |
 | [Get Manifest](/Docs/APIs/Get%20Manifest.md) | Shipping Manifest Status | BC -> Web | Read | |
+| [Get Customer](/Docs/APIs/Get%20Marketing%20Content.md) | Customer information| BC -> Web | Read | |
 | [Get Orders Status](/Docs/APIs/Get%20Order%20Status.md) | List of Orders with Tracking updates | BC -> Web | Read | |
 | [Get Paid Reserve Entries](/Docs/APIs/Get%20Paid%20Reserve%20Entries.md) | List of all Paid Reserve Entries| BC -> Web | Read | |
 | [Get Paid Reserve](/Docs/APIs/Get%20Paid%20Reserve.md) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Get Product](/Docs/APIs/Get%20Product.md) | Items and Attributes | BC -> Web | Read | |
+| [Get Sales Credit Memo Header](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Header.md) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Get Sales Credit Memo Line](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Line.md) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Get Sales Invoice Header](/Docs/APIs/Get%20Sales%20Invoice%20Header.md) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Get Sales Invoice Line](/Docs/APIs/Get%20Sales%20Invoice%20Line.md) | List of Paid Reserve Information| BC -> Web | Read | |
 | [Get Sales Price List Prices](/Docs/APIs/Get%20Sales%20Price%20List%20Prices.md) | Plain List of Sales Price List prices| BC -> Web | Read | |
 | [Get Sales Prices](/Docs/APIs/Get%20Sales%20Prices.md) | Plain List of Sales Prices| BC -> Web | Read | |
 | [Get Ship-to Address](/Docs/APIs/Get%20Ship-to%20Address.md) | Customer Ship to Addresses | BC -> Web | Read | |
-| [Get Ship-to Address](/Docs/APIs/Get%20Ship-to%20Address.md) | Customer Ship to Addresses | BC -> Web | Read | |
 | [Get Stock](/Docs/APIs/Get%20Stock.md) | Stock Available  | BC -> Web | Read | |
+| [Get Web Product](/Docs/APIs/Get%20Web%20Product.md) | Web product details and attributes | BC -> Web | Read | |
 
 ## Endpoints businesscentralPrefix structure
 
