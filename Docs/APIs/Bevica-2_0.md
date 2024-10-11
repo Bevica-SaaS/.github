@@ -32,19 +32,19 @@ The articles in this section describe the key concepts and techniques for using 
 | [Create Payments](/Docs/APIs/Create%20Payment.md) | Create payment on Payment Journal in BC | Web->BC | Create | |
 | [Create Web Order Lines](/Docs/APIs/Create%20Web%20Order%20Lines.md) | Create Web Order Lines in BC | Web->BC    | Read Create | |
 | [Create Web Order](/Docs/APIs/Create%20Web%20Order.md) | Create Web Order BC | Web->BC    | Read Create | |
-| [Get Customer Ledger Entries](/Docs/APIs/Get%20Customer%20Ledger%20Entries.md) | Customer Ledger Entries | BC -> Web | Read | | 
+| [Get Customer Ledger Entries](/Docs/APIs/Get%20Customer%20Ledger%20Entries.md) | List of Customer Ledger Entries | BC -> Web | Read | | 
 | [Get Customer](/Docs/APIs/Get%20Customer.md) | Customer information| BC -> Web | Read | |
-| [Get Item](/Docs/APIs/Get%20Item.md) | Customer information| BC -> Web | Read | |
+| [Get Item](/Docs/APIs/Get%20Item.md) | Item information| BC -> Web | Read | |
 | [Get Manifest Lines](/Docs/APIs/Get%20Manifest%20Lines.md) | List of Manifest Lines | BC -> Web | Read | |
 | [Get Manifest](/Docs/APIs/Get%20Manifest.md) | Shipping Manifest Status | BC -> Web | Read | |
-| [Get Customer](/Docs/APIs/Get%20Marketing%20Content.md) | Customer information| BC -> Web | Read | |
+| [Get Marketing Content](/Docs/APIs/Get%20Marketing%20Content.md) | Marketing Content | BC -> Web | Read | |
 | [Get Orders Status](/Docs/APIs/Get%20Order%20Status.md) | List of Orders with Tracking updates | BC -> Web | Read | |
 | [Get Paid Reserve Entries](/Docs/APIs/Get%20Paid%20Reserve%20Entries.md) | List of all Paid Reserve Entries| BC -> Web | Read | |
 | [Get Paid Reserve](/Docs/APIs/Get%20Paid%20Reserve.md) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Get Sales Credit Memo Header](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Header.md) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Get Sales Credit Memo Line](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Line.md) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Get Sales Invoice Header](/Docs/APIs/Get%20Sales%20Invoice%20Header.md) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Get Sales Invoice Line](/Docs/APIs/Get%20Sales%20Invoice%20Line.md) | List of Paid Reserve Information| BC -> Web | Read | |
+| [Get Sales Credit Memo Header](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Header.md) | List of Sales Credit Memo headers| BC -> Web | Read | |
+| [Get Sales Credit Memo Line](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Line.md) | List of Sales Credit Memo lines| BC -> Web | Read | |
+| [Get Sales Invoice Header](/Docs/APIs/Get%20Sales%20Invoice%20Header.md) | List of Sales Invoice Headers| BC -> Web | Read | |
+| [Get Sales Invoice Line](/Docs/APIs/Get%20Sales%20Invoice%20Line.md) | List of Sales Invoice Lines| BC -> Web | Read | |
 | [Get Sales Price List Prices](/Docs/APIs/Get%20Sales%20Price%20List%20Prices.md) | Plain List of Sales Price List prices| BC -> Web | Read | |
 | [Get Sales Prices](/Docs/APIs/Get%20Sales%20Prices.md) | Plain List of Sales Prices| BC -> Web | Read | |
 | [Get Ship-to Address](/Docs/APIs/Get%20Ship-to%20Address.md) | Customer Ship to Addresses | BC -> Web | Read | |
