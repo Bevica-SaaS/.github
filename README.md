@@ -1,17 +1,14 @@
-# Welcome to TVision Technology Ltd Business Central Tech Documentation 
+# Welcome to Bevica's Business Central Tech Documentation 
 
 ## Standard Microsoft Business Central 
 
 [Standard Microsoft Business Central Web Service Documentation](BC/BC-Standard.md)
+
 ## Bevica
 
 [Bevica Web Integration (OData)](Bevica/Bevicaweb.md)
 
 [Bevica Web Integration 2.0 (Rest APIs)](Docs/APIs/Bevica-2_0.md)
-
-## TVision Apps
-
-[External Billing](TVisionTech/ExternalBilling.md)
 
 ### Recommended Content
 
