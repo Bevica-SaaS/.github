@@ -1,4 +1,4 @@
-# Welcome to Bevica's Business Central Tech Documentation 
+# Welcome to Bevica Business Central Tech Documentation 
 
 ## Standard Microsoft Business Central 
 
