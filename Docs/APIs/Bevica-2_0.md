@@ -41,10 +41,10 @@ The articles in this section describe the key concepts and techniques for using 
 | [Get Orders Status](/Docs/APIs/Get%20Order%20Status.md) | List of Orders with Tracking updates | BC -> Web | Read | |
 | [Get Paid Reserve Entries](/Docs/APIs/Get%20Paid%20Reserve%20Entries.md) | List of all Paid Reserve Entries| BC -> Web | Read | |
 | [Get Paid Reserve](/Docs/APIs/Get%20Paid%20Reserve.md) | List of Paid Reserve Information| BC -> Web | Read | |
-| [Get Sales Credit Memo Header](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Header.md) | List of Sales Credit Memo headers| BC -> Web | Read | |
-| [Get Sales Credit Memo Line](/Docs/APIs/Get%20Sales%20Credit%20Memo%20Line.md) | List of Sales Credit Memo lines| BC -> Web | Read | |
-| [Get Sales Invoice Header](/Docs/APIs/Get%20Sales%20Invoice%20Header.md) | List of Sales Invoice Headers| BC -> Web | Read | |
-| [Get Sales Invoice Line](/Docs/APIs/Get%20Sales%20Invoice%20Line.md) | List of Sales Invoice Lines| BC -> Web | Read | |
+| [Get Posted Sales Credit Memo Header](/Docs/APIs/Get%20Posted%20Sales%20Credit%20Memo%20Header.md) | List of Sales Credit Memo headers| BC -> Web | Read | |
+| [Get Posted Sales Credit Memo Line](/Docs/APIs/Get%20Posted%20Sales%20Credit%20Memo%20Line.md) | List of Sales Credit Memo lines| BC -> Web | Read | |
+| [Get Posted Sales Invoice Header](/Docs/APIs/Get%20Posted%20Sales%20Invoice%20Header.md) | List of Sales Invoice Headers| BC -> Web | Read | |
+| [Get Posted Sales Invoice Line](/Docs/APIs/Get%20Posted%20Sales%20Invoice%20Line.md) | List of Sales Invoice Lines| BC -> Web | Read | |
 | [Get Sales Price List Prices](/Docs/APIs/Get%20Sales%20Price%20List%20Prices.md) | Plain List of Sales Price List prices| BC -> Web | Read | |
 | [Get Sales Prices](/Docs/APIs/Get%20Sales%20Prices.md) | Plain List of Sales Prices| BC -> Web | Read | |
 | [Get Ship-to Address](/Docs/APIs/Get%20Ship-to%20Address.md) | Customer Ship to Addresses | BC -> Web | Read | |
