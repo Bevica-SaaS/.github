@@ -22,6 +22,8 @@ Do not supply a request body for this method.
 
 Here is an example of the response
 
+```json
+
 {
     "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(9ce13e1a-9f86-ed11-9989-6045bd0d0c6b)/PostedSalesInvoiceLines",
     "value": [
