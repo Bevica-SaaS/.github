@@ -87,7 +87,7 @@ Here is an example of the response
             "tvtDutyStatus": "DUTY PAID",
             "tvtSalesDocumentType": "NORMAL"
         }
-	]
+   ]
 }
 
 ```
