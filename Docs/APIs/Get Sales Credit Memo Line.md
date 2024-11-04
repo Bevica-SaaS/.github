@@ -1,4 +1,4 @@
-## GET Sales Credit Memo Header
+## GET Sales Posted Sales Credit Memo Lines
 
 ### Http Request
 
@@ -24,9 +24,56 @@ Here is an example of the response
 
 ```json
 
-Coming soon
+{
+    "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(9ce13e1a-9f86-ed11-9989-6045bd0d0c6b)/PostedSalesCrMemoLines",
+    "value": [
+        {
+            "@odata.etag": "W/\"JzE5OzczNzQ4Mzg2MjIzNDc1MDgzMDMxOzAwOyc=\"",
+            "systemId": "025533a4-5088-ed11-9989-6045bd0d024f",
+            "sellToCustomerNo": "1010000",
+            "documentNo": "SCR000001",
+            "lineNo": 10000,
+            "type": "Charge_x0020__x0028_Item_x0029_",
+            "no": "P-STORAGE",
+            "locationCode": "BLUE",
+            "shipmentDate": "2022-12-30",
+            "description": "Storage",
+            "unitOfMeasure": "",
+            "quantity": 11,
+            "unitPrice": 1,
+            "lineDiscount": 0,
+            "lineDiscountAmount": 0,
+            "amount": 11,
+            "amountIncludingVAT": 13.2,
+            "variantCode": "",
+            "unitOfMeasureCode": "",
+            "quantityBase": 11
+        },
+        {
+            "@odata.etag": "W/\"JzIwOzE1NTU2NTk3MDgzODcxNjMzMDg2MTswMDsn\"",
+            "systemId": "061b4a6d-e297-ed11-bff5-0022481b46da",
+            "sellToCustomerNo": "1010000",
+            "documentNo": "SCR000002",
+            "lineNo": 10000,
+            "type": "G_x002F_L_x0020_Account",
+            "no": "8110",
+            "locationCode": "BLUE",
+            "shipmentDate": "2023-01-19",
+            "description": "Cleaning",
+            "unitOfMeasure": "",
+            "quantity": 1,
+            "unitPrice": 100,
+            "lineDiscount": 0,
+            "lineDiscountAmount": 0,
+            "amount": 100,
+            "amountIncludingVAT": 120,
+            "variantCode": "",
+            "unitOfMeasureCode": "",
+            "quantityBase": 1
+        }
+    ]
+}
 
-```
 
 ### Field Information
 <details>
