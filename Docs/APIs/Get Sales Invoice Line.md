@@ -72,9 +72,6 @@ Here is an example of the response
 	]
 }
 
-Coming soon
-
-```
 
 ### Field Information
 <details>
