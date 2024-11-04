@@ -1,4 +1,4 @@
-## GET Sales Credit Memo Header
+## GET Posted Sales Credit Memos
 
 ### Http Request
 
@@ -24,9 +24,41 @@ Here is an example of the response
 
 ```json
 
-Coming soon
+{
+    "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(9ce13e1a-9f86-ed11-9989-6045bd0d0c6b)/PostedSalesCrMemoInvoices",
+    "value": [
+        {
+            "@odata.etag": "W/\"JzIwOzE1OTQyMzk0MzIxNjcxNTA0NzM2MTswMDsn\"",
+            "systemId": "ec871204-5188-ed11-9989-6045bd0d024f",
+            "sellToCustomerNo": "1010000",
+            "no": "SCR000001",
+            "yourReference": "",
+            "shipToCode": "DUDLEY",
+            "shipToName": "Blue Warehouse",
+            "shipToName2": "",
+            "shipToAddress": "South East Street, 3",
+            "shipToAddress2": "",
+            "shipToCity": "Birmingham",
+            "shipToContact": "Jeff Smith",
+            "postingDate": "2022-12-30",
+            "shipmentDate": "0001-01-01",
+            "shipmentMethodCode": "",
+            "locationCode": "BLUE",
+            "currencyCode": "",
+            "salespersonCode": "ED",
+            "amount": 11,
+            "amountIncludingVAT": 13.2,
+            "sellToCustomerName": "Asado Bar & Grill",
+            "shipToPostCode": "B27 4KT",
+            "shipToCounty": "",
+            "shipToCountryRegionCode": "GB",
+            "externalDocumentNo": "",
+            "tvtDutyStatus": "DUTY PAID",
+            "tvtSalesDocumentType": ""
+        }
+    ]
+}
 
-```
 
 ### Field Information
 <details>
