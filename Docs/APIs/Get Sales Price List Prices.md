@@ -44,7 +44,7 @@ Here is an example of the response
 |	1	|	Price List Line	|	Sales Type	|	Type	|		|
 |	1	|	Price List Line	|	Sales Code	|	String	|	10	|
 |	1	|	Price List Line	|	Unit of Measure Code	|	String	|	10	|
-|	1	|	Price List Line	|	Starting Date	|	date	|		|
+|	1	|	Price List Line	|	Currency code	|	String	|		|
 |	1	|	Price List Line	|	Ending Date	|	date	|		|
 |	1	|	Price List Line	|	Unit Price	|	decimal	|		|
 |	1	|	Price List Line	|	Price Includes VAT	|	Boolean	|		|
