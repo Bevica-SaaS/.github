@@ -65,7 +65,7 @@ Here is an example of the response
 |	1	|	Sales Prices	|	Sales Type	|	Type	|		|
 |	1	|	Sales Prices	|	Sales Code	|	String	|	10	|
 |	1	|	Sales Prices	|	Unit of Measure Code	|	String	|	10	|
-|	1	|	Sales Prices	|	Starting Date	| Date |		|
+|	1	|	Sales Prices	|	Currency Code	| String |		|
 |	1	|	Sales Prices	|	Ending Date	|	Date	|		|
 |	1	|	Sales Prices	|	Unit Price	|	Decimal	|		|
 |	1	|	Sales Prices	|	Price Includes VAT	|	Boolean	|		|
