@@ -35,6 +35,7 @@ Here is an example of the request
     "sellToCustomerName2": "",
     "sellToCity": "",
     "sellToCounty": "",
+    "sellToCountryRegionCode":"",
     "sellToEMail": "",
     "sellToAddress": "",
     "sellToContact": "",
