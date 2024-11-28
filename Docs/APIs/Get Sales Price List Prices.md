@@ -36,6 +36,7 @@ Here is an example of the response
             "itemNo": "B12141",
             "variantCode": "DUTY FREE",
             "salesType": "Item",
+            "assignToType": "Customer",
             "salesCode": "S00002",
             "unitOfMeasureCode": "",
             "endingDate": "0001-01-01",
