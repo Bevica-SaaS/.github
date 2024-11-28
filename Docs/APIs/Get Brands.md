@@ -1,4 +1,4 @@
-## GET Regions
+## GET Brands
 
 Retrieve the properties and relationships of a brand object for Business Central.
 
