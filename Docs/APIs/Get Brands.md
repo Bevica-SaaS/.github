@@ -58,18 +58,18 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-| 1 | Region |  Code | String | 20 | | 
-| 1 | Region |  Name | String |  | | 
-| 1 | Region |  Address | String |  | | 
-| 1 | Region |  Address 2 | String |  | | 
-| 1 | Region |  City | String |  | | 
-| 1 | Region |  Country / Region Code | String |  | | 
-| 1 | Region |  County | String |  | | 
-| 1 | Region |  Post code | String |  | | 
-| 1 | Region |  Contact | String |  | | 
-| 1 | Region |  email | String |  | | 
-| 1 | Region |  Fax No. | String |  | | 
-| 1 | Region |  Home Page | String |  | | 
-| 1 | Region |  Latitude | String |  | | 
-| 1 | Region |  Longitude | String |  | | 
-| 1 | Region |  Phone No. | String |  | | 
+| 1 | TVT Brands |  Code | String | 20 | | 
+| 1 | TVT Region |  Name | String | 50 | | 
+| 1 | TVT Region |  Address | String | 100 | | 
+| 1 | TVT Region |  Address 2 | String | 50 | | 
+| 1 | TVT Region |  City | String | 30 | | 
+| 1 | TVT Region |  Country / Region Code | String | 10 | | 
+| 1 | TVT Region |  County | String | 30 | | 
+| 1 | TVT Region |  Post code | String | 20 | | 
+| 1 | TVT Region |  Contact | String | 50 | | 
+| 1 | TVT Region |  email | String | 80 | | 
+| 1 | TVT Region |  Fax No. | String | 30 | | 
+| 1 | TVT Region |  Home Page | String | 80 | | 
+| 1 | TVT Region |  Latitude | Integer |  | | 
+| 1 | TVT Region |  Longitude | Integer |  | | 
+| 1 | TVT Region |  Phone No. | String | 30 | | 
