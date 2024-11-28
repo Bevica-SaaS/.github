@@ -48,8 +48,8 @@ Here is an example of the response
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
 | 1 | Region |  Code | String | 20 | | 
-| 1 | Region |  CountryRegionCode | xx |  | | 
-| 1 | Region |  Name | xx |  | | 
-| 1 | Region |  NoSubregions | xx |  | | 
-| 1 | Region |  NoItem | xx |  | | 
+| 1 | Region |  Country/Region Code | 20 |  | | 
+| 1 | Region |  Name | String | 50 | | 
+| 1 | Region |  No. Subregions | Integer |  | | 
+| 1 | Region |  No. Item | Integer |  | | 
 
