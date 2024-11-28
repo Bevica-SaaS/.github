@@ -48,9 +48,9 @@ Here is an example of the response
 
 | Relation | Source Table | Field Caption | Field Type | Field Length | Note |
 | ----------- | ----------- | ----------- | ---------- | ------------ |---------- |
-| 1 | Region |  Region Code | String | 20 | | 
-| 1 | Region |  Code | String | 20 | | 
-| 1 | Region |  Country / Region Code | String | 20 | | 
-| 1 | Region |  Name | String | 50 | | 
-| 1 | Region |  No. Item | Integer |  | | 
+| 1 | TVT Region |  Region Code | String | 20 | | 
+| 1 | TVT Region |  Code | String | 20 | | 
+| 1 | TVT Region |  Country / Region Code | String | 20 | | 
+| 1 | TVT Region |  Name | String | 50 | | 
+| 1 | TVT Region |  No. Item | Integer |  | | 
 
