@@ -57,6 +57,7 @@ Here is an example of the response
             "productId": "B12141",
             "unitOfMeasureId": "6X75CL",
             "description": "Barolo Colonello, Prunotto 2009 6x75",
+            "paidReserveNo": "PRES0010144",
             "quantity": 40,
             "unitPrice": 0,
             "systemCreatedAt": "2023-03-10T15:03:32.95Z",
