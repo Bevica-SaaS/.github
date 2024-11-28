@@ -12,4 +12,4 @@ Bevica Web Integration (OData)](APIs/BevicaWeb-OData.md)
 
 ### Recommended Content
 
-[Setup and Grant Permissions to Azure App Registration in Business Central](TVisionTech/AzureADAppRegistration.md)
+[Setup and Grant Permissions to Azure App Registration in Business Central](BC/AzureADAppRegistration.md)
