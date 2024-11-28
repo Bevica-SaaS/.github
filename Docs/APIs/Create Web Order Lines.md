@@ -32,6 +32,7 @@ Here is an example of the request
     "productId": "B12141",
     "unitOfMeasureId": "6X75CL",
     "description": "Barolo Colonello, Prunotto 2009 6x75",
+    "paidReserveNo": "PRES0010144",
     "quantity": 40,
     "unitPrice": 0,
 }
