@@ -26,7 +26,71 @@ Here is an example of the response
 
 ```json
 
-Coming soon
+{
+    "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(9ce13e1a-9f86-ed11-9989-6045bd0d0c6b)/items",
+    "value": [
+        {
+            "@odata.etag": "W/\"JzIwOzE1OTY1OTUyNjQ5NTkxMTQzMDg0MTswMDsn\"",
+            "systemId": "42f03390-73ad-ef11-8a6d-6045bd0f8a1b",
+            "webItemId": "{95AB57A4-8ADA-4DCD-A570-1CF8F6E5DAF9}",
+            "published": true,
+            "deleted": false,
+            "webLastModDateTime": "2024-11-28T10:29:02.263Z",
+            "itemNo": "B12141",
+            "blocked": false,
+            "description": "Barolo Colonello Prunotto 2009 6x75",
+            "baseUoMCode": "75CL",
+            "baseUoMDescription": "75 cl",
+            "salesUoMCode": "6X75CL",
+            "salesUoMDescription": "6x75cl",
+            "salesUoMQtyPer": 6,
+            "unitVolume": "75cl",
+            "unitPriceWithDuty": 26.99,
+            "unitPriceWithOutDuty": 24.75,
+            "stockQuantityBase": 5928,
+            "bottlePerCase": "6",
+            "purchasingCode": "",
+            "unitWeight": 44.5,
+            "salesUnitWeight": 444,
+            "webUoMCode": "6X75CL",
+            "webUoMDescription": "6x75cl",
+            "webUoMQtyPer": 6,
+            "webSaleOnlyUnit": "_x0020_",
+            "webCatalogue": "12",
+            "drinkFrom": "",
+            "drinkTo": "",
+            "appellation": "",
+            "appellationDescription": "",
+            "regionCode": "PIEMONTE",
+            "regionDescription": "Piemonte",
+            "subRegionCode": "LANGHE",
+            "subRegionDescription": "Langhe",
+            "classificationCode": "DOCG",
+            "date1": "0001-01-01",
+            "date2": "0001-01-01",
+            "date3": "0001-01-01",
+            "class1": "DISTRIBUTION",
+            "class2": "",
+            "class3": "",
+            "class4": "",
+            "class5": "",
+            "number1": 0,
+            "number2": 0,
+            "number3": 0,
+            "number5": 0,
+            "number4": 0,
+            "option1": "_x0020_",
+            "option3": "_x0020_",
+            "option2": "_x0020_",
+            "option4": "_x0020_",
+            "option5": "_x0020_",
+            "systemCreatedAt": "2024-11-28T10:29:00.61Z",
+            "systemCreatedBy": "b6188cb8-d398-4a1c-8ec3-87ce63665e0b",
+            "systemModifiedAt": "2024-11-28T10:29:02.263Z",
+            "systemModifiedBy": "b6188cb8-d398-4a1c-8ec3-87ce63665e0b"
+        }
+    ]
+}
 
 ```
 
