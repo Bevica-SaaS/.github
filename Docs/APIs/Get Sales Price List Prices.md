@@ -27,33 +27,33 @@ Do not supply a request body for this method.
 Here is an example of the response
 
 ```json
-{
-    "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/bevicasaas.onmicrosoft.com/tvt_develop/api/tvisiontech/webbevica/v2.0/$metadata#companies(9ce13e1a-9f86-ed11-9989-6045bd0d0c6b)/salesListPrices",
+     "@odata.context": "https://api.businesscentral.dynamics.com/v2.0/hallgarten.onmicrosoft.com/uat/api/tvisiontech/webbevica/v2.0/$metadata#companies(27d762be-3ccf-ef11-8a6d-7c1e52028c94)/salesListPrices",
     "value": [
         {
-            "@odata.etag": "W/\"JzIwOzExMzI1NjIzMDM1MDA0Mjk2OTA1MTswMDsn\"",
-            "systemId": "7596e64b-d7f0-ee11-a1ff-7c1e5202d8ad",
-            "itemNo": "B12141",
-            "variantCode": "DUTY FREE",
+            "@odata.etag": "W/\"JzIwOzEzMTk0MjQyNDQ2MzYyMjgyNzUwMTswMDsn\"",
+            "systemId": "7abadc89-faea-ef11-9345-7c1e52034c5a",
+            "itemNo": "4671112E",
+            "variantCode": "DUTY PAID",
             "salesType": "Item",
             "assignToType": "Customer",
-            "salesCode": "S00002",
+            "assignToNo": "00226102",
+            "salesCode": "00226102",
             "unitOfMeasureCode": "",
-            "endingDate": "0001-01-01",
+            "startingDate": "2025-01-31",
+            "endingDate": "2025-03-31",
             "currencyCode": "£",
-            "unitPrice": 31,
+            "unitPrice": 6.86,
             "priceIncludesVAT": false,
             "minimumQuantity": 0,
-            "systemCreatedAt": "2024-04-02T09:56:41.433Z",
-            "systemCreatedBy": "b6188cb8-d398-4a1c-8ec3-87ce63665e0b",
-            "systemModifiedAt": "2024-11-28T10:29:02.527Z",
-            "systemModifiedBy": "b6188cb8-d398-4a1c-8ec3-87ce63665e0b",
-            "tvtwsWebLastModDateTime": "0001-01-01T00:00:00Z",
-            "tvtwsWebItemPublished": true,
+            "lineDiscountPercen": 0,
+            "systemCreatedAt": "2025-02-14T17:38:52.533Z",
+            "systemCreatedBy": "3bf82623-e2d2-4cb0-ae6e-de5395ec449c",
+            "systemModifiedAt": "2025-02-14T18:11:21.757Z",
+            "systemModifiedBy": "3bf82623-e2d2-4cb0-ae6e-de5395ec449c",
+            "tvtwsWebLastModDateTime": "2025-02-14T17:53:31.837Z",
+            "tvtwsWebItemPublished": false,
             "currencyCodeFilter": ""
         }
-    ]
-}
 ```
 ### Field information
 <details>
