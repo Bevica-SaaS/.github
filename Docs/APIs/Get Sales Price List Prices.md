@@ -64,8 +64,12 @@ Here is an example of the response
 |	1	|	Price List Line	|	Item No	|	String	|	20	|
 |	1	|	Price List Line	|	Variant Code	|	String	|	10	|
 |	1	|	Price List Line	|	Sales Type	|	Type	|		|
+|	1	|	Price List Line	|	Assign To Type	|	Type	|		|
+|	1	|	Price List Line	|	Assign To No	|	String	|		|
 |	1	|	Price List Line	|	Sales Code	|	String	|	10	|
 |	1	|	Price List Line	|	Unit of Measure Code	|	String	|	10	|
+|	1	|	Price List Line	|	Starting Date	|	Date	|		|
+|	1	|	Price List Line	|	Ending Date	|	Date	|		|
 |	1	|	Price List Line	|	Currency code	|	String	|		|
 |	1	|	Price List Line	|	Ending Date	|	date	|		|
 |	1	|	Price List Line	|	Unit Price	|	decimal	|		|
