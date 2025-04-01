@@ -153,7 +153,7 @@ Here is an example of the response
 | 1 | Item |  TVT Option 2 | String | 20 | | 
 | 1 | Item |  TVT Option 4 | String | 20 | | 
 | 1 | Item |  TVT Option 5 | String | 20 | | 
-| 1 | Item |  Duty controlled | Boolean |  | | 
+| 1 | Item |  Duty Controlled | Boolean |  | | 
 | 1 | Item |  SystemCreatedAt | Date |  | | 
 | 1 | Item |  SystemCreatedBy | String |  | | 
 | 1 | Item |  SystemId | String |  | | 
