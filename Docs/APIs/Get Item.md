@@ -84,6 +84,8 @@ Here is an example of the response
             "option2": "_x0020_",
             "option4": "_x0020_",
             "option5": "_x0020_",
+            "colourCode": "RED",
+            "colourDescription: "Red", 
             "systemCreatedAt": "2024-11-28T10:29:00.61Z",
             "systemCreatedBy": "b6188cb8-d398-4a1c-8ec3-87ce63665e0b",
             "systemModifiedAt": "2024-11-28T10:29:02.263Z",
@@ -152,6 +154,8 @@ Here is an example of the response
 | 1 | Item |  TVT Option 2 | String | 20 | | 
 | 1 | Item |  TVT Option 4 | String | 20 | | 
 | 1 | Item |  TVT Option 5 | String | 20 | | 
+| 1 | Item |  Colour Code | String | 20 | | 
+| 1 | Item |  Colour Description | String | 50 | | 
 | 1 | Item |  SystemCreatedAt | Date |  | | 
 | 1 | Item |  SystemCreatedBy | String |  | | 
 | 1 | Item |  SystemId | String |  | | 
