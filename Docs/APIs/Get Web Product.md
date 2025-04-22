@@ -52,6 +52,8 @@ Here is an example of the response
             "grapes": "",
             "attributes": "",
             "tags": "FR,,,,2005,,,12.3%,White Sparkling,",
+            "colourCode": "RED",
+            "colourDescription": "Red",
             "systemCreatedAt": "2022-12-19T12:58:17.473Z",
             "systemCreatedBy": "691db9f1-24f4-48ca-a179-a41eb57d7c00",
             "systemModifiedAt": "2022-12-19T13:00:32.203Z",
@@ -88,11 +90,13 @@ Here is an example of the response
 |  1       |  Web Product      |  Grapes  |String |  |
 |  1       |  Web Product      |  Attributes  |String |  |
 |  1       |  Web Product      |  Tags  |String |  |
-|  1       |  Web Product      | System Id | GUID |  |  |
-|  1       |  Web Product      | System Created At | DateTime |  |  |
-|  1       |  Web Product      | System Created By  | String |  |  |
-|  1       |  Web Product      | System Modified At | DateTime |  |  |
-|  1       |  Web Product      | System Modified By | String |  |  |
+|  1       |  Web Product      |  Colour Code  |String | 20 |
+|  1       |  Web Product      |  Colour Description  |String | 50 |
+|  1       |  Web Product      |  System Id | GUID |  |  |
+|  1       |  Web Product      |  System Created At | DateTime |  |  |
+|  1       |  Web Product      |  System Created By  | String |  |  |
+|  1       |  Web Product      |  System Modified At | DateTime |  |  |
+|  1       |  Web Product      |  System Modified By | String |  |  |
 <!-- |  1..1    |  SKU\Variant  |  Web Item Id  |String | XXX |
 |  1..1    |  SKU\Variant  |  Published  |Boolean ||
 |  1..1    |  SKU\Variant  |  Deleted  |Boolean ||
