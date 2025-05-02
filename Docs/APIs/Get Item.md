@@ -77,13 +77,14 @@ Here is an example of the response
             "number1": 0,
             "number2": 0,
             "number3": 0,
-            "number5": 0,
             "number4": 0,
+            "number5": 0,
             "option1": "_x0020_",
             "option3": "_x0020_",
             "option2": "_x0020_",
             "option4": "_x0020_",
             "option5": "_x0020_",
+            "dutycontrolled": true,
             "colourCode": "RED",
             "colourDescription": "Red",
             "systemCreatedAt": "2024-11-28T10:29:00.61Z",
@@ -153,7 +154,8 @@ Here is an example of the response
 | 1 | Item |  TVT Option 3 | String | 20 | | 
 | 1 | Item |  TVT Option 2 | String | 20 | | 
 | 1 | Item |  TVT Option 4 | String | 20 | | 
-| 1 | Item |  TVT Option 5 | String | 20 | | 
+| 1 | Item |  TVT Option 5 | String | 20 | |
+| 1 | Item |  Duty Controlled | Boolean | | | 
 | 1 | Item |  Colour Code | String | 20 | | 
 | 1 | Item |  Colour Description | String | 50 | | 
 | 1 | Item |  SystemCreatedAt | Date |  | | 
