@@ -128,23 +128,23 @@ Here is an example of the response
 | ----------- | ----------- | ----------- | -------- | ---------- |---------- |
 | 1 | Sales Cr.Memo Header | System Id | GUID |  |  |
 | 1 | Sales Cr.Memo Header | Sell-to Customer No. | String | 20 |  |
-| 1 | Sales Invoice Header | Sell-to Name | String | 35 |  |
-| 1 | Sales Invoice Header | Sell-to Name 2 | String | 50 |  |
-| 1 | Sales Invoice Header | Sell-to Address | String | 50  |   |
-| 1 | Sales Invoice Header | Sell-to Address 2 | String | 50 |  |
-| 1 | Sales Invoice Header | Sell-to City | String | 30 |  |
-| 1 | Sales Invoice Header | Sell-to Post Code | String | 20  |  |
-| 1 | Sales Invoice Header | Sell-to County | String | 30  |  |
-| 1 | Sales Invoice Header | Sell-to Country/Region Code | String | 30  |  |
-| 1 | Sales Invoice Header | Bill-to Customer No. | String | 20 |  |
-| 1 | Sales Invoice Header | Bill-to Name | String | 35 |  |
-| 1 | Sales Invoice Header | Bill-to Name 2 | String | 50 |  |
-| 1 | Sales Invoice Header | Bill-to Address | String | 50  |   |
-| 1 | Sales Invoice Header | Bill-to Address 2 | String | 50 |  |
-| 1 | Sales Invoice Header | Bill-to City | String | 30 |  |
-| 1 | Sales Invoice Header | Bill-to Post Code | String | 20  |  |
-| 1 | Sales Invoice Header | Bill-to County | String | 30  |  |
-| 1 | Sales Invoice Header | Bill-to Country/Region Code | String | 30  |  |
+| 1 | Sales Cr.Memo Header | Sell-to Name | String | 35 |  |
+| 1 | Sales Cr.Memo Header | Sell-to Name 2 | String | 50 |  |
+| 1 | Sales Cr.Memo Header | Sell-to Address | String | 50  |   |
+| 1 | Sales Cr.Memo Header | Sell-to Address 2 | String | 50 |  |
+| 1 | Sales Cr.Memo Header | Sell-to City | String | 30 |  |
+| 1 | Sales Cr.Memo Header | Sell-to Post Code | String | 20  |  |
+| 1 | Sales Cr.Memo Header | Sell-to County | String | 30  |  |
+| 1 | Sales Cr.Memo Header | Sell-to Country/Region Code | String | 30  |  |
+| 1 | Sales Cr.Memo Header | Bill-to Customer No. | String | 20 |  |
+| 1 | Sales Cr.Memo Header | Bill-to Name | String | 35 |  |
+| 1 | Sales Cr.Memo Header | Bill-to Name 2 | String | 50 |  |
+| 1 | Sales Cr.Memo Header | Bill-to Address | String | 50  |   |
+| 1 | Sales Cr.Memo Header | Bill-to Address 2 | String | 50 |  |
+| 1 | Sales Cr.Memo Header | Bill-to City | String | 30 |  |
+| 1 | Sales Cr.Memo Header | Bill-to Post Code | String | 20  |  |
+| 1 | Sales Cr.Memo Header | Bill-to County | String | 30  |  |
+| 1 | Sales Cr.Memo Header | Bill-to Country/Region Code | String | 30  |  |
 | 1 | Sales Cr.Memo Header | No. | String | 20 | |
 | 1 | Sales Cr.Memo Header | Your Reference | 35 |  |  |
 | 1 | Sales Cr.Memo Header | Ship-to Code | String |  |  |
