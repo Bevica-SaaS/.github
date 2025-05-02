@@ -1,6 +1,6 @@
 ## GET Brands
 
-Retrieve the properties and relationships of a brand object for Business Central.
+Retrieve the properties and relationships of a brand object for Business Central. 
 
 ### Http Request
 
