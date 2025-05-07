@@ -70,6 +70,8 @@ Here is an example of the response
             "externalDocumentNo": "",
             "tvtDutyStatus": "DUTY PAID",
             "tvtSalesDocumentType": ""
+            "paymentTermsCode": "",
+            "custLedgerEntryNo": 2515
         },
         {
             "@odata.etag": "W/\"JzE4OzQ5MTkyODEyNzkzMzAxNzQwMjE7MDA7Jw==\"",
@@ -168,3 +170,5 @@ Here is an example of the response
 | 1 | Sales Cr.Memo Header | External Document No. | 35 |   |  
 | 1 | Sales Cr.Memo Header | Duty Status | Code | 20 |  |
 | 1 | Sales Cr.Memo Header | Sales Document Type| String | 20 |  |
+| 1 | Sales Invoice Header | Payment Terms| String | 20 |  |
+| 1 | Sales Invoice Header | Customer Ledger Entry No. | Integer | 20 |  |
