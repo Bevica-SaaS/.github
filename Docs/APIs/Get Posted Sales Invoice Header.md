@@ -70,7 +70,10 @@ Here is an example of the response
             "shipToCountryRegionCode": "GB",
             "externalDocumentNo": "BJSSWKAC",
             "tvtDutyStatus": "DUTY PAID",
-            "tvtSalesDocumentType": "NORMAL"
+            "tvtSalesDocumentType": "NORMAL",
+            "paymentTermsCode": "30D",
+            "custLedgerEntryNo": 2514,
+            "closed": false
         },
         {
             "@odata.etag": "W/\"JzE3Ozg4NjQzNzkzNjg3NjcwMzU5MTswMDsn\"",
@@ -171,3 +174,7 @@ Here is an example of the response
 | 1 | Sales Invoice Header | External Document No. | String | 35 |  |
 | 1 | Sales Invoice Header | Duty Status | Code | 20  |  |
 | 1 | Sales Invoice Header | Sales Document Type| String | 20 |  |
+| 1 | Sales Invoice Header | Payment Terms| String | 20 |  |
+| 1 | Sales Invoice Header | Customer Ledger Entry No. | Integer | 20 |  |
+| 1 | Sales Invoice Header | Closed| Boolean | |  |
+
