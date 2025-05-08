@@ -47,7 +47,7 @@ Here is an example of the response
             "producerCode": "AGRAPART",
             "producerName": "",
             "itemClassification": "",
-            "alcoholPercent": "12.3%",
+            "alcoolPercent": "12.3%",
             "vintage": "2005",
             "grapes": "",
             "attributes": "",
