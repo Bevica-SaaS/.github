@@ -54,6 +54,8 @@ Here is an example of the response
     "entryNo": 1,
     "dueDate": "0001-01-01",
     "refund": false,
+    "appliesToDocType": "Invoice",
+    "appliesToDocNo": "SI0001254",
     "systemCreatedAt": "2023-03-24T08:30:42.367Z",
     "systemCreatedBy": "fff77cf3-0f31-4147-b1ec-92eaa6f4782c",
     "systemModifiedAt": "2023-03-24T08:30:42.367Z",
@@ -80,6 +82,8 @@ Here is an example of the response
 |  1          | Payment         | Posting_Date         |  Date    |            | |
 |  1          | Payment         | Due_Date         |  Date    |            | |
 |  1          | Payment         | Refund         |  Boolean    |            | |
+|  1          | Payment         | Applies To Doc. Type |  Stringn    |            | |
+|  1          | Payment         | Applies To Doc. No. |  String    |            | |
 |  1          | Payment         | System Created At | DateTime |  |  |
 |  1          | Payment         | System Created By  | String |  |  |
 |  1          | Payment         | System Modified At | DateTime |  |  |
