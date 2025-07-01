@@ -208,3 +208,16 @@ Here is an example of the response
 | selltoPhoneNo             | Sell-to Phone No.           | Sell-to Phone No.             |
 | shiptoPhoneNo             | Ship-to Phone No.           | Ship-to Phone No.             |
 | selltoEmail               | Sell-to E-Mail              | Sell-to E-Mail                |
+
+
+## Subpages
+
+- **salesLines**: [TVTWS API Sales Lines](#)  
+  - Entity Name: salesDocumentLine  
+  - Entity Set Name: salesDocumentLines  
+  - Multiplicity: Many  
+  - SubPageLink: "Document Type" = field("Document Type"), "Document No." = field("No.")
+
+---
+
+**Source:** [`src/API/v2.0/APISalesDocument.Page.al`](src/API/v2.0/APISalesDocument.Page.al)
