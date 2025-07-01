@@ -87,6 +87,8 @@ Here is an example of the response
 ```
 
 ### Field Information
+<details>
+  <summary>Show</summary>
 
 
 | Field Name               | Caption                  | Source Field                  |
