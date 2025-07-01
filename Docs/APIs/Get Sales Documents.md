@@ -148,7 +148,9 @@ Here is an example of the response
 
 ```
 
-### Field Information
+### Field information
+<details>
+  <summary>Show</summary>
 
 
 | Field Name                | Caption                     | Source Field                  |
