@@ -1,4 +1,4 @@
--# Manifests API - Developer Guide
+# Manifests API - Developer Guide
 
 ## Overview
 The Manifests API provides access to shipping manifest headers for tracking consolidated shipments and logistics.
