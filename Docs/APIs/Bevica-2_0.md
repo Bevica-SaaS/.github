@@ -66,7 +66,7 @@ The articles in this section describe the key concepts and techniques for using 
 
 ## Documentation Standards
 
-Each individual guide follows this structure:
+Each individual guide may include these sections:
 - **Overview** - Purpose and description
 - **API Endpoint Details** - Technical specifications
 - **Permissions** - CRUD operations allowed
