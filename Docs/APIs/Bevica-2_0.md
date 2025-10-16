@@ -3,7 +3,7 @@
 ## Introduction 
 
 The Bevica APIs documented below outline the interactions available to a third party to integrate a Bevica into their platform.
-The  request can be used independently of one another or together to create a complete workflow.
+ The  request can be used independently of one another or together to create a complete workflow.
 
 All of our endpoints are secured so before you can begin to make calls to the API you will first need to obtain an access token.
 
@@ -114,6 +114,79 @@ Each individual guide may include these sections:
 | MarketingContent | /marketingContents | GET, POST, PATCH | Marketing text/HTML |
 | RecurringSalesLines | /customerRecurringSalesLines | GET, PATCH | Customer favorites |
 
----
+## Authentication
 
-**Last Updated**: October 14, 2025
+All APIs require OAuth 2.0 authentication:
+
+```http
+Authorization: Bearer {your_access_token}
+Content-Type: application/json
+```
+
+**Base URL:**
+```
+https://api.businesscentral.dynamics.com/v2.0/{environment}/api/tvisiontech/webbevica/v2.0/
+```
+
+## Common Patterns
+
+### Filtering
+```http
+GET /customers?$filter=balance gt 0
+GET /items?$filter=published eq true and deleted eq false
+```
+
+### Selecting Fields
+```http
+GET /customers?$select=no,name,balance,eMail
+```
+
+### Sorting
+```http
+GET /items?$orderby=description asc
+```
+
+### Pagination
+```http
+GET /customers?$top=50&$skip=0
+```
+
+### Expanding Related Data
+```http
+GET /webOrders?$expand=weborderLines
+GET /items?$expand=marketingContents
+```
+
+## Code Examples
+
+Each individual guide includes production-ready code examples in:
+- **JavaScript/TypeScript** (Fetch API)
+- **Python** (requests library)
+- **C# .NET** (HttpClient)
+
+## Important Notes
+
+- **Read vs Write**: Some APIs are read-only (Items, Products, Regions)
+- **Delayed Insert**: Many APIs support delayed insert for better data integrity
+- **OData Keys**: Most APIs use `systemId` as the OData key
+- **If-Match Header**: Required for PATCH and DELETE operations
+- **Rate Limiting**: Implement retry logic with exponential backoff
+
+## Related Resources
+
+- **OData v4 Specification**: [odata.org](https://www.odata.org/)
+- **Business Central API**: [Microsoft Docs](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Support
+
+For API support or questions:
+- Check the status document for coverage details
+- Contact tvisiontech support team
+
+## Version Information
+
+- **API Version**: v2.0
+- **API Group**: webbevica
+- **Publisher**: tvisiontech
+- **Protocol**: OData v4.0
+- **Documentation Last Updated**: October 14, 2025
