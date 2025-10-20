@@ -6,9 +6,8 @@
 
 ## Bevica
 
-Bevica Web Integration (OData)](APIs/BevicaWeb-OData.md)
-
 [Bevica Web Integration 2.0 (Rest APIs)](APIs/Bevica-2_0.md)
+The Bevica API documentation has been updated to provide more information (Oct '25)
 
 ### Recommended Content
 
