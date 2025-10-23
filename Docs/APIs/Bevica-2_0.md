@@ -24,45 +24,45 @@ The articles in this section describe the key concepts and techniques for using 
 ## Master Documentation
 
 ### Customer (5)
-- Customer_Developer_Guide.md - Customer API (Read-Only)
-- CustomerEdit_Developer_Guide.md - Customer Edit API
-- CustEntries_Developer_Guide.md - Customer Entries API
-- ShipToAddr_Developer_Guide.md - Ship-To Addresses API
-- ShipToAddressEdit_Developer_Guide.md - Ship-To Address Edit API
+- [Customer_Developer_Guide.md](Customer_Developer_Guide.md) - Customer API (Read-Only)
+- [CustomerEdit_Developer_Guide.md](CustomerEdit_Developer_Guide.md) - Customer Edit API
+- [CustEntries_Developer_Guide.md](CustEntries_Developer_Guide.md) - Customer Entries API
+- [ShipToAddr_Developer_Guide.md](ShipToAddr_Developer_Guide.md) - Ship-To Addresses API
+- [ShipToAddressEdit_Developer_Guide.md](ShipToAddressEdit_Developer_Guide.md) - Ship-To Address Edit API
 
 ### Product & Inventory (7)
-- Item_Developer_Guide.md - Items API
-- Product_Developer_Guide.md - Web Products API
-- Brand_Developer_Guide.md - Brand API (existing)
-- Regions_Developer_Guide.md - Region Codes API
-- SubRegionCodes_Developer_Guide.md - SubRegion Codes API
-- WebStock_Developer_Guide.md - Web Stock API
-- MarketingContent_Developer_Guide.md - Marketing Content API
+- [Item_Developer_Guide.md](Item_Developer_Guide.md) - Items API
+- [Product_Developer_Guide.md](Product_Developer_Guide.md) - Web Products API
+- [Brand_Developer_Guide.md](Brand_Developer_Guide.md) - Brand API (existing)
+- [Regions_Developer_Guide.md](Regions_Developer_Guide.md) - Region Codes API
+- [SubRegionCodes_Developer_Guide.md](SubRegionCodes_Developer_Guide.md) - SubRegion Codes API
+- [WebStock_Developer_Guide.md](WebStock_Developer_Guide.md) - Web Stock API
+- [MarketingContent_Developer_Guide.md](MarketingContent_Developer_Guide.md) - Marketing Content API
 
 ### Orders & Shipping (6)
-- WebOrder_Developer_Guide.md - Web Orders API
-- WebOrderLines_Developer_Guide.md - Web Order Lines API
-- WebOrderStatus_Developer_Guide.md - Web Order Status API
-- WebPayment_Developer_Guide.md - Web Payments API
-- Manifest_Developer_Guide.md - Manifest Headers API
-- ManifestLine_Developer_Guide.md - Manifest Lines API
-- RecurringSalesLines_Developer_Guide.md - Recurring Sales Lines API
+- [WebOrder_Developer_Guide.md](WebOrder_Developer_Guide.md) - Web Orders API
+- [WebOrderLines_Developer_Guide.md](WebOrderLines_Developer_Guide.md) - Web Order Lines API
+- [WebOrderStatus_Developer_Guide.md](WebOrderStatus_Developer_Guide.md) - Web Order Status API
+- [WebPayment_Developer_Guide.md](WebPayment_Developer_Guide.md) - Web Payments API
+- [Manifest_Developer_Guide.md](Manifest_Developer_Guide.md) - Manifest Headers API
+- [ManifestLine_Developer_Guide.md](ManifestLine_Developer_Guide.md) - Manifest Lines API
+- [RecurringSalesLines_Developer_Guide.md](RecurringSalesLines_Developer_Guide.md) - Recurring Sales Lines API
 
 ### Sales Documents (6)
-- SalesDocument_Developer_Guide.md - Sales Documents API
-- SalesLine_Developer_Guide.md - Sales Lines API
-- SalesInvHeader_Developer_Guide.md - Posted Sales Invoices API
-- SalesInvLine_Developer_Guide.md - Posted Sales Invoice Lines API
-- SalesCrMemoHeader_Developer_Guide.md - Posted Credit Memos API
-- SalesCrMemoLine_Developer_Guide.md - Posted Credit Memo Lines API
+- [SalesDocument_Developer_Guide.md](SalesDocument_Developer_Guide.md) - Sales Documents API
+- [SalesLine_Developer_Guide.md](SalesLine_Developer_Guide.md) - Sales Lines API
+- [SalesInvHeader_Developer_Guide.md](SalesInvHeader_Developer_Guide.md) - Posted Sales Invoices API
+- [SalesInvLine_Developer_Guide.md](SalesInvLine_Developer_Guide.md) - Posted Sales Invoice Lines API
+- [SalesCrMemoHeader_Developer_Guide.md](SalesCrMemoHeader_Developer_Guide.md) - Posted Credit Memos API
+- [SalesCrMemoLine_Developer_Guide.md](SalesCrMemoLine_Developer_Guide.md) - Posted Credit Memo Lines API
 
 ### Pricing (2)
-- SalesPrices_Developer_Guide.md - Sales Prices API (Legacy)
-- SalesListPrices_Developer_Guide.md - Sales List Prices API (Modern)
+- [SalesPrices_Developer_Guide.md](SalesPrices_Developer_Guide.md) - Sales Prices API (Legacy)
+- [SalesListPrices_Developer_Guide.md](SalesListPrices_Developer_Guide.md) - Sales List Prices API (Modern)
 
 ### Paid Reserve (2)
-- PaidReserve_Developer_Guide.md - Paid Reserves API
-- PaidReserveEntries_Developer_Guide.md - Paid Reserve Entries API
+- [PaidReserve_Developer_Guide.md](PaidReserve_Developer_Guide.md) - Paid Reserves API
+- [PaidReserveEntries_Developer_Guide.md](PaidReserveEntries_Developer_Guide.md) - Paid Reserve Entries API
 
 ## Documentation Standards
 
@@ -84,35 +84,35 @@ Each individual guide may include these sections:
 
 | API Name | Endpoint | Operations | Key Use Case |
 |----------|----------|------------|--------------|
-| Brand | /brands | GET, POST, PATCH | Brand management |
-| Customer | /customers | GET | Customer lookup (read-only) |
-| CustomerEdit | /customersEdit | GET, POST, PATCH | Customer maintenance |
-| CustEntries | /custEntries | GET | AR tracking |
-| Item | /items | GET | Product catalog |
-| WebOrder | /webOrders | GET, POST, PATCH | Order management |
-| WebOrderLines | /webOrderLines | GET, POST, PATCH | Order line items |
-| WebOrderStatus | /webOrderStatuses | GET | Order processing status |
-| WebPayment | /paymentEntries | GET, POST, PATCH | Payment tracking |
-| WebProduct | /webProducts | GET | Marketing product view |
-| WebStock | /webStocks | GET, POST, PATCH | Stock availability |
-| SalesDocument | /salesDocuments | GET | Sales orders/quotes |
-| SalesLine | /salesDocumentLines | GET | Sales document lines |
-| PostedSalesInvoice | /PostedSalesInvoices | GET | Historical invoices |
-| PostedSalesInvoiceLine | /PostedSalesInvoiceLines | GET | Invoice line details |
-| PostedSalesCrMemo | /PostedSalesCrMemoInvoices | GET | Credit memos |
-| PostedSalesCrMemoLine | /PostedSalesCrMemoLines | GET | Credit memo lines |
-| SalesPrice | /salesPrices | GET | Legacy pricing |
-| SalesListPrice | /salesListPrices | GET | Modern pricing |
-| ShipToAddr | /shiptoAddresses | GET, POST, PATCH | Delivery addresses |
-| ShipToEdit | /shipToAddressesEdit | GET, POST, PATCH | Address maintenance |
-| Manifest | /manifests | GET, POST, PATCH | Shipping manifests |
-| ManifestLine | /manifestLines | GET, POST, PATCH | Manifest line items |
-| PaidReserve | /PaidReserves | GET | Reserve inventory |
-| PaidReserveEntry | /PaidReserveEntries | GET | Reserve movements |
-| Region | /regionCodes | GET | Geographic regions |
-| SubRegion | /subRegions | GET | Geographic subregions |
-| MarketingContent | /marketingContents | GET, POST, PATCH | Marketing text/HTML |
-| RecurringSalesLines | /customerRecurringSalesLines | GET, PATCH | Customer favorites |
+| [Brand](Brand_Developer_Guide.md) | /brands | GET, POST, PATCH | Brand management |
+| [Customer](Customer_Developer_Guide.md) | /customers | GET | Customer lookup (read-only) |
+| [CustomerEdit](CustomerEdit_Developer_Guide.md) | /customersEdit | GET, POST, PATCH | Customer maintenance |
+| [CustEntries](CustEntries_Developer_Guide.md) | /custEntries | GET | AR tracking |
+| [Item](Item_Developer_Guide.md) | /items | GET | Product catalog |
+| [WebOrder](WebOrder_Developer_Guide.md) | /webOrders | GET, POST, PATCH | Order management |
+| [WebOrderLines](WebOrderLines_Developer_Guide.md) | /webOrderLines | GET, POST, PATCH | Order line items |
+| [WebOrderStatus](WebOrderStatus_Developer_Guide.md) | /webOrderStatuses | GET | Order processing status |
+| [WebPayment](WebPayment_Developer_Guide.md) | /paymentEntries | GET, POST, PATCH | Payment tracking |
+| [WebProduct](Product_Developer_Guide.md) | /webProducts | GET | Marketing product view |
+| [WebStock](WebStock_Developer_Guide.md) | /webStocks | GET, POST, PATCH | Stock availability |
+| [SalesDocument](SalesDocument_Developer_Guide.md) | /salesDocuments | GET | Sales orders/quotes |
+| [SalesLine](SalesLine_Developer_Guide.md) | /salesDocumentLines | GET | Sales document lines |
+| [PostedSalesInvoice](SalesInvHeader_Developer_Guide.md) | /PostedSalesInvoices | GET | Historical invoices |
+| [PostedSalesInvoiceLine](SalesInvLine_Developer_Guide.md) | /PostedSalesInvoiceLines | GET | Invoice line details |
+| [PostedSalesCrMemo](SalesCrMemoHeader_Developer_Guide.md) | /PostedSalesCrMemoInvoices | GET | Credit memos |
+| [PostedSalesCrMemoLine](SalesCrMemoLine_Developer_Guide.md) | /PostedSalesCrMemoLines | GET | Credit memo lines |
+| [SalesPrice](SalesPrices_Developer_Guide.md) | /salesPrices | GET | Legacy pricing |
+| [SalesListPrice](SalesListPrices_Developer_Guide.md) | /salesListPrices | GET | Modern pricing |
+| [ShipToAddr](ShipToAddr_Developer_Guide.md) | /shiptoAddresses | GET, POST, PATCH | Delivery addresses |
+| [ShipToEdit](ShipToAddressEdit_Developer_Guide.md) | /shipToAddressesEdit | GET, POST, PATCH | Address maintenance |
+| [Manifest](Manifest_Developer_Guide.md) | /manifests | GET, POST, PATCH | Shipping manifests |
+| [ManifestLine](ManifestLine_Developer_Guide.md) | /manifestLines | GET, POST, PATCH | Manifest line items |
+| [PaidReserve](PaidReserve_Developer_Guide.md) | /PaidReserves | GET | Reserve inventory |
+| [PaidReserveEntry](PaidReserveEntries_Developer_Guide.md) | /PaidReserveEntries | GET | Reserve movements |
+| [Region](Regions_Developer_Guide.md) | /regionCodes | GET | Geographic regions |
+| [SubRegion](SubRegionCodes_Developer_Guide.md) | /subRegions | GET | Geographic subregions |
+| [MarketingContent](MarketingContent_Developer_Guide.md) | /marketingContents | GET, POST, PATCH | Marketing text/HTML |
+| [RecurringSalesLines](RecurringSalesLines_Developer_Guide.md) | /customerRecurringSalesLines | GET, PATCH | Customer favorites |
 
 ## Authentication
 
