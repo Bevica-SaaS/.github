@@ -26,6 +26,96 @@ https://api.businesscentral.dynamics.com/v2.0/{environment}/api/tvisiontech/webb
 
 ## Field Reference
 
+| Field Name                     | Type         | Description                       |
+|--------------------------------|--------------|-----------------------------------|
+| systemId                       | Guid         | System field                      |
+| orderGroup                     | Code[50]     | Key                               |
+| orderId                        | Code[50]     | Key (Unique Web Reference)        |
+| orderType                      | Code[10]     | Web Specific                      |
+| customerId                     | Code[50]     | Web Specific                      |
+| sellToCustomerNo               | Code[20]     | Standard                          |
+| customerEmail                  | Text[80]     | Web Specific                      |
+| sellToCustomerName             | Text[100]    | Standard                          |
+| sellToCustomerName2            | Text[50]     | Standard                          |
+| sellToCity                     | Text[30]     | Standard                          |
+| sellToCounty                   | Text[30]     | Standard                          |
+| sellToCountryRegionCode        | Code[10]     | Standard                          |
+| sellToEMail                    | Text[80]     | Standard                          |
+| sellToAddress                  | Text[100]    | Standard                          |
+| sellToContactNo                | Code[20]     | Standard                          |
+| sellToContact                  | Text[100]    | Standard                          |
+| sellToAddress2                 | Text[50]     | Standard                          |
+| sellToPhoneNo                  | Text[30]     | Standard                          |
+| sellToPostCode                 | Code[20]     | Standard                          |
+| customerPostingGroup           | Code[20]     | Standard                          |
+| customerPriceGroup             | Code[10]     | Standard                          |
+| customerDiscGroup              | Code[20]     | Standard                          |
+| salespersonCode                | Code[20]     | Standard                          |
+| vatBusPostingGroup             | Code[20]     | Standard                          |
+| reasonCode                     | Code[10]     | Standard                          |
+| genBusPostingGroup             | Code[20]     | Standard                          |
+| vatRegistrationNo              | Text[20]     | Standard                          |
+| documentDate                   | Date         | Standard                          |
+| dueDate                        | Date         | Standard                          |
+| orderDate                      | Date         | Standard                          |
+| shipmentDate                   | Date         | Standard                          |
+| locationCode                   | Code[10]     | Standard                          |
+| currencyCode                   | Code[10]     | Standard                          |
+| yourReference                  | Text[35]     | Standard                          |
+| externalDocumentNo             | Code[35]     | Standard                          |
+| deliveryNoteText1              | Text[80]     | Web Specific                      |
+| deliveryNoteText2              | Text[80]     | Web Specific                      |
+| giftNoteText1                  | Text[80]     | Web Specific                      |
+| giftNoteText2                  | Text[80]     | Web Specific                      |
+| noteText1                      | Text[80]     | Web Specific                      |
+| noteText2                      | Text[80]     | Web Specific                      |
+| shipToCode                     | Code[10]     | Standard                          |
+| shipToName                     | Text[100]    | Standard                          |
+| shipToCity                     | Text[30]     | Standard                          |
+| shipToCounty                   | Text[30]     | Standard                          |
+| shipToName2                    | Text[50]     | Standard                          |
+| shipToAddress                  | Text[100]    | Standard                          |
+| shipToContact                  | Text[100]    | Standard                          |
+| shipToAddress2                 | Text[50]     | Standard                          |
+| shipToPostCode                 | Code[20]     | Standard                          |
+| shippingAgentCode              | Code[10]     | Standard                          |
+| shipmentMethodCode             | Code[10]     | Standard                          |
+| shipToCountryRegionCode        | Code[10]     | Standard                          |
+| shippingAgentServiceCode       | Code[10]     | Standard                          |
+| promisedDeliveryDate           | Date         | Standard                          |
+| requestedDeliveryDate          | Date         | Standard                          |
+| paymentId                      | Code[50]     | Web Specific                      |
+| paymentMethodCode              | Code[10]     | Standard                          |
+| paymentTermsCode               | Code[10]     | Standard                          |
+| orderURL                       | Text[150]    | Web Specific                      |
+| totalOrderAmount               | Decimal      | Web Specific                      |
+| dutyFree                       | Boolean      | Web Specific                      |
+| dispatched                     | Boolean      | Web Specific                      |
+| pricesIncludingVAT             | Boolean      | Standard                          |
+| shortcutDimension1Code         | Code[20]     | Standard                          |
+| shortcutDimension2Code         | Code[20]     | Standard                          |
+| decimal01                      | Decimal      | Web Specific                      |
+| integer01                      | Integer      | Web Specific                      |
+| date01                         | Date         | Web Specific                      |
+| code01                         | Code[20]     | Web Specific                      |
+| time01                         | Time         | Web Specific                      |
+| dateTime01                     | DateTime     | Web Specific                      |
+| text01                         | Text[100]    | Web Specific                      |
+| boolean01                      | Boolean      | Web Specific                      |
+| decimal02                      | Decimal      | Web Specific                      |
+| integer02                      | Integer      | Web Specific                      |
+| date02                         | Date         | Web Specific                      |
+| code02                         | Code[20]     | Web Specific                      |
+| time02                         | Time         | Web Specific                      |
+| dateTime02                     | DateTime     | Web Specific                      |
+| text02                         | Text[100]    | Web Specific                      |
+| boolean02                      | Boolean      | Web Specific                      |
+| systemModifiedBy               | Guid         | System field                      |
+| systemCreatedAt                | DateTime     | System field                      |
+| systemCreatedBy                | Guid         | System field                      |
+| systemModifiedAt               | DateTime     | System field                      |
+
+
 ### Order Identification
 - `systemId` - System identifier (OData key)
 - `orderGroup` - Order group

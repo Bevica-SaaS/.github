@@ -26,24 +26,55 @@ https://api.businesscentral.dynamics.com/v2.0/{environment}/api/tvisiontech/webb
 
 ## Field Reference
 
-| Field Name | Type | Description |
-|------------|------|-------------|
-| `systemId` | GUID | System identifier (OData key) |
-| `orderGroup` | String | Order group |
-| `orderId` | String | Order ID |
-| `lineId` | Integer | Line ID |
-| `productId` | String | Product identifier |
-| `transactionType` | String | Transaction type |
-| `unitOfMeasureId` | String | Unit of measure ID |
-| `description` | String | Line description |
-| `quantity` | Decimal | Ordered quantity |
-| `unitPrice` | Decimal | Price per unit |
-| `paidReserveNo` | String | Paid reserve number reference |
-| `unpaidReserves` | Boolean | Unpaid reserves flag |
-| `systemCreatedAt` | DateTime | Creation timestamp |
-| `systemCreatedBy` | GUID | Created by user ID |
-| `systemModifiedAt` | DateTime | Last modification timestamp |
-| `systemModifiedBy` | GUID | Modified by user ID |
+| Field Name                     | Type         | Description                       |
+|--------------------------------|--------------|-----------------------------------|
+| orderGroup                     | Code[50]     | Key                               |
+| orderId                        | Code[50]     | Key (Unique External Reference)   |
+| lineId                         | Code[50]     | Key (Unique External Reference)   |
+| type                           | Enum         | Standard                          |
+| no                             | Code[20]     | Standard                          |
+| productId                      | Code[50]     | Web Specific                      |
+| transactionType                | Enum         | Bevica                            |
+| unitOfMeasureId                | Code[50]     | Web Specific                      |
+| unitOfMeasureCode              | Code[10]     | Standard                          |
+| description                    | Text[50]     | Standard                          |
+| description2                   | Text[50]     | Standard                          |
+| quantity                       | Decimal      | Standard                          |
+| unitPrice                      | Decimal      | Standard                          |
+| lineDiscountAmount             | Decimal      | Standard                          |
+| lineDiscountPercent            | Decimal      | Standard                          |
+| shortcutDimension1Code         | Code[20]     | Standard                          |
+| shortcutDimension2Code         | Code[20]     | Standard                          |
+| unitCost                       | Decimal      | Standard                          |
+| variantCode                    | Code[10]     | Standard                          |
+| itemCategoryCode               | Code[20]     | Standard                          |
+| requestedDeliveryDate          | Date         | Standard                          |
+| purchasingCode                 | Code[20]     | Standard                          |
+| paidReserveNo                  | Code[30]     | Bevica                            |
+| unpaidReserves                 | Boolean      | Bevica                            |
+| brokingPaidReserveNo           | Code[30]     | Bevica                            |
+| decimal01                      | Decimal      | Web Specific                      |
+| integer01                      | Integer      | Web Specific                      |
+| date01                         | Date         | Web Specific                      |
+| code01                         | Code[20]     | Web Specific                      |
+| time01                         | Time         | Web Specific                      |
+| dateTime01                     | DateTime     | Web Specific                      |
+| text01                         | Text[50]     | Web Specific                      |
+| boolean01                      | Boolean      | Web Specific                      |
+| decimal02                      | Decimal      | Web Specific                      |
+| integer02                      | Integer      | Web Specific                      |
+| date02                         | Date         | Web Specific                      |
+| code02                         | Code[20]     | Web Specific                      |
+| time02                         | Time         | Web Specific                      |
+| dateTime02                     | DateTime     | Web Specific                      |
+| text02                         | Text[50]     | Web Specific                      |
+| boolean02                      | Boolean      | Web Specific                      |
+| systemId                       | Guid         | System field                      |
+| systemCreatedAt                | DateTime     | System field                      |
+| systemCreatedBy                | Guid         | System field                      |
+| systemModifiedAt               | DateTime     | System field                      |
+| systemModifiedBy               | Guid         | System field                      |
+
 
 ## Common Operations
 
